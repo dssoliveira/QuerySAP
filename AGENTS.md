@@ -2,6 +2,9 @@
 
 Leia `CONTINUIDADE.md` ao retomar o projeto. Consulte a memoria pertinente ao
 assunto, o inventario de evidencias e as mensagens de origem antes de alterar SQL.
+Use `auditoria/LEIA_PRIMEIRO.md` para localizar catalogos, bases de referencia,
+decisoes com fonte e lacunas. Nao use a maior versao historica como prova de
+homologacao. Preserve as evidencias originais sem editar seu conteudo.
 
 - Converse em portugues com Danilo. Entregue SQL completo quando ele solicitar
   revisao completa; pequenos trechos isolados dificultam seus testes no SAP.

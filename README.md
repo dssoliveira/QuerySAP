@@ -8,6 +8,10 @@ e [AGENTS.md](AGENTS.md). A memoria complementar de outubro registra decisoes e
 pendencias posteriores as memorias originais. O diretorio `arquivo_chat` guarda
 transcricao, queries historicas e evidencias recuperadas, com inventario.
 
+A auditoria ampliada esta em [auditoria/LEIA_PRIMEIRO.md](auditoria/LEIA_PRIMEIRO.md).
+Ela inclui catalogo de versoes, bases oficiais declaradas, decisoes com origem,
+fontes externas recuperadas, ambiente e pendencias explicitamente registradas.
+
 ## Arquivos do projeto
 
 - `FATURAMENTO_DREX_METAS_ATUALIZADA.sql`: consulta de faturamento e metas.

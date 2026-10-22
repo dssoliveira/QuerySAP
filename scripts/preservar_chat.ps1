@@ -1,9 +1,13 @@
 param(
-    [Parameter(Mandatory=$true)][string]$SessionPath
+    [Parameter(Mandatory=$true)][string]$SessionPath,
+    [string]$ArchiveRelativePath = 'arquivo_chat',
+    [switch]$SkipEvidenceExport
 )
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path $PSScriptRoot -Parent
-$archiveRoot = Join-Path $projectRoot 'arquivo_chat'
+$archiveRoot = Join-Path $projectRoot $ArchiveRelativePath
+if (-not ([System.IO.Path]::GetFullPath($archiveRoot)).StartsWith($projectRoot+[System.IO.Path]::DirectorySeparatorChar,[System.StringComparison]::OrdinalIgnoreCase)) { throw 'Destino fora do projeto' }
+if (Test-Path -LiteralPath (Join-Path $archiveRoot 'TRANSCRICAO.md')) { throw 'Snapshot existente: escolha um novo ArchiveRelativePath para preservar a exportacao anterior.' }
 $null = New-Item -ItemType Directory -Force -Path $archiveRoot
 $attachmentRoot = Join-Path $archiveRoot 'anexos'
 $queryRoot = Join-Path $archiveRoot 'queries_historicas'
@@ -55,6 +59,10 @@ foreach ($m in $messages) {
 }
 [System.IO.File]::WriteAllText((Join-Path $archiveRoot 'TRANSCRICAO.md'),$transcript.ToString(),$utf8)
 $queryIndex | Export-Csv -LiteralPath (Join-Path $queryRoot 'INDICE.csv') -NoTypeInformation -Encoding utf8
+if ($SkipEvidenceExport) {
+    [pscustomobject]@{mensagens=$messages.Count;queries_historicas=$queryIndex.Count;anexos='Nao copiados nesta exportacao; usar inventario original e auditoria externa'} | ConvertTo-Json
+    return
+}
 $inventory = [System.Collections.Generic.List[object]]::new()
 $counter = 0
 foreach ($path in ($references | Sort-Object)) {

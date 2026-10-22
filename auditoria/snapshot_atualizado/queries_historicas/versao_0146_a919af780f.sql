@@ -1,0 +1,1 @@
+OUSG."Usage" AS "Utilizacao"

@@ -1,0 +1,2 @@
+STRING_AGG(...)
+TO_VARCHAR(...)

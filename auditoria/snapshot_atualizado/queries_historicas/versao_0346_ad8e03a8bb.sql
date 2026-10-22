@@ -1,0 +1,2 @@
+LEFT JOIN LOC1_CRIADOR_OS LOC1
+    ON LOC1."NumeroOS" = OSB."NumeroOS"

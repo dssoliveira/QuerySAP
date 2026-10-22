@@ -1,0 +1,83 @@
+{
+  "transferencia": {
+    "linhas": 1363,
+    "pedidos_distintos": 423,
+    "tipos_origem": {
+      "-1": 1363
+    },
+    "tipos_destino": {
+      "67": 86,
+      "-1": 1277
+    },
+    "referencia_SC_preenchida": 0
+  },
+  "referencias": {
+    "linhas": 106,
+    "transferencias_distintas": 103,
+    "tipos": {
+      "Solicitacao de compra": 106
+    }
+  },
+  "aprovacao": {
+    "linhas": 3775,
+    "processos_distintos": 3775,
+    "status_processo": {
+      "A": 1578,
+      "N": 114,
+      "P": 2001,
+      "W": 80,
+      "Y": 2
+    },
+    "finalidades": {
+      "Criacao": 3775
+    },
+    "exemplos": [
+      {
+        "processo": 4212,
+        "PC": "3638",
+        "esboco": "28747",
+        "processo_status": "P",
+        "solicitacao_status": "Y",
+        "data_autorizacao": "05/10/2026",
+        "data_recusa": ""
+      },
+      {
+        "processo": 4195,
+        "PC": "3630",
+        "esboco": "28656",
+        "processo_status": "A",
+        "solicitacao_status": "Y",
+        "data_autorizacao": "05/10/2026",
+        "data_recusa": ""
+      },
+      {
+        "processo": 4189,
+        "PC": "",
+        "esboco": "28606",
+        "processo_status": "N",
+        "solicitacao_status": "N",
+        "data_autorizacao": "",
+        "data_recusa": "05/10/2026"
+      },
+      {
+        "processo": 4188,
+        "PC": "",
+        "esboco": "28605",
+        "processo_status": "N",
+        "solicitacao_status": "N",
+        "data_autorizacao": "",
+        "data_recusa": "05/10/2026"
+      },
+      {
+        "processo": 4213,
+        "PC": "",
+        "esboco": "28748",
+        "processo_status": "W",
+        "solicitacao_status": "W",
+        "data_autorizacao": "",
+        "data_recusa": ""
+      }
+    ]
+  },
+  "limite": "Contagem e conferencia de exports preservados. Nao houve execucao no SAP nem homologacao multi-etapas da data de autorizacao."
+}

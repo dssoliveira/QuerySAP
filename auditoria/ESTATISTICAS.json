@@ -1,0 +1,22 @@
+{
+  "mensagens_snapshot": 911,
+  "primeira_mensagem_registro": "07/02/2026 22:32:06",
+  "ultima_mensagem_registro": "10/22/2026 13:31:33",
+  "queries_catalogadas": 421,
+  "SQL_usuario_sem_cerca_extraidas": 12,
+  "ocorrencias_SQL": 473,
+  "anexos_originais_catalogados": 238,
+  "anexos_SQL_aparente": 43,
+  "anexos_adicionais_recuperados": 1,
+  "referencias_externas": 15,
+  "copias_externas_novas": 2,
+  "referencias_ausentes": 6,
+  "estados_queries": {
+    "Proposta historica; homologacao nao comprovada": 395,
+    "Entrega com rejeicao ou correcao solicitada": 20,
+    "Aceitacao historica explicita; posteriormente revisada": 1,
+    "Teste parcialmente positivo": 3,
+    "Aceitacao historica explicita; posteriormente ampliada": 1,
+    "Diagnostico com resultado fornecido": 1
+  }
+}

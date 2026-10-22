@@ -1,0 +1,5 @@
+T2."ValorMensalCentroCusto" AS "ValorMensalContrato",
+T2."QuantidadeParcelas" AS "QuantidadeParcelas",
+T2."ValorTotalCentroCusto" AS "ValorTotalContrato",
+T2."QtdLinhasCentroCusto" AS "QtdLinhasCentroCusto",
+T2."AlertaLinhaPedido" AS "AlertaLinhaPedido",

@@ -19,10 +19,11 @@ pesquisa, auditoria e recuperacao do contexto por qualquer outro chat.
 ## Ordem de leitura
 
 1. `AGENTS.md`: preferencias e regras permanentes.
-2. `MEMORIA_COMPLEMENTAR_2026-10-22.md`: novos assuntos e pendencias.
-3. Memoria de setembro: NF, DREXMETAS, OS, custos e regras fiscais gerenciais.
-4. Memoria de julho e contexto em outputs: equipamentos, serial, contratos LOC1.
-5. Transcricao e anexos: consultar a origem da decisao e os resultados do teste.
+2. `auditoria/LEIA_PRIMEIRO.md`: auditoria ampliada, catalogos e lacunas.
+3. `MEMORIA_COMPLEMENTAR_2026-10-22.md`: novos assuntos e pendencias.
+4. Memoria de setembro: NF, DREXMETAS, OS, custos e regras fiscais gerenciais.
+5. Memoria de julho e contexto em outputs: equipamentos, serial, contratos LOC1.
+6. Transcricao e anexos: consultar a origem da decisao e os resultados do teste.
 
 ## Arquivos e estado de validacao
 
@@ -78,3 +79,21 @@ automatica nem garante recuperacao da conta GitHub.
 
 O resultado do teste de recuperacao desta entrega esta em
 `VERIFICACAO_RECUPERACAO.md`.
+
+## Auditoria ampliada do mesmo dia
+
+O arquivo original de 893 mensagens foi preservado. Um snapshot posterior com 911
+mensagens esta em `auditoria/snapshot_atualizado/TRANSCRICAO.md`. Os 421 blocos SQL
+receberam catalogo de origem, retorno e estado; 12 bases sem cerca SQL do usuario
+foram extraidas e 43 anexos com SQL aparente foram identificados. Consultar
+`auditoria/REGISTRO_DECISOES.md` para 62 decisoes e evolucoes, e
+`auditoria/BASES_DE_REFERENCIA.md` para escolher a base correta da tarefa.
+
+Duas fontes externas adicionais foram recuperadas. Seis arquivos historicos
+nao foram encontrados mesmo apos pesquisa por nome nas raizes conhecidas:
+ver `auditoria/LACUNAS_E_PENDENCIAS.md`. A frase zero ausencias do primeiro pacote
+se referia somente aos 238 anexos selecionados, nao a todos os arquivos citados.
+
+O teste ampliado usa `scripts/verificar_pacote.mjs` e manifesto SHA-256 para
+conferir todos os arquivos selecionados apos download do GitHub. Para instrucoes
+de ambiente, consultar `auditoria/AMBIENTE_E_RECUPERACAO.md`.

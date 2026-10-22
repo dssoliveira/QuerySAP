@@ -1,0 +1,2 @@
+LEFT JOIN OBPL BPL
+    ON BPL."BPLId" = T0."BPLId"

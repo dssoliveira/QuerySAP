@@ -1,0 +1,2 @@
+UPPER(LIN."Utilizacao") NOT LIKE '%ENTR. FUTURA%'
+UPPER(LIN."Utilizacao") NOT LIKE '%ENTREGA FUTURA%'

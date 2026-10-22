@@ -1,0 +1,18 @@
+SELECT
+    C."TABLE_NAME",
+    C."COLUMN_NAME",
+    C."DATA_TYPE_NAME",
+    C."LENGTH",
+    C."SCALE"
+FROM "SYS"."TABLE_COLUMNS" C
+WHERE
+    C."SCHEMA_NAME" = CURRENT_SCHEMA
+    AND C."TABLE_NAME" IN (
+        '@LOC1_SCL2',
+        '@LOC1_SCL3',
+        '@LOC1_SCL5',
+        '@LOC1_SCL6'
+    )
+ORDER BY
+    C."TABLE_NAME",
+    C."POSITION";
