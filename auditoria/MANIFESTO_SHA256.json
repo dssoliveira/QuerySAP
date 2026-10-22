@@ -51,7 +51,7 @@
     {
       "arquivo": "VERIFICACAO_RECUPERACAO.md",
       "modo": "texto_LF",
-      "sha256": "A0980754B0E8A18B4F37D4FAAC7777A35708AC611850E847FC42F1D142A5AD7C"
+      "sha256": "1DBFA7D65E8450AFE83962967CF224D22961D00A091FDA26A999E86F2C6A2BDB"
     },
     {
       "arquivo": "arquivo_chat/INVENTARIO_ANEXOS.csv",
@@ -3431,7 +3431,7 @@
     {
       "arquivo": "auditoria/LEIA_PRIMEIRO.md",
       "modo": "bytes",
-      "sha256": "DF72DDACBB2167D3544C6571E75EAC321C5F578641D01D3C9B6E9A5842E6190D"
+      "sha256": "F69AD1F4A7533196450AA0A1FE926AEE317CFC12EBC0005BC964EA662F36754F"
     },
     {
       "arquivo": "auditoria/LINHA_DO_TEMPO.md",
@@ -3442,6 +3442,11 @@
       "arquivo": "auditoria/REGISTRO_DECISOES.md",
       "modo": "bytes",
       "sha256": "3546D58A474A988BBED10A789E7C80B894D5799DA35E592EADE6594F3B804D08"
+    },
+    {
+      "arquivo": "auditoria/VERIFICACAO_AMPLIADA.md",
+      "modo": "bytes",
+      "sha256": "DB047AC3CD3D3A3F9B50A12914D9B4301F7DA7A297E54DE479F3FC2619F10D5B"
     },
     {
       "arquivo": "auditoria/anexos_adicionais/84ce585bc6_codex-clipboard-ecee462f-7f1e-40d2-b4b3-20e14b69963f.png",

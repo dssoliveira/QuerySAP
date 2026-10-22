@@ -2,6 +2,9 @@
 
 Data: 22/10/2026.
 
+Este documento registra o primeiro teste. A auditoria ampliada posterior e seu
+novo teste estao em `auditoria/VERIFICACAO_AMPLIADA.md`.
+
 ## Procedimento executado
 
 1. Publicado o commit `a386388dcb20a670252f8a8d436fb1e27b9e8dbf` no GitHub.

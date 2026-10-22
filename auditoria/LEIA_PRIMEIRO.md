@@ -23,6 +23,7 @@ historico original. A fonte principal e o registro local desta mesma sessao.
 | Reproduzir a estacao sem copiar segredos | AMBIENTE_E_RECUPERACAO.md |
 | Saber exatamente o que nao foi recuperado | LACUNAS_E_PENDENCIAS.md |
 | Conferencia reproduzivel de tres exports importantes | CONFERENCIA_EVIDENCIAS.json |
+| Laudo do novo download e teste de integridade | VERIFICACAO_AMPLIADA.md |
 
 Os numeros M1, M306 etc. referem-se aos cabecalhos da transcricao, e nao ao numero
 de uma OS ou documento SAP. O snapshot original de 893 mensagens permanece em
