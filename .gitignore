@@ -1,0 +1,33 @@
+# Credenciais e configuracoes locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+.credentials*
+credentials.json
+secrets.json
+.aws/
+.ssh/
+
+# Dependencias e ambientes gerados
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+.cache/
+
+# Arquivos locais e temporarios
+.agents/
+.codex/
+work/
+*.log
+*.tmp
+~$*
+Thumbs.db
+.DS_Store
