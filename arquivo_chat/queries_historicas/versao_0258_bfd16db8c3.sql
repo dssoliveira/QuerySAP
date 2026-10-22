@@ -1,0 +1,1 @@
+OSCL."insID" = OINS."insID"

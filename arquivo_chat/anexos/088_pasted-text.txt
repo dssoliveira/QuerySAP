@@ -1,0 +1,681 @@
+#	TABLE_NAME	COLUMN_NAME	DATA_TYPE_NAME	LENGTH	SCALE		
+1	@ICLIFCFG	LogInst	INTEGER	10		Y	
+2	@ICLIFCFG	UserSign	INTEGER	10		Y	
+3	@ICLIFCFG	CreateDate	TIMESTAMP	27	7	Y	
+4	@ICLIFCFG	UpdateDate	TIMESTAMP	27	7	Y	
+5	@ICLIFCFG	UpdateTime	SMALLINT	5		Y	
+6	@ICLIFCFG	DataSource	NVARCHAR	1		Y	
+7	@ICLIFCFG	U_ICL_APIHost	NVARCHAR	254		Y	
+8	@ICLIFCFG	U_ICL_APIUser	NVARCHAR	10		Y	
+9	@ICLIFCFG	U_ICL_CloseStatusCode	NVARCHAR	10		Y	
+10	@ICLIFESTQ	U_ProcDate	TIMESTAMP	27	7	Y	
+11	@ICLIFMANSER	U_ProcDate	TIMESTAMP	27	7	Y	
+12	@ICLIFOPERASSETS	U_TipoOperacao	NVARCHAR	20		Y	
+13	@ICLIFOPERASSETS	U_ProcDate	TIMESTAMP	27	7	Y	
+14	@ICLIFPCSERQUEUE	U_ProcDate	TIMESTAMP	27	7	Y	
+15	@ICLIFQUEUE	U_ProcDate	TIMESTAMP	27	7	Y	
+16	@ICLIFRRSERQUEUE	U_ProcDate	TIMESTAMP	27	7	Y	
+17	@ICLIFWARNS	U_ProcDate	TIMESTAMP	27	7	Y	
+18	@LOC1_AVAP	U_StatusDateTo	TIMESTAMP	27	7	Y	
+19	@LOC1_AVAP	U_StatusDateFrom	TIMESTAMP	27	7	Y	
+20	@LOC1_AVAP	U_QueryDate	TIMESTAMP	27	7	Y	
+21	@LOC1_BILL	U_User	NVARCHAR	155		Y	
+22	@LOC1_BILL	U_LogDate	TIMESTAMP	27	7	Y	
+23	@LOC1_BILL	U_BillingDate	TIMESTAMP	27	7	Y	
+24	@LOC1_BILL	U_DraftDate	TIMESTAMP	27	7	Y	
+25	@LOC1_BILL	U_Log	NCLOB	2147483647		Y	
+26	@LOC1_BILL1	U_DocDueDate	TIMESTAMP	27	7	Y	
+27	@LOC1_BILL3	U_StartDate	TIMESTAMP	27	7	Y	
+28	@LOC1_BILL3	U_EndDate	TIMESTAMP	27	7	Y	
+29	@LOC1_BRPR	U_Logo	NVARCHAR	155		Y	
+30	@LOC1_CFL	U_DataType	NVARCHAR	55		Y	
+31	@LOC1_CHDC	U_CreateDate	TIMESTAMP	27	7	Y	
+32	@LOC1_CHDC	U_CreateUser	NVARCHAR	155		Y	
+33	@LOC1_CHLO	U_Log	NCLOB	2147483647		Y	
+34	@LOC1_CHLO	U_DataCode	NVARCHAR	55		Y	
+35	@LOC1_CHLO	U_DataTable	NVARCHAR	55		Y	
+36	@LOC1_CHLO	U_Operation	NVARCHAR	55		Y	
+37	@LOC1_CHLO	U_User	NVARCHAR	155		Y	
+38	@LOC1_CHLO	U_LogDate	TIMESTAMP	27	7	Y	
+39	@LOC1_CHMK	U_posX	DECIMAL	21	6	Y	
+40	@LOC1_CHMK	U_posY	DECIMAL	21	6	Y	
+41	@LOC1_CNFG	U_CardCodeServCall	NVARCHAR	15		Y	
+42	@LOC1_CNFG	U_ShowRetroactDates	NVARCHAR	1		Y	
+43	@LOC1_CNFG	U_EasyHubCallType	INTEGER	10		Y	
+44	@LOC1_CNFG	U_EasyHubLogin	NVARCHAR	55		Y	
+45	@LOC1_CNFG	U_ManCallType	INTEGER	10		Y	
+46	@LOC1_CNFG	U_MainCallVendor	NVARCHAR	15		Y	
+47	@LOC1_CNFG	U_MainCallPurchUsage	INTEGER	10		Y	
+48	@LOC1_CNFG	U_MainCallSalesUsage	INTEGER	10		Y	
+49	@LOC1_CRD1	U_ExpiryDate	TIMESTAMP	27	7	Y	
+50	@LOC1_CSPN	U_Logo	NVARCHAR	155		Y	
+51	@LOC1_CSPN	U_ShowServiceCalls	NVARCHAR	1		Y	
+52	@LOC1_CTR	U_PlaceAndDate	NVARCHAR	254		Y	
+53	@LOC1_CTR1	U_EndDate	TIMESTAMP	27	7	Y	
+54	@LOC1_CTR1	U_StartDate	TIMESTAMP	27	7	Y	
+55	@LOC1_CTR2	U_EndDate	TIMESTAMP	27	7	Y	
+56	@LOC1_CTR2	U_StartDate	TIMESTAMP	27	7	Y	
+57	@LOC1_DOC	U_DateTimeLog	NVARCHAR	254		Y	
+58	@LOC1_DOC1	U_EndDate	TIMESTAMP	27	7	Y	
+59	@LOC1_DOC1	U_StartDate	TIMESTAMP	27	7	Y	
+60	@LOC1_DOC2	U_EndDate	TIMESTAMP	27	7	Y	
+61	@LOC1_DOC2	U_StartDate	TIMESTAMP	27	7	Y	
+62	@LOC1_DOC5	U_InstDate	TIMESTAMP	27	7	Y	
+63	@LOC1_DOC6	U_EndDate	TIMESTAMP	27	7	Y	
+64	@LOC1_FILE	U_FileDate	TIMESTAMP	27	7	Y	
+65	@LOC1_INOT	U_ActionDate	TIMESTAMP	27	7	Y	
+66	@LOC1_ITPO	U_PropertyName	NVARCHAR	254		Y	
+67	@LOC1_ITPR	U_Logo	NVARCHAR	155		Y	
+68	@LOC1_ITPR1	U_PropertyCode	INTEGER	10		Y	
+69	@LOC1_KACA	U_LimitDate	TIMESTAMP	27	7	Y	
+70	@LOC1_KACA2	U_Log	NCLOB	2147483647		Y	
+71	@LOC1_KACA2	U_User	NVARCHAR	155		Y	
+72	@LOC1_KACA2	U_LogDate	TIMESTAMP	27	7	Y	
+73	@LOC1_MANT	U_StartDate	TIMESTAMP	27	7	Y	
+74	@LOC1_MANT1	U_LimitDate	TIMESTAMP	27	7	Y	
+75	@LOC1_MANT1	U_callID	INTEGER	10		Y	
+76	@LOC1_PPRN	U_LogDateTime	TIMESTAMP	27	7	Y	
+77	@LOC1_PPRN	U_Log	NCLOB	2147483647		Y	
+78	@LOC1_PRCF	U_callID	NVARCHAR	55		Y	
+79	@LOC1_PRCL	U_Date	TIMESTAMP	27	7	Y	
+80	@LOC1_PRCL	U_Log	NVARCHAR	100		Y	
+81	@LOC1_PRR	U_date	TIMESTAMP	27	7	Y	
+82	@LOC1_READ	U_ReadingDate	TIMESTAMP	27	7	Y	
+83	@LOC1_READ	U_InsertDate	TIMESTAMP	27	7	Y	
+84	@LOC1_READ	U_User	NVARCHAR	155		Y	
+85	@LOC1_SCL	U_callID	INTEGER	10		Y	
+86	@LOC1_SCL	U_RetroactDates	NVARCHAR	1		Y	
+87	@LOC1_SCL	U_ActionDate	TIMESTAMP	27	7	Y	
+88	@LOC1_SCL	U_ReturnDate	TIMESTAMP	27	7	Y	
+89	@LOC1_SCL1	U_callID	INTEGER	10		Y	
+90	@LOC1_SCL2	U_AppealDate	TIMESTAMP	27	7	Y	
+91	@LOC1_SCL2	U_callID	INTEGER	10		Y	
+92	@LOC1_SCL3	U_callID	INTEGER	10		Y	
+93	@LOC1_SCL4	U_callID	INTEGER	10		Y	
+94	@LOC1_SCL5	U_callID	INTEGER	10		Y	
+95	@LOC1_SCL6	U_callID	INTEGER	10		Y	
+96	@LOC1_SCL7	U_callID	INTEGER	10		Y	
+97	@LOC1_SCL7	U_LogDateTime	TIMESTAMP	27	7	Y	
+98	@LOC1_SCL7	U_User	NVARCHAR	155		Y	
+99	@LOC1_SNMO	U_User	NVARCHAR	155		Y	
+100	@LOC1_SNMO	U_ActionDateTime	TIMESTAMP	27	7	Y	
+101	@LOC1_SPIF	U_Logo	NVARCHAR	155		Y	
+102	@LOC1_SPIF	U_StatusCall	INTEGER	10		Y	
+103	@LOC1_SPIF	U_PriorityCall	NVARCHAR	1		Y	
+104	@LOC1_SPIF	U_OriginCall	INTEGER	10		Y	
+105	@LOC1_SPIF	U_ProblemTypeCall	INTEGER	10		Y	
+106	@LOC1_SPIF	U_ProSubTypeCall	INTEGER	10		Y	
+107	@LOC1_SPIF	U_TypeCall	INTEGER	10		Y	
+108	@LOC1_SPIF	U_TechnicianCall	INTEGER	10		Y	
+109	@LOC1_USER	U_SupportUser	NVARCHAR	1		Y	
+110	@LOC1_USER4	U_UserField	NVARCHAR	1		Y	
+111	@LOC1_USPF4	U_UserField	NVARCHAR	1		Y	
+112	@LOC1_WOFL2	U_TreatAsClosed	NVARCHAR	1		Y	
+113	AjusteApuracaoUFLog	InstanceLog	INTEGER	10		Y	
+114	AjusteApuracaoUFLog	MachineLog	NVARCHAR	200		Y	
+115	AjusteApuracaoUFLog	UserNameLog	NVARCHAR	200		Y	
+116	AjusteApuracaoUFLog	DateAddLog	TIMESTAMP	27	7	Y	
+117	AjusteApuracaoUFLog	BaseIdLog	NVARCHAR	200		Y	
+118	AjusteApuracaoUFLog	WasDeletedLog	TINYINT	3		Y	
+119	BlocPCfopsExclusosLog	InstanceLog	INTEGER	10		Y	
+120	BlocPCfopsExclusosLog	MachineLog	NVARCHAR	200		Y	
+121	BlocPCfopsExclusosLog	UserNameLog	NVARCHAR	200		Y	
+122	BlocPCfopsExclusosLog	DateAddLog	TIMESTAMP	27	7	Y	
+123	BlocPCfopsExclusosLog	BaseIdLog	NVARCHAR	200		Y	
+124	BlocPCfopsExclusosLog	WasDeletedLog	TINYINT	3		Y	
+125	BlocPCfopsLog	InstanceLog	INTEGER	10		Y	
+126	BlocPCfopsLog	MachineLog	NVARCHAR	200		Y	
+127	BlocPCfopsLog	UserNameLog	NVARCHAR	200		Y	
+128	BlocPCfopsLog	DateAddLog	TIMESTAMP	27	7	Y	
+129	BlocPCfopsLog	BaseIdLog	NVARCHAR	200		Y	
+130	BlocPCfopsLog	WasDeletedLog	TINYINT	3		Y	
+131	BloqueioPeriodoContabilLog	DataBloqueio	TIMESTAMP	27	7	Y	
+132	BloqueioPeriodoContabilLog	DataExcessaoDe	TIMESTAMP	27	7	Y	
+133	BloqueioPeriodoContabilLog	DataExcessaoAte	TIMESTAMP	27	7	Y	
+134	BloqueioPeriodoContabilLog	InstanceLog	INTEGER	10		Y	
+135	BloqueioPeriodoContabilLog	MachineLog	NVARCHAR	200		Y	
+136	BloqueioPeriodoContabilLog	UserNameLog	NVARCHAR	200		Y	
+137	BloqueioPeriodoContabilLog	DateAddLog	TIMESTAMP	27	7	Y	
+138	BloqueioPeriodoContabilLog	BaseIdLog	NVARCHAR	200		Y	
+139	BloqueioPeriodoContabilLog	WasDeletedLog	TINYINT	3		Y	
+140	BloqueioPeriodoFiscalLog	DataBloqueio	TIMESTAMP	27	7	Y	
+141	BloqueioPeriodoFiscalLog	DataExcessaoDe	TIMESTAMP	27	7	Y	
+142	BloqueioPeriodoFiscalLog	DataExcessaoAte	TIMESTAMP	27	7	Y	
+143	BloqueioPeriodoFiscalLog	InstanceLog	INTEGER	10		Y	
+144	BloqueioPeriodoFiscalLog	MachineLog	NVARCHAR	200		Y	
+145	BloqueioPeriodoFiscalLog	UserNameLog	NVARCHAR	200		Y	
+146	BloqueioPeriodoFiscalLog	DateAddLog	TIMESTAMP	27	7	Y	
+147	BloqueioPeriodoFiscalLog	BaseIdLog	NVARCHAR	200		Y	
+148	BloqueioPeriodoFiscalLog	WasDeletedLog	TINYINT	3		Y	
+149	CenarioContabilizacaoPISCOFINSLinhaLog	ComputadorLog	NVARCHAR	200		Y	
+150	CenarioContabilizacaoPISCOFINSLinhaLog	OperacaoLog	NVARCHAR	200		Y	
+151	CenarioContabilizacaoPISCOFINSLinhaLog	UsuarioLog	NVARCHAR	200		Y	
+152	CenarioContabilizacaoPISCOFINSLinhaLog	IdBaseLog	NVARCHAR	200		Y	
+153	CenarioContabilizacaoPISCOFINSLinhaLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+154	CenarioContabilizacaoPISCOFINSLog	TipoDataContabilizacao	INTEGER	10		Y	
+155	CenarioContabilizacaoPISCOFINSLog	InstanceLog	INTEGER	10		Y	
+156	CenarioContabilizacaoPISCOFINSLog	MachineLog	NVARCHAR	200		Y	
+157	CenarioContabilizacaoPISCOFINSLog	UserNameLog	NVARCHAR	200		Y	
+158	CenarioContabilizacaoPISCOFINSLog	DateAddLog	TIMESTAMP	27	7	Y	
+159	CenarioContabilizacaoPISCOFINSLog	BaseIdLog	NVARCHAR	200		Y	
+160	CenarioContabilizacaoPISCOFINSLog	WasDeletedLog	TINYINT	3		Y	
+161	ConfiguracaoAjusteContribuicaoM215M615PISCOFINSLog	CodigoContribuicaoSocialApurada	INTEGER	10		Y	
+162	ConfiguracaoAjusteContribuicaoM215M615PISCOFINSLog	InstanceLog	INTEGER	10		Y	
+163	ConfiguracaoAjusteContribuicaoM215M615PISCOFINSLog	MachineLog	NVARCHAR	200		Y	
+164	ConfiguracaoAjusteContribuicaoM215M615PISCOFINSLog	UserNameLog	NVARCHAR	200		Y	
+165	ConfiguracaoAjusteContribuicaoM215M615PISCOFINSLog	DateAddLog	TIMESTAMP	27	7	Y	
+166	ConfiguracaoAjusteContribuicaoM215M615PISCOFINSLog	BaseIdLog	NVARCHAR	200		Y	
+167	ConfiguracaoAjusteContribuicaoM215M615PISCOFINSLog	WasDeletedLog	TINYINT	3		Y	
+168	ConfiguracaoAjusteContribuicaoM220M620PISCOFINSLog	InstanceLog	INTEGER	10		Y	
+169	ConfiguracaoAjusteContribuicaoM220M620PISCOFINSLog	MachineLog	NVARCHAR	200		Y	
+170	ConfiguracaoAjusteContribuicaoM220M620PISCOFINSLog	UserNameLog	NVARCHAR	200		Y	
+171	ConfiguracaoAjusteContribuicaoM220M620PISCOFINSLog	DateAddLog	TIMESTAMP	27	7	Y	
+172	ConfiguracaoAjusteContribuicaoM220M620PISCOFINSLog	BaseIdLog	NVARCHAR	200		Y	
+173	ConfiguracaoAjusteContribuicaoM220M620PISCOFINSLog	WasDeletedLog	TINYINT	3		Y	
+174	ConfiguracaoContabilizacaoPISCOFINSF120Log	InstanceLog	INTEGER	10		Y	
+175	ConfiguracaoContabilizacaoPISCOFINSF120Log	MachineLog	NVARCHAR	200		Y	
+176	ConfiguracaoContabilizacaoPISCOFINSF120Log	UserNameLog	NVARCHAR	200		Y	
+177	ConfiguracaoContabilizacaoPISCOFINSF120Log	DateAddLog	TIMESTAMP	27	7	Y	
+178	ConfiguracaoContabilizacaoPISCOFINSF120Log	BaseIdLog	NVARCHAR	200		Y	
+179	ConfiguracaoContabilizacaoPISCOFINSF120Log	WasDeletedLog	TINYINT	3		Y	
+180	ConfiguracaoContabilizacaoPISCOFINSLog	InstanceLog	INTEGER	10		Y	
+181	ConfiguracaoContabilizacaoPISCOFINSLog	MachineLog	NVARCHAR	200		Y	
+182	ConfiguracaoContabilizacaoPISCOFINSLog	UserNameLog	NVARCHAR	200		Y	
+183	ConfiguracaoContabilizacaoPISCOFINSLog	DateAddLog	TIMESTAMP	27	7	Y	
+184	ConfiguracaoContabilizacaoPISCOFINSLog	BaseIdLog	NVARCHAR	200		Y	
+185	ConfiguracaoContabilizacaoPISCOFINSLog	WasDeletedLog	TINYINT	3		Y	
+186	ConfiguracaoFCICfopDevEntradaLog	ComputadorLog	NVARCHAR	200		Y	
+187	ConfiguracaoFCICfopDevEntradaLog	OperacaoLog	NVARCHAR	200		Y	
+188	ConfiguracaoFCICfopDevEntradaLog	UsuarioLog	NVARCHAR	200		Y	
+189	ConfiguracaoFCICfopDevEntradaLog	IdBaseLog	NVARCHAR	200		Y	
+190	ConfiguracaoFCICfopDevEntradaLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+191	ConfiguracaoFCICfopDevolucaoLog	ComputadorLog	NVARCHAR	200		Y	
+192	ConfiguracaoFCICfopDevolucaoLog	OperacaoLog	NVARCHAR	200		Y	
+193	ConfiguracaoFCICfopDevolucaoLog	UsuarioLog	NVARCHAR	200		Y	
+194	ConfiguracaoFCICfopDevolucaoLog	IdBaseLog	NVARCHAR	200		Y	
+195	ConfiguracaoFCICfopDevolucaoLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+196	ConfiguracaoFCICfopEntradaLog	ComputadorLog	NVARCHAR	200		Y	
+197	ConfiguracaoFCICfopEntradaLog	OperacaoLog	NVARCHAR	200		Y	
+198	ConfiguracaoFCICfopEntradaLog	UsuarioLog	NVARCHAR	200		Y	
+199	ConfiguracaoFCICfopEntradaLog	IdBaseLog	NVARCHAR	200		Y	
+200	ConfiguracaoFCICfopEntradaLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+201	ConfiguracaoFCICfopVendaLog	ComputadorLog	NVARCHAR	200		Y	
+202	ConfiguracaoFCICfopVendaLog	OperacaoLog	NVARCHAR	200		Y	
+203	ConfiguracaoFCICfopVendaLog	UsuarioLog	NVARCHAR	200		Y	
+204	ConfiguracaoFCICfopVendaLog	IdBaseLog	NVARCHAR	200		Y	
+205	ConfiguracaoFCICfopVendaLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+206	ConfiguracaoFCIDespesaLog	ComputadorLog	NVARCHAR	200		Y	
+207	ConfiguracaoFCIDespesaLog	OperacaoLog	NVARCHAR	200		Y	
+208	ConfiguracaoFCIDespesaLog	UsuarioLog	NVARCHAR	200		Y	
+209	ConfiguracaoFCIDespesaLog	IdBaseLog	NVARCHAR	200		Y	
+210	ConfiguracaoFCIDespesaLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+211	ConfiguracaoFCIFonteLog	ComputadorLog	NVARCHAR	200		Y	
+212	ConfiguracaoFCIFonteLog	OperacaoLog	NVARCHAR	200		Y	
+213	ConfiguracaoFCIFonteLog	UsuarioLog	NVARCHAR	200		Y	
+214	ConfiguracaoFCIFonteLog	IdBaseLog	NVARCHAR	200		Y	
+215	ConfiguracaoFCIFonteLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+216	ConfiguracaoFCILog	ConsiderarValoresUnitarios	TINYINT	3		Y	
+217	ConfiguracaoFCILog	ConsiderarCustoDoItemDoDepositoPadraoNoItem	TINYINT	3		Y	
+218	ConfiguracaoFCILog	ConsiderarCustoDepositoItemEstrutura	TINYINT	3		Y	
+219	ConfiguracaoFCILog	DepositoItemEstrutura	INTEGER	10		Y	
+220	ConfiguracaoFCILog	InstanceLog	INTEGER	10		Y	
+221	ConfiguracaoFCILog	MachineLog	NVARCHAR	200		Y	
+222	ConfiguracaoFCILog	UserNameLog	NVARCHAR	200		Y	
+223	ConfiguracaoFCILog	DateAddLog	TIMESTAMP	27	7	Y	
+224	ConfiguracaoFCILog	BaseIdLog	NVARCHAR	200		Y	
+225	ConfiguracaoFCILog	WasDeletedLog	TINYINT	3		Y	
+226	ConfiguracaoFCILog	DesconsiderarItensInativos	TINYINT	3		Y	
+227	ConfiguracaoFCITipoMaterialLog	ComputadorLog	NVARCHAR	200		Y	
+228	ConfiguracaoFCITipoMaterialLog	OperacaoLog	NVARCHAR	200		Y	
+229	ConfiguracaoFCITipoMaterialLog	UsuarioLog	NVARCHAR	200		Y	
+230	ConfiguracaoFCITipoMaterialLog	IdBaseLog	NVARCHAR	200		Y	
+231	ConfiguracaoFCITipoMaterialLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+232	ConfiguracaoLCMRegimeCompetenciaCaixaLog	InstanceLog	INTEGER	10		Y	
+233	ConfiguracaoLCMRegimeCompetenciaCaixaLog	MachineLog	NVARCHAR	200		Y	
+234	ConfiguracaoLCMRegimeCompetenciaCaixaLog	UserNameLog	NVARCHAR	200		Y	
+235	ConfiguracaoLCMRegimeCompetenciaCaixaLog	DateAddLog	TIMESTAMP	27	7	Y	
+236	ConfiguracaoLCMRegimeCompetenciaCaixaLog	BaseIdLog	NVARCHAR	200		Y	
+237	ConfiguracaoLCMRegimeCompetenciaCaixaLog	WasDeletedLog	TINYINT	3		Y	
+238	ConfiguracaoRateioProporcionalCFOPLog	ComputadorLog	NVARCHAR	200		Y	
+239	ConfiguracaoRateioProporcionalCFOPLog	OperacaoLog	NVARCHAR	200		Y	
+240	ConfiguracaoRateioProporcionalCFOPLog	UsuarioLog	NVARCHAR	200		Y	
+241	ConfiguracaoRateioProporcionalCFOPLog	IdBaseLog	NVARCHAR	200		Y	
+242	ConfiguracaoRateioProporcionalCFOPLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+243	ConfiguracaoRateioProporcionalContaContabilLog	ComputadorLog	NVARCHAR	200		Y	
+244	ConfiguracaoRateioProporcionalContaContabilLog	OperacaoLog	NVARCHAR	200		Y	
+245	ConfiguracaoRateioProporcionalContaContabilLog	UsuarioLog	NVARCHAR	200		Y	
+246	ConfiguracaoRateioProporcionalContaContabilLog	IdBaseLog	NVARCHAR	200		Y	
+247	ConfiguracaoRateioProporcionalContaContabilLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+248	ConfiguracaoRateioProporcionalLog	InstanceLog	INTEGER	10		Y	
+249	ConfiguracaoRateioProporcionalLog	MachineLog	NVARCHAR	200		Y	
+250	ConfiguracaoRateioProporcionalLog	UserNameLog	NVARCHAR	200		Y	
+251	ConfiguracaoRateioProporcionalLog	DateAddLog	TIMESTAMP	27	7	Y	
+252	ConfiguracaoRateioProporcionalLog	BaseIdLog	NVARCHAR	200		Y	
+253	ConfiguracaoRateioProporcionalLog	WasDeletedLog	TINYINT	3		Y	
+254	ConfiguracaoRegimeCaixa1900Log	InstanceLog	INTEGER	10		Y	
+255	ConfiguracaoRegimeCaixa1900Log	MachineLog	NVARCHAR	200		Y	
+256	ConfiguracaoRegimeCaixa1900Log	UserNameLog	NVARCHAR	200		Y	
+257	ConfiguracaoRegimeCaixa1900Log	DateAddLog	TIMESTAMP	27	7	Y	
+258	ConfiguracaoRegimeCaixa1900Log	BaseIdLog	NVARCHAR	200		Y	
+259	ConfiguracaoRegimeCaixa1900Log	WasDeletedLog	TINYINT	3		Y	
+260	ControleDeExportacaoIndiretaLog	InstanceLog	INTEGER	10		Y	
+261	ControleDeExportacaoIndiretaLog	MachineLog	NVARCHAR	200		Y	
+262	ControleDeExportacaoIndiretaLog	UserNameLog	NVARCHAR	200		Y	
+263	ControleDeExportacaoIndiretaLog	DateAddLog	TIMESTAMP	27	7	Y	
+264	ControleDeExportacaoIndiretaLog	BaseIdLog	NVARCHAR	200		Y	
+265	ControleDeExportacaoIndiretaLog	WasDeletedLog	TINYINT	3		Y	
+266	CstComCreditContribLog	InstanceLog	INTEGER	10		Y	
+267	CstComCreditContribLog	MachineLog	NVARCHAR	200		Y	
+268	CstComCreditContribLog	UserNameLog	NVARCHAR	200		Y	
+269	CstComCreditContribLog	DateAddLog	TIMESTAMP	27	7	Y	
+270	CstComCreditContribLog	BaseIdLog	NVARCHAR	200		Y	
+271	CstComCreditContribLog	WasDeletedLog	TINYINT	3		Y	
+272	DocumentoFiscalSituacaoLog	DocDate	TIMESTAMP	27	7	Y	
+273	DocumentoFiscalSituacaoLog	TaxDate	TIMESTAMP	27	7	Y	
+274	DocumentoFiscalSituacaoLog	DataEntradaSaida	TIMESTAMP	27	7	Y	
+275	DocumentoFiscalSituacaoLog	UserCode	NVARCHAR	50		Y	
+276	DocumentoFiscalSituacaoLog	InstanceLog	INTEGER	10		Y	
+277	DocumentoFiscalSituacaoLog	MachineLog	NVARCHAR	200		Y	
+278	DocumentoFiscalSituacaoLog	UserNameLog	NVARCHAR	200		Y	
+279	DocumentoFiscalSituacaoLog	DateAddLog	TIMESTAMP	27	7	Y	
+280	DocumentoFiscalSituacaoLog	BaseIdLog	NVARCHAR	200		Y	
+281	DocumentoFiscalSituacaoLog	WasDeletedLog	TINYINT	3		Y	
+282	EmailDoResumoLog	InstanceLog	INTEGER	10		Y	
+283	EmailDoResumoLog	MachineLog	NVARCHAR	200		Y	
+284	EmailDoResumoLog	UserNameLog	NVARCHAR	200		Y	
+285	EmailDoResumoLog	DateAddLog	TIMESTAMP	27	7	Y	
+286	EmailDoResumoLog	BaseIdLog	NVARCHAR	200		Y	
+287	EmailDoResumoLog	WasDeletedLog	TINYINT	3		Y	
+288	EntidadeCategoriaImpostoLog	CategoriaImpostoId	INTEGER	10		Y	
+289	EntidadeCategoriaImpostoLog	TipoImpostoId	INTEGER	10		Y	
+290	EntidadeCategoriaImpostoLog	ComputadorLog	NVARCHAR	200		Y	
+291	EntidadeCategoriaImpostoLog	OperacaoLog	NVARCHAR	200		Y	
+292	EntidadeCategoriaImpostoLog	UsuarioLog	NVARCHAR	200		Y	
+293	EntidadeCategoriaImpostoLog	IdBaseLog	NVARCHAR	200		Y	
+294	EntidadeCategoriaImpostoLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+295	EntidadeCertificadoLog	DataExpiracao	TIMESTAMP	27	7	Y	
+296	EntidadeCertificadoLog	ComputadorLog	NVARCHAR	200		Y	
+297	EntidadeCertificadoLog	UsuarioLog	NVARCHAR	200		Y	
+298	EntidadeCertificadoLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+299	EntidadeCertificadoLog	OperacaoLog	NVARCHAR	200		Y	
+300	EntidadeCertificadoLog	IdBaseLog	INTEGER	10		Y	
+301	EntidadeInscricaoEstadualVirtualLog	ComputadorLog	NVARCHAR	200		Y	
+302	EntidadeInscricaoEstadualVirtualLog	OperacaoLog	NVARCHAR	200		Y	
+303	EntidadeInscricaoEstadualVirtualLog	UsuarioLog	NVARCHAR	200		Y	
+304	EntidadeInscricaoEstadualVirtualLog	IdBaseLog	NVARCHAR	200		Y	
+305	EntidadeInscricaoEstadualVirtualLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+306	EntidadeInscricaoSimplificadaLog	InscricaoSimplificada	TINYINT	3		Y	
+307	EntidadeInscricaoSimplificadaLog	ComputadorLog	NVARCHAR	200		Y	
+308	EntidadeInscricaoSimplificadaLog	OperacaoLog	NVARCHAR	200		Y	
+309	EntidadeInscricaoSimplificadaLog	UsuarioLog	NVARCHAR	200		Y	
+310	EntidadeInscricaoSimplificadaLog	IdBaseLog	NVARCHAR	200		Y	
+311	EntidadeInscricaoSimplificadaLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+312	EntidadeLog	DataCadastro	TIMESTAMP	27	7	Y	
+313	EntidadeLog	RazaoSocial	NVARCHAR	100		Y	
+314	EntidadeLog	CaixaPostal	NVARCHAR	60		Y	
+315	EntidadeLog	UserName	NVARCHAR	20		Y	
+316	EntidadeLog	ChecarCamposObrigatorios	TINYINT	3		Y	
+317	EntidadeLog	GerarMagneticosPeriodoParcial	TINYINT	3		Y	
+318	EntidadeLog	UpdateIndexes	TINYINT	3		Y	
+319	EntidadeLog	UsarUnidadeMedidaPadraoSap8	TINYINT	3		Y	
+320	EntidadeLog	ChecarICMSImpostoEstoque	TINYINT	3		Y	
+321	EntidadeLog	naoListarEntidadeBaseNaoLogada	TINYINT	3		Y	
+322	EntidadeLog	CreditosNfAtivo	TINYINT	3		Y	
+323	EntidadeLog	FusoHorarioPersonalizado	TINYINT	3		Y	
+324	EntidadeLog	DataHoraUsuarioLogado	TINYINT	3		Y	
+325	EntidadeLog	NaoTributarContribuicoesOperacaoNaoRealizada	TINYINT	3		Y	
+326	EntidadeLog	ConsiderarCodigoBacemDoSap	TINYINT	3		Y	
+327	EntidadeLog	ControleDeEstoqueTerceirosPorNotaFiscal	TINYINT	3		Y	
+328	EntidadeLog	ConsiderarreferenciadosDocBase	TINYINT	3		Y	
+329	EntidadeLog	ConsiderarreferenciadosDocRef	TINYINT	3		Y	
+330	EntidadeLog	IndicadorComposicaoReceitaId	INTEGER	10		Y	
+331	EntidadeLog	UsuarioEcf	NVARCHAR	200		Y	
+332	EntidadeLog	DataInicioServicoEcf	TIMESTAMP	27	7	Y	
+333	EntidadeLog	EnderecoSMTPEmail	NVARCHAR	200		Y	
+334	EntidadeLog	UsuarioEmail	NVARCHAR	200		Y	
+335	EntidadeLog	ProcessamentoSimultaneoEntidades	TINYINT	3		Y	
+336	EntidadeLog	FiltrarDocMvPorDataDeSaida	TINYINT	3		Y	
+337	EntidadeLog	GerarCamposDECRED	TINYINT	3		Y	
+338	EntidadeLog	NaoExecutarGeracaoDosBlocosEmParalelo	TINYINT	3		Y	
+339	EntidadeLog	BuscarPelaDataCompetencia	TINYINT	3		Y	
+340	EntidadeLog	Gerar0221DosItensComercializadosQueCompoemEstruturaDoProduto	TINYINT	3		Y	
+341	EntidadeLog	GerarK120K125DocReferenciados	TINYINT	3		Y	
+342	EntidadeLog	LevarEmOperacoesInternasValoresBaseIcmsBaseStCst60	TINYINT	3		Y	
+343	EntidadeLog	ConsiderarDocumentosComCstNaoGeradoresDeCredito	TINYINT	3		Y	
+344	EntidadeLog	C116ConsiderarDocumentosBases	TINYINT	3		Y	
+345	EntidadeLog	RegimeCaixaConsiderarLCMeInformarNaDataPagamento	TINYINT	3		Y	
+346	EntidadeLog	AplicarCreditoSaidasInterestaduais	TINYINT	3		Y	
+347	EntidadeLog	ConsiderarNaLCDPRDocumentoEntregaFuturaConformeDataPgto	TINYINT	3		Y	
+348	EntidadeLog	InstanceLog	INTEGER	10		Y	
+349	EntidadeLog	MachineLog	NVARCHAR	200		Y	
+350	EntidadeLog	UserNameLog	NVARCHAR	200		Y	
+351	EntidadeLog	DateAddLog	TIMESTAMP	27	7	Y	
+352	EntidadeLog	BaseIdLog	NVARCHAR	200		Y	
+353	EntidadeLog	WasDeletedLog	TINYINT	3		Y	
+354	EntidadeLog	PreencherNosRegistros4010e4020Scp	TINYINT	3		Y	
+355	EntidadeLog	ConsiderarDocumentosOutrosImpostosR4010eR4020	TINYINT	3		Y	
+356	EntidadeLog	LevarRegistroG130DosComponentesDeCompetenciasAnteriores	TINYINT	3		Y	
+357	EntidadeLog	ConsiderarCodigosPlanoDeContasSegmentadosECFECD	TINYINT	3		Y	
+358	EntidadeLog	AutomatizarPreenchimentoBeneficiarioSCP	TINYINT	3		Y	
+359	EntidadeLog	ConsiderarNaLCDPROsAdiantamentosConformeDataDoPagamento	TINYINT	3		Y	
+360	EntidadeLog	NaoTributarOperacaoNaoRealizadaICMSST	TINYINT	3		Y	
+361	EntidadeLog	AgrupadorE115UserField	NVARCHAR	20		Y	
+362	EntidadeLog	LevarBaseDIFALConformeCalculoParaAjusteDebitoSP	TINYINT	3		Y	
+363	EntidadeLog	ConsiderarCstClassTribDoSap	TINYINT	3		Y	
+364	EntidadeLog	GeracaoRegistrosNFCOM	INTEGER	10		Y	
+365	EntidadeLog	ProdutorRuralRegistro0150UsarCampoUsuario	TINYINT	3		Y	
+366	EntidadeLog	CampoUsuarioCpfProdutorRural	NVARCHAR	18		Y	
+367	EntidadeLog	ConsiderarFormaDescentralizadaParaEventosR4000	TINYINT	3		Y	
+368	EntidadeLog	ValidarDadosDeExportacao	TINYINT	3		Y	
+369	EntidadeLog	ConsiderarReceitaJurosF500F525	TINYINT	3		Y	
+370	EntidadeLog	ConsiderarIsentoComoOutros	TINYINT	3		Y	
+371	EntidadeLog	NaoLevarImpostoSenarGilratInss	TINYINT	3		Y	
+372	EntidadeResponsavelLog	ComputadorLog	NVARCHAR	200		Y	
+373	EntidadeResponsavelLog	OperacaoLog	NVARCHAR	200		Y	
+374	EntidadeResponsavelLog	UsuarioLog	NVARCHAR	200		Y	
+375	EntidadeResponsavelLog	IdBaseLog	NVARCHAR	200		Y	
+376	EntidadeResponsavelLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+377	EntidadeSubstitutoTributarioLog	ComputadorLog	NVARCHAR	200		Y	
+378	EntidadeSubstitutoTributarioLog	OperacaoLog	NVARCHAR	200		Y	
+379	EntidadeSubstitutoTributarioLog	UsuarioLog	NVARCHAR	200		Y	
+380	EntidadeSubstitutoTributarioLog	IdBaseLog	NVARCHAR	200		Y	
+381	EntidadeSubstitutoTributarioLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+382	GeneralSettingLog	UsuarioSefazDfe	NVARCHAR	100		Y	
+383	GeneralSettingLog	RestringirDocumentosPorUsuario	TINYINT	3		Y	
+384	GeneralSettingLog	InstanceLog	INTEGER	10		Y	
+385	GeneralSettingLog	MachineLog	NVARCHAR	200		Y	
+386	GeneralSettingLog	UserNameLog	NVARCHAR	200		Y	
+387	GeneralSettingLog	DateAddLog	TIMESTAMP	27	7	Y	
+388	GeneralSettingLog	BaseIdLog	NVARCHAR	200		Y	
+389	GeneralSettingLog	WasDeletedLog	TINYINT	3		Y	
+390	IV_IB_ComprovanteDeCartaoLog	DepositoId	INTEGER	10		Y	
+391	IV_IB_ComprovanteDeCartaoLog	MensagemLog	NVARCHAR	60		Y	
+392	IV_IB_ComprovanteDeCartaoLog	DataDeCricao	TIMESTAMP	27	7	Y	
+393	IV_IB_ComprovanteDeCartaoLog	Usuario	NVARCHAR	30		Y	
+394	IV_IB_LogBloqueioProcessamento	MensagemLog	NVARCHAR	2000		Y	
+395	IV_IB_LogBloqueioProcessamento	Usuario	NVARCHAR	100		Y	
+396	IV_IB_LogBloqueioProcessamento	DataHora	TIMESTAMP	27	7	Y	
+397	IV_IB_LogCadastro	Usuario	NVARCHAR	50		Y	
+398	IV_IB_LogCadastro	DataHora	TIMESTAMP	27	7	Y	
+399	ImpostoAccountLog	ImpostoId	INTEGER	10		Y	
+400	ImpostoAccountLog	InstanceLog	INTEGER	10		Y	
+401	ImpostoAccountLog	MachineLog	NVARCHAR	200		Y	
+402	ImpostoAccountLog	UserNameLog	NVARCHAR	200		Y	
+403	ImpostoAccountLog	DateAddLog	TIMESTAMP	27	7	Y	
+404	ImpostoAccountLog	BaseIdLog	NVARCHAR	200		Y	
+405	ImpostoAccountLog	WasDeletedLog	TINYINT	3		Y	
+406	ImpostoRecolhimentoLog	ImpostoId	INTEGER	10		Y	
+407	ImpostoRecolhimentoLog	DiasVencimentoSubstituto	NVARCHAR	4		Y	
+408	ImpostoRecolhimentoLog	InstanceLog	INTEGER	10		Y	
+409	ImpostoRecolhimentoLog	MachineLog	NVARCHAR	200		Y	
+410	ImpostoRecolhimentoLog	UserNameLog	NVARCHAR	200		Y	
+411	ImpostoRecolhimentoLog	DateAddLog	TIMESTAMP	27	7	Y	
+412	ImpostoRecolhimentoLog	BaseIdLog	NVARCHAR	200		Y	
+413	ImpostoRecolhimentoLog	WasDeletedLog	TINYINT	3		Y	
+414	LayoutDeImportacaoCampoDeUsuarioLogDfe	LogId	BIGINT	19		Y	
+415	LayoutDeImportacaoCamposLogDfe	LogId	BIGINT	19		Y	
+416	LayoutDeImportacaoMunicipiosLogDfe	LogId	BIGINT	19		Y	
+417	LayoutDeImportacaoTagLogDfe	LogId	BIGINT	19		Y	
+418	LayoutImpressaoLog	DataAdicao	TIMESTAMP	27	7	Y	
+419	LayoutImpressaoLog	InstanceLog	INTEGER	10		Y	
+420	LayoutImpressaoLog	MachineLog	NVARCHAR	200		Y	
+421	LayoutImpressaoLog	UserNameLog	NVARCHAR	200		Y	
+422	LayoutImpressaoLog	DateAddLog	TIMESTAMP	27	7	Y	
+423	LayoutImpressaoLog	BaseIdLog	NVARCHAR	200		Y	
+424	LayoutImpressaoLog	WasDeletedLog	TINYINT	3		Y	
+425	LogDoCadastroDfe	LogId	BIGINT	19		Y	
+426	LogDoLayoutDfe	DateAdd	TIMESTAMP	27	7	Y	
+427	LogDoLayoutDfe	Usuario	NVARCHAR	100		Y	
+428	MM_LOG_INT	DataCriacao	TIMESTAMP	27	7	Y	
+429	MM_LOG_INT	DataProcessamento	TIMESTAMP	27	7	Y	
+430	MM_LOG_INT	Usuario	NVARCHAR	50		Y	
+431	MM_LOG_INT	DuracaoSegundos	DECIMAL	10	2	Y	
+432	ModeloDocumentoDfeLog	IntegracaoSemDocumentos	TIMESTAMP	27	7	Y	
+433	ModeloDocumentoDfeLog	InstanceLog	INTEGER	10		Y	
+434	ModeloDocumentoDfeLog	MachineLog	NVARCHAR	200		Y	
+435	ModeloDocumentoDfeLog	UserNameLog	NVARCHAR	200		Y	
+436	ModeloDocumentoDfeLog	DateAddLog	TIMESTAMP	27	7	Y	
+437	ModeloDocumentoDfeLog	BaseIdLog	NVARCHAR	200		Y	
+438	ModeloDocumentoDfeLog	WasDeletedLog	TINYINT	3		Y	
+439	MovimentoAjusteVinculadoLog	ImpostoId	INTEGER	10		Y	
+440	MovimentoAjusteVinculadoLog	DataVigencia	TIMESTAMP	27	7	Y	
+441	MovimentoAjusteVinculadoLog	CatImposto	INTEGER	10		Y	
+442	MovimentoAjusteVinculadoLog	IndOperacao	INTEGER	10		Y	
+443	MovimentoAjusteVinculadoLog	InstanceLog	INTEGER	10		Y	
+444	MovimentoAjusteVinculadoLog	MachineLog	NVARCHAR	200		Y	
+445	MovimentoAjusteVinculadoLog	UserNameLog	NVARCHAR	200		Y	
+446	MovimentoAjusteVinculadoLog	DateAddLog	TIMESTAMP	27	7	Y	
+447	MovimentoAjusteVinculadoLog	BaseIdLog	NVARCHAR	200		Y	
+448	MovimentoAjusteVinculadoLog	WasDeletedLog	TINYINT	3		Y	
+449	MovimentoAjusteVinculadoLog	Operacao	INTEGER	10		Y	
+450	MunicipioEntidadeLog	Login	TINYINT	3		Y	
+451	MunicipioEntidadeLog	Usuario	NVARCHAR	100		Y	
+452	MunicipioEntidadeLog	ComputadorLog	NVARCHAR	200		Y	
+453	MunicipioEntidadeLog	OperacaoLog	NVARCHAR	200		Y	
+454	MunicipioEntidadeLog	UsuarioLog	NVARCHAR	200		Y	
+455	MunicipioEntidadeLog	IdBaseLog	NVARCHAR	200		Y	
+456	MunicipioEntidadeLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+457	NaturezaTipoCreditoConfigLog	CSTOperacaoDetalhada	NVARCHAR	20		Y	
+458	NaturezaTipoCreditoConfigLog	InstanceLog	INTEGER	10		Y	
+459	NaturezaTipoCreditoConfigLog	MachineLog	NVARCHAR	200		Y	
+460	NaturezaTipoCreditoConfigLog	UserNameLog	NVARCHAR	200		Y	
+461	NaturezaTipoCreditoConfigLog	DateAddLog	TIMESTAMP	27	7	Y	
+462	NaturezaTipoCreditoConfigLog	BaseIdLog	NVARCHAR	200		Y	
+463	NaturezaTipoCreditoConfigLog	WasDeletedLog	TINYINT	3		Y	
+464	ParametrosDaExportacaoIndiretaLog	InstanceLog	INTEGER	10		Y	
+465	ParametrosDaExportacaoIndiretaLog	MachineLog	NVARCHAR	200		Y	
+466	ParametrosDaExportacaoIndiretaLog	UserNameLog	NVARCHAR	200		Y	
+467	ParametrosDaExportacaoIndiretaLog	DateAddLog	TIMESTAMP	27	7	Y	
+468	ParametrosDaExportacaoIndiretaLog	BaseIdLog	NVARCHAR	200		Y	
+469	ParametrosDaExportacaoIndiretaLog	WasDeletedLog	TINYINT	3		Y	
+470	PisCofinsF100DocumentSettingLog	InstanceLog	INTEGER	10		Y	
+471	PisCofinsF100DocumentSettingLog	MachineLog	NVARCHAR	200		Y	
+472	PisCofinsF100DocumentSettingLog	UserNameLog	NVARCHAR	200		Y	
+473	PisCofinsF100DocumentSettingLog	DateAddLog	TIMESTAMP	27	7	Y	
+474	PisCofinsF100DocumentSettingLog	BaseIdLog	NVARCHAR	200		Y	
+475	PisCofinsF100DocumentSettingLog	WasDeletedLog	TINYINT	3		Y	
+476	PisCofinsF100LcmSettingLog	AgruparPorDataDoLCM	TINYINT	3		Y	
+477	PisCofinsF100LcmSettingLog	InstanceLog	INTEGER	10		Y	
+478	PisCofinsF100LcmSettingLog	MachineLog	NVARCHAR	200		Y	
+479	PisCofinsF100LcmSettingLog	UserNameLog	NVARCHAR	200		Y	
+480	PisCofinsF100LcmSettingLog	DateAddLog	TIMESTAMP	27	7	Y	
+481	PisCofinsF100LcmSettingLog	BaseIdLog	NVARCHAR	200		Y	
+482	PisCofinsF100LcmSettingLog	WasDeletedLog	TINYINT	3		Y	
+483	PisCofinsF120AssetSettingLog	InstanceLog	INTEGER	10		Y	
+484	PisCofinsF120AssetSettingLog	MachineLog	NVARCHAR	200		Y	
+485	PisCofinsF120AssetSettingLog	UserNameLog	NVARCHAR	200		Y	
+486	PisCofinsF120AssetSettingLog	DateAddLog	TIMESTAMP	27	7	Y	
+487	PisCofinsF120AssetSettingLog	BaseIdLog	NVARCHAR	200		Y	
+488	PisCofinsF120AssetSettingLog	WasDeletedLog	TINYINT	3		Y	
+489	PisCofinsF130DocumentSettingLog	UtilizacaoSapId	INTEGER	10		Y	
+490	PisCofinsF130DocumentSettingLog	InstanceLog	INTEGER	10		Y	
+491	PisCofinsF130DocumentSettingLog	MachineLog	NVARCHAR	200		Y	
+492	PisCofinsF130DocumentSettingLog	UserNameLog	NVARCHAR	200		Y	
+493	PisCofinsF130DocumentSettingLog	DateAddLog	TIMESTAMP	27	7	Y	
+494	PisCofinsF130DocumentSettingLog	BaseIdLog	NVARCHAR	200		Y	
+495	PisCofinsF130DocumentSettingLog	WasDeletedLog	TINYINT	3		Y	
+496	PisCofinsSettingLog	DataInicial	TIMESTAMP	27	7	Y	
+497	PisCofinsSettingLog	DataFinal	TIMESTAMP	27	7	Y	
+498	PisCofinsSettingLog	IndicadorComposicaoReceitaId	INTEGER	10		Y	
+499	PisCofinsSettingLog	Cosit13	TINYINT	3		Y	
+500	PisCofinsSettingLog	DataDaSentenca	TIMESTAMP	27	7	Y	
+501	PisCofinsSettingLog	InstanceLog	INTEGER	10		Y	
+502	PisCofinsSettingLog	MachineLog	NVARCHAR	200		Y	
+503	PisCofinsSettingLog	UserNameLog	NVARCHAR	200		Y	
+504	PisCofinsSettingLog	DateAddLog	TIMESTAMP	27	7	Y	
+505	PisCofinsSettingLog	BaseIdLog	NVARCHAR	200		Y	
+506	PisCofinsSettingLog	WasDeletedLog	TINYINT	3		Y	
+507	QueryValidationIgnoreLog	ComputadorLog	NVARCHAR	200		Y	
+508	QueryValidationIgnoreLog	OperacaoLog	NVARCHAR	200		Y	
+509	QueryValidationIgnoreLog	UsuarioLog	NVARCHAR	200		Y	
+510	QueryValidationIgnoreLog	IdBaseLog	NVARCHAR	200		Y	
+511	QueryValidationIgnoreLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+512	ReceiptSettingLog	EmailPop3User	NVARCHAR	200		Y	
+513	ReceiptSettingLog	DocUpdateIcmsStEnabled	TINYINT	3		Y	
+514	ReceiptSettingLog	PartnerUpdate	TINYINT	3		Y	
+515	ReceiptSettingLog	PartnerUpdateFiscalIds	TINYINT	3		Y	
+516	ReceiptSettingLog	PartnerUpdateAddress	TINYINT	3		Y	
+517	ReceiptSettingLog	PartnerUpdateNameAndPhone	TINYINT	3		Y	
+518	ReceiptSettingLog	ItemUpdate	TINYINT	3		Y	
+519	ReceiptSettingLog	ItemUpdateDescriptionItem	TINYINT	3		Y	
+520	ReceiptSettingLog	ItemUpdateCatalogPartner	TINYINT	3		Y	
+521	ReceiptSettingLog	ItemUpdateSuppCatNumItem	TINYINT	3		Y	
+522	ReceiptSettingLog	ItemUpdateCodeBars	TINYINT	3		Y	
+523	ReceiptSettingLog	ItemUpdateNcmCode	TINYINT	3		Y	
+524	ReceiptSettingLog	ProductByCatalogPartner	TINYINT	3		Y	
+525	ReceiptSettingLog	ProductByCatalogManufacturer	TINYINT	3		Y	
+526	ReceiptSettingLog	ItemUpdateCodProdAnvisa	TINYINT	3		Y	
+527	ReceiptSettingLog	DateLastDownload	TIMESTAMP	27	7	Y	
+528	ReceiptSettingLog	IncluirDocAposCiencia	TINYINT	3		Y	
+529	ReceiptSettingLog	CienciaAposConsultaNsu	TINYINT	3		Y	
+530	ReceiptSettingLog	IncluirDocAposDowloadCte	TINYINT	3		Y	
+531	ReceiptSettingLog	ConsiderarDataDoDocumento	TINYINT	3		Y	
+532	ReceiptSettingLog	IncluirDocNoSapPorCfop	TINYINT	3		Y	
+533	ReceiptSettingLog	IncluirDocNoSapPorOrigemProd	TINYINT	3		Y	
+534	ReceiptSettingLog	DeveCanelarNfeNoSapViaEventoSefaz	TINYINT	3		Y	
+535	ReceiptSettingLog	DeveCanelarCteNoSapViaEventoSefaz	TINYINT	3		Y	
+536	ReceiptSettingLog	IncluirNoSapAposRecebimentoApi	TINYINT	3		Y	
+537	ReceiptSettingLog	InformarLogDfe	TINYINT	3		Y	
+538	ReceiptSettingLog	IncluirNoSapAposIntegracaoNfse	TINYINT	3		Y	
+539	ReceiptSettingLog	DataDoUltimoDocNfe	TIMESTAMP	27	7	Y	
+540	ReceiptSettingLog	DataDoUltimoDocCte	TIMESTAMP	27	7	Y	
+541	ReceiptSettingLog	ConsiderarDataDoDocumentoNfse	TINYINT	3		Y	
+542	ReceiptSettingLog	ListarTodosOsPedidosDaBaseLogada	TINYINT	3		Y	
+543	ReceiptSettingLog	HabilitarConsultaSevPrestados	TINYINT	3		Y	
+544	ReceiptSettingLog	CadastrarItemNoCatalogDoPn	TINYINT	3		Y	
+545	ReceiptSettingLog	ValidarPosicaoNcm	TINYINT	3		Y	
+546	ReceiptSettingLog	DataDoUltimoDocNfse	TIMESTAMP	27	7	Y	
+547	ReceiptSettingLog	DataDoUltimoDocAdnNfse	TIMESTAMP	27	7	Y	
+548	ReceiptSettingLog	ConsiderarConfigFeriadoSap	TINYINT	3		Y	
+549	ReceiptSettingLog	BloquearEnvioDeEventosParaImportados	TINYINT	3		Y	
+550	ReceiptSettingLog	AtivarCampoUsuarioPerfilPn	TINYINT	3		Y	
+551	ReceiptSettingLog	InstanceLog	INTEGER	10		Y	
+552	ReceiptSettingLog	MachineLog	NVARCHAR	200		Y	
+553	ReceiptSettingLog	UserNameLog	NVARCHAR	200		Y	
+554	ReceiptSettingLog	DateAddLog	TIMESTAMP	27	7	Y	
+555	ReceiptSettingLog	BaseIdLog	NVARCHAR	200		Y	
+556	ReceiptSettingLog	WasDeletedLog	TINYINT	3		Y	
+557	ReceiptSettingLog	ConsidarVliqNfseImpostoRetido	TINYINT	3		Y	
+558	ReceiptSettingLog	HabilitarConfirmacaoOpercaoAutomatico	TINYINT	3		Y	
+559	ReceiptSettingLog	ConsiderarDataPgtFixaSap	TINYINT	3		Y	
+560	ReceiptSettingLog	ListarSomenteNotasImportadasPeloUsuarioLogado	TINYINT	3		Y	
+561	ReceiptSettingLog	HabilitaInclusaoDeDocumentosDeMarketing	TINYINT	3		Y	
+562	ReceiptSettingLog	ConsiderarDataDoDocumentoNfseEntrada	TINYINT	3		Y	
+563	ReceiptSettingLog	ConsiderarTodosCamposUsuarioSapB1	TINYINT	3		Y	
+564	RestricaoTipoLog	InstanceLog	INTEGER	10		Y	
+565	RestricaoTipoLog	MachineLog	NVARCHAR	200		Y	
+566	RestricaoTipoLog	UserNameLog	NVARCHAR	200		Y	
+567	RestricaoTipoLog	DateAddLog	TIMESTAMP	27	7	Y	
+568	RestricaoTipoLog	BaseIdLog	NVARCHAR	200		Y	
+569	RestricaoTipoLog	WasDeletedLog	TINYINT	3		Y	
+570	SettingCompanyLog	PathToSend	NVARCHAR	1000		Y	
+571	SettingCompanyLog	CreateDateOutTag	TINYINT	3		Y	
+572	SettingCompanyLog	PathToSefazXml	NVARCHAR	1000		Y	
+573	SettingCompanyLog	GetItemFromMasterData	TINYINT	3		Y	
+574	SettingCompanyLog	DataHoraContingencia	TIMESTAMP	27	7	Y	
+575	SettingCompanyLog	InformarVendasVeiculosNovos	TINYINT	3		Y	
+576	SettingCompanyLog	AlterarDestinoOperacaoNfeSap	TINYINT	3		Y	
+577	SettingCompanyLog	MailSmtpUser	NVARCHAR	200		Y	
+578	SettingCompanyLog	ConsiderarPrecoUnitarioSAP	TINYINT	3		Y	
+579	SettingCompanyLog	ApiTempoDeEsperaEnSegundos	INTEGER	10		Y	
+580	SettingCompanyLog	NaoEnviarDataNfce	TINYINT	3		Y	
+581	SettingCompanyLog	AtribuirDataDeFabricacaoDoLote	TINYINT	3		Y	
+582	SettingCompanyLog	ConsiderarObservacoesDoImposto	TINYINT	3		Y	
+583	SettingCompanyLog	InfVlIcmsDesoneradoSt	TINYINT	3		Y	
+584	SettingCompanyLog	SetDadosExportacaoSap	TINYINT	3		Y	
+585	SettingCompanyLog	DestacarImpRetidoComoOutros	TINYINT	3		Y	
+586	SettingCompanyLog	DesconsiderarEmailsCadastrados	TINYINT	3		Y	
+587	SettingCompanyLog	ValidarBoletosBankPlus	TINYINT	3		Y	
+588	SettingCompanyLog	UrlCustomizadaHomologacao	NVARCHAR	400		Y	
+589	SettingCompanyLog	InteracaoSefaz	INTEGER	10		Y	
+590	SettingCompanyLog	EnviarArquivosEmFormatoZip	TINYINT	3		Y	
+591	SettingCompanyLog	SomarVNfEmRecebimentoSeImportacao	TINYINT	3		Y	
+592	SettingCompanyLog	PermitirAlterarStatusDeDocumetosFinalizados	TINYINT	3		Y	
+593	SettingCompanyLog	InstanceLog	INTEGER	10		Y	
+594	SettingCompanyLog	MachineLog	NVARCHAR	200		Y	
+595	SettingCompanyLog	UserNameLog	NVARCHAR	200		Y	
+596	SettingCompanyLog	DateAddLog	TIMESTAMP	27	7	Y	
+597	SettingCompanyLog	BaseIdLog	NVARCHAR	200		Y	
+598	SettingCompanyLog	WasDeletedLog	TINYINT	3		Y	
+599	SettingCompanyLog	NaoPermiteEnviarDocCanceladoNoSap	TINYINT	3		Y	
+600	SettingCompanyLog	NaoGerarImpostosNotasDebitoCredito	TINYINT	3		Y	
+601	SettingCompanyLog	ManterCaracteresEspeciaisLogradouroXml	TINYINT	3		Y	
+602	SettingCompanyLog	ConsiderarLogomarcaDoUsuario	TINYINT	3		Y	
+603	SettingEntityEnvLog	NatureOperationOfUser	TINYINT	3		Y	
+604	SettingEntityEnvLog	MailSmtpUser	NVARCHAR	200		Y	
+605	SettingEntityEnvLog	DateAddSimplesNacional	TIMESTAMP	27	7	Y	
+606	SettingEntityEnvLog	UseSelfFillToTypeOperation	TINYINT	3		Y	
+607	SettingEntityEnvLog	ChkConsiderarDataDocumento	TINYINT	3		Y	
+608	SettingEntityEnvLog	CodeUser	NVARCHAR	500		Y	
+609	SettingEntityEnvLog	AtualizarLinkNosComentarios	TINYINT	3		Y	
+610	SettingEntityEnvLog	UpdateNumKeyNfse	TINYINT	3		Y	
+611	SettingEntityEnvLog	NotCancelForStatusClosed	TINYINT	3		Y	
+612	SettingEntityEnvLog	DataDeReenvio	TIMESTAMP	27	7	Y	
+613	SettingEntityEnvLog	DataAidf	TIMESTAMP	27	7	Y	
+614	SettingEntityEnvLog	SalvarLogDeXmlNoDiretorio	TINYINT	3		Y	
+615	SettingEntityEnvLog	ValidarBoletosBankPlus	TINYINT	3		Y	
+616	SettingEntityEnvLog	UsarDiretorioDeLogCustomizado	TINYINT	3		Y	
+617	SettingEntityEnvLog	CaminhoDiretorioDeLogCustomizado	NVARCHAR	256		Y	
+618	SettingEntityEnvLog	UsarCampoCustomizadoParaDescricaoDosItens	TINYINT	3		Y	
+619	SettingEntityEnvLog	CampoCustomizadoParaDescricaoDosItens	NVARCHAR	60		Y	
+620	SettingEntityEnvLog	ConsiderarDataAtualRps	TINYINT	3		Y	
+621	SettingEntityEnvLog	UsarCampoDeUsuarioParaEmailTomador	TINYINT	3		Y	
+622	SettingEntityEnvLog	CampoDeUsuarioParaEmailTomador	NVARCHAR	100		Y	
+623	SettingEntityEnvLog	EnviarCodigoMunicipioEstrangeiroComCincoDigitos	TINYINT	3		Y	
+624	SettingEntityEnvLog	PermitirAlterarStatusDosDocumentos	TINYINT	3		Y	
+625	SettingEntityEnvLog	InstanceLog	INTEGER	10		Y	
+626	SettingEntityEnvLog	MachineLog	NVARCHAR	200		Y	
+627	SettingEntityEnvLog	UserNameLog	NVARCHAR	200		Y	
+628	SettingEntityEnvLog	DateAddLog	TIMESTAMP	27	7	Y	
+629	SettingEntityEnvLog	BaseIdLog	NVARCHAR	200		Y	
+630	SettingEntityEnvLog	WasDeletedLog	TINYINT	3		Y	
+631	SettingEntityEnvLog	IncluirXmlDeEnvioNosAnexosDoEmail	TINYINT	3		Y	
+632	SettingEntityEnvLog	InformarDadosDeComercioExterior	TINYINT	3		Y	
+633	SettingEntityEnvLog	InformarDadosDeAtividadeEvento	TINYINT	3		Y	
+634	SettingEntityEnvLog	InformarDadosDeImovel	TINYINT	3		Y	
+635	SettingEntityEnvLog	DataInicioReformaTributaria	TIMESTAMP	27	7	Y	
+636	SettingEntityEnvLog	InformarDadosDeObra	TINYINT	3		Y	
+637	SettingEntityEnvLog	FusoHorarioPersonalizado	TINYINT	3		Y	
+638	SettingEntityEnvLog	UsarAliquotaParaTotaisDosTributos	TINYINT	3		Y	
+639	SpedFiscalSettingLog	DataInicial	TIMESTAMP	27	7	Y	
+640	SpedFiscalSettingLog	DataFinal	TIMESTAMP	27	7	Y	
+641	SpedFiscalSettingLog	BlocoHData	TIMESTAMP	27	7	Y	
+642	SpedFiscalSettingLog	DataArquivo	TIMESTAMP	27	7	Y	
+643	SpedFiscalSettingLog	Usuario	NVARCHAR	100		Y	
+644	SpedFiscalSettingLog	GerarRegistrosGIAF	TINYINT	3		Y	
+645	SpedFiscalSettingLog	ConsiderarDocumentosInutilizadosPorFaixa	TINYINT	3		Y	
+646	SpedFiscalSettingLog	InstanceLog	INTEGER	10		Y	
+647	SpedFiscalSettingLog	MachineLog	NVARCHAR	200		Y	
+648	SpedFiscalSettingLog	UserNameLog	NVARCHAR	200		Y	
+649	SpedFiscalSettingLog	DateAddLog	TIMESTAMP	27	7	Y	
+650	SpedFiscalSettingLog	BaseIdLog	NVARCHAR	200		Y	
+651	SpedFiscalSettingLog	WasDeletedLog	TINYINT	3		Y	
+652	StatusDoResumoLog	InstanceLog	INTEGER	10		Y	
+653	StatusDoResumoLog	MachineLog	NVARCHAR	200		Y	
+654	StatusDoResumoLog	UserNameLog	NVARCHAR	200		Y	
+655	StatusDoResumoLog	DateAddLog	TIMESTAMP	27	7	Y	
+656	StatusDoResumoLog	BaseIdLog	NVARCHAR	200		Y	
+657	StatusDoResumoLog	WasDeletedLog	TINYINT	3		Y	
+658	TX_GNRE_LogConfiguracaoPorUf	DateAdd	TIMESTAMP	27	7	Y	
+659	TX_GNRE_LogConfiguracaoPorUf	Usuario	NVARCHAR	20		Y	
+660	TX_GNRE_LogDeCadastro	LogId	BIGINT	19		Y	
+661	TX_RFP_LogDeExecucao	DadosDeRetorno	NCLOB	2147483647		Y	
+662	TX_RFP_LogDeModificacao	Usuario	NVARCHAR	100		Y	
+663	TX_RFP_LogDeModificacao	Data	TIMESTAMP	27	7	Y	
+664	TipoCreditoNaturezaConfiguracaoLog	ComputadorLog	NVARCHAR	200		Y	
+665	TipoCreditoNaturezaConfiguracaoLog	OperacaoLog	NVARCHAR	200		Y	
+666	TipoCreditoNaturezaConfiguracaoLog	UsuarioLog	NVARCHAR	200		Y	
+667	TipoCreditoNaturezaConfiguracaoLog	IdBaseLog	NVARCHAR	200		Y	
+668	TipoCreditoNaturezaConfiguracaoLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+669	UtilizacaoProcessoLog	UtilizacaoProcessoStatusId	INTEGER	10		Y	
+670	UtilizacaoProcessoLog	ComputadorLog	NVARCHAR	200		Y	
+671	UtilizacaoProcessoLog	OperacaoLog	NVARCHAR	200		Y	
+672	UtilizacaoProcessoLog	UsuarioLog	NVARCHAR	200		Y	
+673	UtilizacaoProcessoLog	IdBaseLog	NVARCHAR	200		Y	
+674	UtilizacaoProcessoLog	DataDeAdicaoLog	TIMESTAMP	27	7	Y	
+675	UtilizacoesDaExportacaoIndiretaLog	InstanceLog	INTEGER	10		Y	
+676	UtilizacoesDaExportacaoIndiretaLog	MachineLog	NVARCHAR	200		Y	
+677	UtilizacoesDaExportacaoIndiretaLog	UserNameLog	NVARCHAR	200		Y	
+678	UtilizacoesDaExportacaoIndiretaLog	DateAddLog	TIMESTAMP	27	7	Y	
+679	UtilizacoesDaExportacaoIndiretaLog	BaseIdLog	NVARCHAR	200		Y	
+680	UtilizacoesDaExportacaoIndiretaLog	WasDeletedLog	TINYINT	3		Y	

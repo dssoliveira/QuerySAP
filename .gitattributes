@@ -1,0 +1,2 @@
+# Preservar bytes das evidencias e hashes do inventario, inclusive textos SAP.
+arquivo_chat/** -text

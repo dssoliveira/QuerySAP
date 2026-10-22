@@ -1,0 +1,993 @@
+#	Tabela	Título	Descrição		
+1	OIGE	AGL_CHV_CTE	Chave de acesso do CT-e	Y	
+2	OIGE	B1SYS_BPRecCPF	CPF Code of BP Receiving Company	Y	
+3	OIGE	B1SYS_BPRecIBGE	IBGE Code of BP Receiving Company	Y	
+4	OIGE	B1SYS_BPRecIE	IE Number of BP Receiving Company	Y	
+5	OIGE	B1SYS_BPSenCPF	CPF of BP Sending Company	Y	
+6	OIGE	B1SYS_BPSenIBGE	IBGE Code of BP Sending Company	Y	
+7	OIGE	B1SYS_BPSenIE	IE Number BP Sending Company	Y	
+8	OIGE	B1SYS_BpRecCNPJ	CNJP of BP Receiving Company	Y	
+9	OIGE	B1SYS_BpSenCNPJ	CNJP of BP Sending Company	Y	
+10	OIGE	B1SYS_CNPJFromC	CNPJ From Contract	Y	
+11	OIGE	B1SYS_CargoTranTyp	Cargo Transport Type	Y	
+12	OIGE	B1SYS_ConnTypeCode	Type of Connection Code	Y	
+13	OIGE	B1SYS_EnergConsCls	Energy Class Consumption Code	Y	
+14	OIGE	B1SYS_FisDocStatus	Fiscal Document Status Code	Y	
+15	OIGE	B1SYS_ImportProc	Type of Import process	Y	
+16	OIGE	B1SYS_MeterCode	Meter Code	Y	
+17	OIGE	B1SYS_ParticipantC	Participant / Third Party Code	Y	
+18	OIGE	B1SYS_RevIndC510	Type of Revenue Indicator C510	Y	
+19	OIGE	B1SYS_RevIndD510	Type of Revenue Indicator D510	Y	
+20	OIGE	B1SYS_RevIndD600	Type of Revenue Indicator D600	Y	
+21	OIGE	B1SYS_StateOfTP	StateOf Third Party	Y	
+22	OIGE	B1SYS_SubscrCode	Type of Subscriber Code	Y	
+23	OIGE	B1SYS_TaxID12	BP Code For SPED	Y	
+24	OIGE	B1SYS_TensGrpCode	Tension Group Code	Y	
+25	OIGE	BoeSavedByService	Boleto salvo em disco	Y	
+26	OIGE	BoeServiceStatus	Situação do Boleto	Y	
+27	OIGE	BoeStatus	Situação do Boe	Y	
+28	OIGE	BoletoGeradoServ	Boleto Gerado pelo Serviço	Y	
+29	OIGE	ChaveAcesso	Chave de acesso	Y	
+30	OIGE	ChaveAutenticacao	Chave de Autenticacao	Y	
+31	OIGE	DanfePrintedByServ	Danfe Impresso	Y	
+32	OIGE	DanfeServiceStatus	Situação do Danfe	Y	
+33	OIGE	FinCfop	Finalidade NF-e (1949 e 2949)	Y	
+34	OIGE	GenerateBoeByServ	Geração Automatica de Boleto	Y	
+35	OIGE	IB_NumeroFaturaDDA	Nº da Fatura	Y	
+36	OIGE	ICL_Status	iClass - Status	Y	
+37	OIGE	IV_IB_CentroDeCusto1	Centro de Custo 1	Y	
+38	OIGE	IV_IB_CentroDeCusto2	Centro de Custo 2	Y	
+39	OIGE	IV_IB_CentroDeCusto3	Centro de Custo 3	Y	
+40	OIGE	IV_IB_CentroDeCusto4	Centro de Custo 4	Y	
+41	OIGE	IV_IB_CentroDeCusto5	Centro de Custo 5	Y	
+42	OIGE	IdentificadorFgts	Identificador do FGTS	Y	
+43	OIGE	LOC1_CallID	Chamado LOC1	Y	
+44	OIGE	LOC1_InnerText	Texto Interno LOC1	Y	
+45	OIGE	LOC1_Origin	Origem LOC1	Y	
+46	OIGE	MM_AjustePV	AjustePV	Y	
+47	OIGE	MM_Alimentacao	Alimentação	Y	
+48	OIGE	MM_Comissao	Comissões sobre vendas	Y	
+49	OIGE	MM_Comprador	Comprador	Y	
+50	OIGE	MM_Deslocamento	Deslocamento	Y	
+51	OIGE	MM_Despesa_Fixa	Despesa Fixa	Y	
+52	OIGE	MM_EMPRESA	Empresa	Y	
+53	OIGE	MM_Equipamento	Equipamento (Locação)	Y	
+54	OIGE	MM_FORMALIZACAO	Formalização?	Y	
+55	OIGE	MM_Faturamento	Liberar Faturamento?	Y	
+56	OIGE	MM_Frete	Frete	Y	
+57	OIGE	MM_Hospedagem	Hospedagem	Y	
+58	OIGE	MM_ITEMALTERNATIVO	Itens alternativos?	Y	
+59	OIGE	MM_MO_DIRETA	MO Direta	Y	
+60	OIGE	MM_MO_INDIRETA	MO Indireta	Y	
+61	OIGE	MM_Margem	Margem	Y	
+62	OIGE	MM_Material	Material	Y	
+63	OIGE	MM_NumDoc	Nº Solicitação de Compras	Y	
+64	OIGE	MM_NumNFSe	Nº NFSe	Y	
+65	OIGE	MM_NumeroNF	Nº NF	Y	
+66	OIGE	MM_OBS_INTERNO	Observações Interna	Y	
+67	OIGE	MM_OS	Ordem de Serviço	Y	
+68	OIGE	MM_PDB	Passagem de Bastão?	Y	
+69	OIGE	MM_Passagem_Bastao	Passagem de Bastão	Y	
+70	OIGE	MM_Pedagio	Pedágios	Y	
+71	OIGE	MM_REQ	Tipo de Requisição	Y	
+72	OIGE	MM_Separar	Realizar Expedição?	Y	
+73	OIGE	MM_Servicos	Serviços	Y	
+74	OIGE	MM_StatusSolic	Etapa do Processo	Y	
+75	OIGE	MM_TemSolCompra	Tem Solicitação de Compras?	Y	
+76	OIGE	MM_Tipo	Tipo do Pedido de Venda	Y	
+77	OIGE	MM_TipoProjeto	Tipo de Projeto	Y	
+78	OIGE	MM_URGENCIA	Nível de Urgência	Y	
+79	OIGE	MM_Venda	Venda?	Y	
+80	OIGE	NossoNumero	Nosso Número de Origem	Y	
+81	OIGE	NrImpressaoNfe	Nº Impressão NFE/NFSe	Y	
+82	OIGE	NrTentaGerarBoleto	Nr.Tent.Geração do Boleto	Y	
+83	OIGE	NumSeqRepas	Sequencial do Repasse	Y	
+84	OIGE	NumSeqRepasse	Sequencial do Repasse	Y	
+85	OIGE	ProblemType	iClassOne - Tipo de OS	Y	
+86	OIGE	SituacaoDocumento	Situação Documento	Y	
+87	OIGE	TX_AliqIssNtCtrl	Informar Alíquota ISS Municipios NotaControl	Y	
+88	OIGE	TX_BensIntermediario	Bens Intermediários	Y	
+89	OIGE	TX_CEPEvento	CEP numérico do endereço nacional do Evento	Y	
+90	OIGE	TX_CEPImovel	CEP numérico do endereço nacional do Imóvel	Y	
+91	OIGE	TX_CEPObra	CEP da Obra	Y	
+92	OIGE	TX_CFOP	Código Fiscal de Operações e Prestações (retTransp) - CFOP	Y	
+93	OIGE	TX_CancelId	Motivo do Cancelamento	Y	
+94	OIGE	TX_ChaveCTeSubstituido	Chave de Acesso CTe Substituído	Y	
+95	OIGE	TX_ClCons	Classe de Consumo	Y	
+96	OIGE	TX_CodArt	Código ART	Y	
+97	OIGE	TX_CodCei	Código CEI	Y	
+98	OIGE	TX_CodNatRend	Código Da Natureza Do Rendimento	Y	
+99	OIGE	TX_CodObra	Código da Obra	Y	
+100	OIGE	TX_CodRespICMSST	Cód. Resp. ICMS ST	Y	
+101	OIGE	TX_CodSeNfts	Código Serviço NFTS	Y	
+102	OIGE	TX_CondPagamento	Condição de Pagamento	Y	
+103	OIGE	TX_DataMIT	Data MIT	Y	
+104	OIGE	TX_DctfCardCode	Parceiro de Origem	Y	
+105	OIGE	TX_DctfNDcomp	Número Dcomp	Y	
+106	OIGE	TX_DctfReceita	Código da Receita	Y	
+107	OIGE	TX_DctffPed	Forma Pedido Dctf	Y	
+108	OIGE	TX_DebitoSCPINC	Débito de SCP/INC	Y	
+109	OIGE	TX_DescEmail	Descrição E-mail Customizado	Y	
+110	OIGE	TX_DescLinhaDeveDeduzirBc	Descontar base de cálculo se tem desconto na linha	Y	
+111	OIGE	TX_DesctNfFut	Destacar IPI na NF Futura?	Y	
+112	OIGE	TX_DestOp	Destino da Operação	Y	
+113	OIGE	TX_DiscSeNfts	Discriminação dos Serviços NFTS	Y	
+114	OIGE	TX_DocEntryRef	Doc Ref	Y	
+115	OIGE	TX_DocTypeRef	Tipo.Doc Ref	Y	
+116	OIGE	TX_DtComp	Data de Competência	Y	
+117	OIGE	TX_DtSaid	Data de Saída	Y	
+118	OIGE	TX_EndPres	End. de Prestação	Y	
+119	OIGE	TX_EnvAuto	Não enviar automáticamente	Y	
+120	OIGE	TX_EventoNoExterior	Evento no Exterior	Y	
+121	OIGE	TX_ExigibIss	Exigibilidade do ISSQN	Y	
+122	OIGE	TX_HoraSaid	Horário de Saída	Y	
+123	OIGE	TX_IEEntrega	I.E End. Entrega (SAP)	Y	
+124	OIGE	TX_INTR_SIS_OR	Sistema de Origem	Y	
+125	OIGE	TX_ImovelNoExterior	Imóvel no Exterior	Y	
+126	OIGE	TX_ImpDmed	Importar Dmed	Y	
+127	OIGE	TX_IndExiNfe	Exigibilidade do ISS (NF-e)	Y	
+128	OIGE	TX_IndIncentivo	Indicador de incentivo Fiscal (NF-e)	Y	
+129	OIGE	TX_IndInter	Indicador de Intermediador	Y	
+130	OIGE	TX_IndIssTrib	Indicador de incidência do ISS	Y	
+131	OIGE	TX_IndNatFrete	Indicador da Natureza do Frete	Y	
+132	OIGE	TX_IndPres	Tipo de Presença de Usuário	Y	
+133	OIGE	TX_InfAliqIssDoc	Informar Alíquota ISS Nacional	Y	
+134	OIGE	TX_InstPgtoNfse	Instruções de Pagamento NFS-e	Y	
+135	OIGE	TX_IsDeCon	Desconto Condicionado	Y	
+136	OIGE	TX_Just	Justificativa NF-e/NFC-e	Y	
+137	OIGE	TX_ModoPrest	Modo de Prestação	Y	
+138	OIGE	TX_MotivNRet	Motivo de não retenção	Y	
+139	OIGE	TX_MunIncidNfse	Município Incidência NFSe	Y	
+140	OIGE	TX_NDfe	Número Fiscal Eletrônico	Y	
+141	OIGE	TX_NatOp	Natureza Operação NFe	Y	
+142	OIGE	TX_NoSU	Nº dos volumes transportados	Y	
+143	OIGE	TX_NrEncapsNfse	Número Encapsulamento NFS-e	Y	
+144	OIGE	TX_NumDocArrecadacao	Documento de Arrecadação	Y	
+145	OIGE	TX_NumProc	Número do Processo	Y	
+146	OIGE	TX_ObraNoExterior	Obra no Exterior	Y	
+147	OIGE	TX_Ordem	Ordem de Produção	Y	
+148	OIGE	TX_Origem	Origem do Apontamento	Y	
+149	OIGE	TX_OrigemIbge	OrigemIbge	Y	
+150	OIGE	TX_PDV_NF_21_22_Gerado	PDF Nota Modelo 21-22 Gerado	Y	
+151	OIGE	TX_Participacao	Índice de Participação	Y	
+152	OIGE	TX_ProdGnre	Produto da GNRE	Y	
+153	OIGE	TX_QueryPrint	Query NFSe	Y	
+154	OIGE	TX_RF_IAquis	Ind.Aquis-REINF	Y	
+155	OIGE	TX_RF_ICom	Ind.Com-REINF	Y	
+156	OIGE	TX_RF_Insc_Rural	Nro Inscrição Rural - REINF	Y	
+157	OIGE	TX_RF_Serv	Tipo Serv-REINF	Y	
+158	OIGE	TX_RF_TObr	Tipo Obra-REINF	Y	
+159	OIGE	TX_RF_TRep	Tipo Repasse-REINF	Y	
+160	OIGE	TX_RegEspTrib	Regime especial de tributação	Y	
+161	OIGE	TX_RegEspecialTributacao	Código de identificação do Regime Especial de Tributação	Y	
+162	OIGE	TX_RespRetNfse	Responsável pela Retenção NFSe	Y	
+163	OIGE	TX_RetOrgaoPublico	Retenção Órgão Público	Y	
+164	OIGE	TX_ServicoPrestadoViasPublicas	Serviço Prestado em Vias Públicas	Y	
+165	OIGE	TX_SetEndNfce	Inf. End. Destinatário NFC-e	Y	
+166	OIGE	TX_SetIdFisNfce	Inf. Ident. Destinatário NFC-e	Y	
+167	OIGE	TX_SigiloRef	Sigilo da NF-e Referência?	Y	
+168	OIGE	TX_Situacao_DES_Vitoria	Sit. Fiscal DES-Vitória	Y	
+169	OIGE	TX_TagCTe	CT-e	Y	
+170	OIGE	TX_TipoCliente	Tipo de Cliente	Y	
+171	OIGE	TX_TipoNeg	Tipo de Negócio	Y	
+172	OIGE	TX_TipoUtilizacao	Tipo de Utilização	Y	
+173	OIGE	TX_ToReplace	Nota Fiscal de Substituição	Y	
+174	OIGE	TX_TpDocArrecada	Tipo de Documento de Arrecadação	Y	
+175	OIGE	TX_TpPrazoExp	Prazo para Exportação Indireta	Y	
+176	OIGE	TX_Ttrib	Natureza da Operação NFSe	Y	
+177	OIGE	TX_UFSaidaPais	UF Exportação	Y	
+178	OIGE	TX_VlrIssNtCtrl	Informar Valor ISS Municipios NotaControl	Y	
+179	OIGE	TX_cCIBImovel	Cadastro Imobiliário Brasileiro do Imóvel	Y	
+180	OIGE	TX_cCIBObra	Cadastro Imobiliário Brasileiro da Obra	Y	
+181	OIGE	TX_cEndPostEvento	CEP endereço do Evento no exterior	Y	
+182	OIGE	TX_cEndPostImovel	CEP endereço no exterior do Imóvel	Y	
+183	OIGE	TX_cEndPostObra	CEP endereço no exterior da Obra	Y	
+184	OIGE	TX_cIndOp	Ind. Operação NFSe	Y	
+185	OIGE	TX_cMunFG	Código do município de ocorrência (retTransp)	Y	
+186	OIGE	TX_cObra	Número de identificação da Obra	Y	
+187	OIGE	TX_cTribMun	Código de Tributação Municipal	Y	
+188	OIGE	TX_dPreEntrega	Data da previsão de entraga	Y	
+189	OIGE	TX_dtFim	Data de Término do Evento	Y	
+190	OIGE	TX_dtIni	Data de Início do Evento	Y	
+191	OIGE	TX_finNFCom	Finalidade NFCom	Y	
+192	OIGE	TX_finNFe	Finalidade de Emissão da NF-e	Y	
+193	OIGE	TX_idAtvEvt	Identificação da Atividade de Evento	Y	
+194	OIGE	TX_idLocalIncidencia	ID do Local da Incidência IBS/CBS	Y	
+195	OIGE	TX_indPag	Ind. Forma de Pagamento	Y	
+196	OIGE	TX_indProc	Ind. Origem do Processo	Y	
+197	OIGE	TX_inscImobFiscImovel	Inscrição imobiliária fiscal do Imóvel	Y	
+198	OIGE	TX_inscImobFiscObra	Inscrição imobiliária fiscal da Obra	Y	
+199	OIGE	TX_mdPrestacao	Modo de Prestação	Y	
+200	OIGE	TX_mdic	Indicador se a NFS-e deverá ser disponibilizada ao MDIC	Y	
+201	OIGE	TX_mecAFComexP	Mecanismo de apoio/fomento ao Comex do prestador	Y	
+202	OIGE	TX_mecAFComexT	Mecanismo de apoio / fomento ao Comex do tomador	Y	
+203	OIGE	TX_movTempBens	Vínculo da Operação à Movimentação Temporária de Bens	Y	
+204	OIGE	TX_nDI	Número da Declaração de Importação (DI/DSI/DA/DRI-E) averbado	Y	
+205	OIGE	TX_nProc	Ind. Processo ou Ato Concessório	Y	
+206	OIGE	TX_nRE	Número do Registro de Exportação (RE) averbado	Y	
+207	OIGE	TX_nroEvento	Número no logradouro do endereço da atividade de evento	Y	
+208	OIGE	TX_nroImovel	Número no logradouro do endereço do Imóvel	Y	
+209	OIGE	TX_nroObra	Número no logradouro do endereço da Obra	Y	
+210	OIGE	TX_pICMSRet	Alíquota da Retenção (retTransp)	Y	
+211	OIGE	TX_refDFeAnt	Chave de acesso do DFe anterior (compra governamental)	Y	
+212	OIGE	TX_tpAto	Tipo do Ato Concessório	Y	
+213	OIGE	TX_tpFat	Tipo de Faturamento	Y	
+214	OIGE	TX_tpImunidade	Tipo de Imunidade ISSQN	Y	
+215	OIGE	TX_tpMoeda	Identificação da moeda da transação comercial	Y	
+216	OIGE	TX_tpMovProd	Tipo de Movimento do Produto	Y	
+217	OIGE	TX_tpNFCredito	Tipo de Nota de Crédito (5)	Y	
+218	OIGE	TX_tpNFDebito	Tipo de Nota de Débito (6)	Y	
+219	OIGE	TX_tpOper	Tipo Op. Gov. e Bens Imóveis	Y	
+220	OIGE	TX_tpOperGov	Tipo de operação com o ente governamental	Y	
+221	OIGE	TX_tpSusp	Opção para Exigibilidade Suspensa	Y	
+222	OIGE	TX_vBCRet	BC da Retenção do ICMS (retTransp)	Y	
+223	OIGE	TX_vServ	Valor do Serviço (retTransp)	Y	
+224	OIGE	TX_vServMoeda	Valor do serviço estrangeiro	Y	
+225	OIGE	TX_vincPrest	Vínculo entre as partes no negócio	Y	
+226	OIGE	TX_xBairroEvento	Bairro do endereço da atividade de evento	Y	
+227	OIGE	TX_xBairroImovel	Bairro do endereço do Imóvel	Y	
+228	OIGE	TX_xBairroObra	Bairro do endereço da Obra	Y	
+229	OIGE	TX_xCidadeEvento	Nome da cidade no exterior, local da atividade de evento	Y	
+230	OIGE	TX_xCidadeImovel	Nome da cidade no exterior do Imóvel	Y	
+231	OIGE	TX_xCidadeObra	Nome da cidade no exterior da Obra	Y	
+232	OIGE	TX_xCplEvento	Complemento do endereço da atividade de evento	Y	
+233	OIGE	TX_xCplImovel	Complemento do endereço do Imóvel	Y	
+234	OIGE	TX_xCplObra	Complemento do endereço da Obra	Y	
+235	OIGE	TX_xEstProvRegEvento	Estado, província ou região da cidade do Evento no exterior	Y	
+236	OIGE	TX_xEstProvRegImovel	Estado, província ou região da cidade no exterior do Imóvel	Y	
+237	OIGE	TX_xEstProvRegObra	Estado, província ou região da cidade no exterior da Obra	Y	
+238	OIGE	TX_xLgrEvento	Tipo e nome do logradouro do endereço da atividade de evento	Y	
+239	OIGE	TX_xLgrImovel	Tipo e nome do logradouro do endereço do Imóvel	Y	
+240	OIGE	TX_xLgrObra	Tipo e nome do logradouro do endereço da Obra	Y	
+241	OIGE	TX_xLocDespacho	Local Despacho	Y	
+242	OIGE	TX_xLocExporta	Local Exportação	Y	
+243	OIGE	TX_xNomeEvento	Nome do Evento	Y	
+244	OIGE	WB_RouteNumber	Número da Rota	Y	
+245	OIGE	XmlServiceStatus	Situação do Xml	Y	
+246	OIGE	sistel_formalizacao_interna	Formalização interna?	Y	
+247	OIGE	sistel_imposto	Imposto	Y	
+248	OIGE	sistel_statusdopedido	Status do pedido	Y	
+249	ORDR	AGL_CHV_CTE	Chave de acesso do CT-e	Y	
+250	ORDR	B1SYS_BPRecCPF	CPF Code of BP Receiving Company	Y	
+251	ORDR	B1SYS_BPRecIBGE	IBGE Code of BP Receiving Company	Y	
+252	ORDR	B1SYS_BPRecIE	IE Number of BP Receiving Company	Y	
+253	ORDR	B1SYS_BPSenCPF	CPF of BP Sending Company	Y	
+254	ORDR	B1SYS_BPSenIBGE	IBGE Code of BP Sending Company	Y	
+255	ORDR	B1SYS_BPSenIE	IE Number BP Sending Company	Y	
+256	ORDR	B1SYS_BpRecCNPJ	CNJP of BP Receiving Company	Y	
+257	ORDR	B1SYS_BpSenCNPJ	CNJP of BP Sending Company	Y	
+258	ORDR	B1SYS_CNPJFromC	CNPJ From Contract	Y	
+259	ORDR	B1SYS_CargoTranTyp	Cargo Transport Type	Y	
+260	ORDR	B1SYS_ConnTypeCode	Type of Connection Code	Y	
+261	ORDR	B1SYS_EnergConsCls	Energy Class Consumption Code	Y	
+262	ORDR	B1SYS_FisDocStatus	Fiscal Document Status Code	Y	
+263	ORDR	B1SYS_ImportProc	Type of Import process	Y	
+264	ORDR	B1SYS_MeterCode	Meter Code	Y	
+265	ORDR	B1SYS_ParticipantC	Participant / Third Party Code	Y	
+266	ORDR	B1SYS_RevIndC510	Type of Revenue Indicator C510	Y	
+267	ORDR	B1SYS_RevIndD510	Type of Revenue Indicator D510	Y	
+268	ORDR	B1SYS_RevIndD600	Type of Revenue Indicator D600	Y	
+269	ORDR	B1SYS_StateOfTP	StateOf Third Party	Y	
+270	ORDR	B1SYS_SubscrCode	Type of Subscriber Code	Y	
+271	ORDR	B1SYS_TaxID12	BP Code For SPED	Y	
+272	ORDR	B1SYS_TensGrpCode	Tension Group Code	Y	
+273	ORDR	BoeSavedByService	Boleto salvo em disco	Y	
+274	ORDR	BoeServiceStatus	Situação do Boleto	Y	
+275	ORDR	BoeStatus	Situação do Boe	Y	
+276	ORDR	BoletoGeradoServ	Boleto Gerado pelo Serviço	Y	
+277	ORDR	ChaveAcesso	Chave de acesso	Y	
+278	ORDR	ChaveAutenticacao	Chave de Autenticacao	Y	
+279	ORDR	DanfePrintedByServ	Danfe Impresso	Y	
+280	ORDR	DanfeServiceStatus	Situação do Danfe	Y	
+281	ORDR	FinCfop	Finalidade NF-e (1949 e 2949)	Y	
+282	ORDR	GenerateBoeByServ	Geração Automatica de Boleto	Y	
+283	ORDR	IB_NumeroFaturaDDA	Nº da Fatura	Y	
+284	ORDR	ICL_Status	iClass - Status	Y	
+285	ORDR	IV_IB_CentroDeCusto1	Centro de Custo 1	Y	
+286	ORDR	IV_IB_CentroDeCusto2	Centro de Custo 2	Y	
+287	ORDR	IV_IB_CentroDeCusto3	Centro de Custo 3	Y	
+288	ORDR	IV_IB_CentroDeCusto4	Centro de Custo 4	Y	
+289	ORDR	IV_IB_CentroDeCusto5	Centro de Custo 5	Y	
+290	ORDR	IdentificadorFgts	Identificador do FGTS	Y	
+291	ORDR	LOC1_CallID	Chamado LOC1	Y	
+292	ORDR	LOC1_InnerText	Texto Interno LOC1	Y	
+293	ORDR	LOC1_Origin	Origem LOC1	Y	
+294	ORDR	MM_AjustePV	AjustePV	Y	
+295	ORDR	MM_Alimentacao	Alimentação	Y	
+296	ORDR	MM_Comissao	Comissões sobre vendas	Y	
+297	ORDR	MM_Comprador	Comprador	Y	
+298	ORDR	MM_Deslocamento	Deslocamento	Y	
+299	ORDR	MM_Despesa_Fixa	Despesa Fixa	Y	
+300	ORDR	MM_EMPRESA	Empresa	Y	
+301	ORDR	MM_Equipamento	Equipamento (Locação)	Y	
+302	ORDR	MM_FORMALIZACAO	Formalização?	Y	
+303	ORDR	MM_Faturamento	Liberar Faturamento?	Y	
+304	ORDR	MM_Frete	Frete	Y	
+305	ORDR	MM_Hospedagem	Hospedagem	Y	
+306	ORDR	MM_ITEMALTERNATIVO	Itens alternativos?	Y	
+307	ORDR	MM_MO_DIRETA	MO Direta	Y	
+308	ORDR	MM_MO_INDIRETA	MO Indireta	Y	
+309	ORDR	MM_Margem	Margem	Y	
+310	ORDR	MM_Material	Material	Y	
+311	ORDR	MM_NumDoc	Nº Solicitação de Compras	Y	
+312	ORDR	MM_NumNFSe	Nº NFSe	Y	
+313	ORDR	MM_NumeroNF	Nº NF	Y	
+314	ORDR	MM_OBS_INTERNO	Observações Interna	Y	
+315	ORDR	MM_OS	Ordem de Serviço	Y	
+316	ORDR	MM_PDB	Passagem de Bastão?	Y	
+317	ORDR	MM_Passagem_Bastao	Passagem de Bastão	Y	
+318	ORDR	MM_Pedagio	Pedágios	Y	
+319	ORDR	MM_REQ	Tipo de Requisição	Y	
+320	ORDR	MM_Separar	Realizar Expedição?	Y	
+321	ORDR	MM_Servicos	Serviços	Y	
+322	ORDR	MM_StatusSolic	Etapa do Processo	Y	
+323	ORDR	MM_TemSolCompra	Tem Solicitação de Compras?	Y	
+324	ORDR	MM_Tipo	Tipo do Pedido de Venda	Y	
+325	ORDR	MM_TipoProjeto	Tipo de Projeto	Y	
+326	ORDR	MM_URGENCIA	Nível de Urgência	Y	
+327	ORDR	MM_Venda	Venda?	Y	
+328	ORDR	NossoNumero	Nosso Número de Origem	Y	
+329	ORDR	NrImpressaoNfe	Nº Impressão NFE/NFSe	Y	
+330	ORDR	NrTentaGerarBoleto	Nr.Tent.Geração do Boleto	Y	
+331	ORDR	NumSeqRepas	Sequencial do Repasse	Y	
+332	ORDR	NumSeqRepasse	Sequencial do Repasse	Y	
+333	ORDR	ProblemType	iClassOne - Tipo de OS	Y	
+334	ORDR	SituacaoDocumento	Situação Documento	Y	
+335	ORDR	TX_AliqIssNtCtrl	Informar Alíquota ISS Municipios NotaControl	Y	
+336	ORDR	TX_BensIntermediario	Bens Intermediários	Y	
+337	ORDR	TX_CEPEvento	CEP numérico do endereço nacional do Evento	Y	
+338	ORDR	TX_CEPImovel	CEP numérico do endereço nacional do Imóvel	Y	
+339	ORDR	TX_CEPObra	CEP da Obra	Y	
+340	ORDR	TX_CFOP	Código Fiscal de Operações e Prestações (retTransp) - CFOP	Y	
+341	ORDR	TX_CancelId	Motivo do Cancelamento	Y	
+342	ORDR	TX_ChaveCTeSubstituido	Chave de Acesso CTe Substituído	Y	
+343	ORDR	TX_ClCons	Classe de Consumo	Y	
+344	ORDR	TX_CodArt	Código ART	Y	
+345	ORDR	TX_CodCei	Código CEI	Y	
+346	ORDR	TX_CodNatRend	Código Da Natureza Do Rendimento	Y	
+347	ORDR	TX_CodObra	Código da Obra	Y	
+348	ORDR	TX_CodRespICMSST	Cód. Resp. ICMS ST	Y	
+349	ORDR	TX_CodSeNfts	Código Serviço NFTS	Y	
+350	ORDR	TX_CondPagamento	Condição de Pagamento	Y	
+351	ORDR	TX_DataMIT	Data MIT	Y	
+352	ORDR	TX_DctfCardCode	Parceiro de Origem	Y	
+353	ORDR	TX_DctfNDcomp	Número Dcomp	Y	
+354	ORDR	TX_DctfReceita	Código da Receita	Y	
+355	ORDR	TX_DctffPed	Forma Pedido Dctf	Y	
+356	ORDR	TX_DebitoSCPINC	Débito de SCP/INC	Y	
+357	ORDR	TX_DescEmail	Descrição E-mail Customizado	Y	
+358	ORDR	TX_DescLinhaDeveDeduzirBc	Descontar base de cálculo se tem desconto na linha	Y	
+359	ORDR	TX_DesctNfFut	Destacar IPI na NF Futura?	Y	
+360	ORDR	TX_DestOp	Destino da Operação	Y	
+361	ORDR	TX_DiscSeNfts	Discriminação dos Serviços NFTS	Y	
+362	ORDR	TX_DocEntryRef	Doc Ref	Y	
+363	ORDR	TX_DocTypeRef	Tipo.Doc Ref	Y	
+364	ORDR	TX_DtComp	Data de Competência	Y	
+365	ORDR	TX_DtSaid	Data de Saída	Y	
+366	ORDR	TX_EndPres	End. de Prestação	Y	
+367	ORDR	TX_EnvAuto	Não enviar automáticamente	Y	
+368	ORDR	TX_EventoNoExterior	Evento no Exterior	Y	
+369	ORDR	TX_ExigibIss	Exigibilidade do ISSQN	Y	
+370	ORDR	TX_HoraSaid	Horário de Saída	Y	
+371	ORDR	TX_IEEntrega	I.E End. Entrega (SAP)	Y	
+372	ORDR	TX_INTR_SIS_OR	Sistema de Origem	Y	
+373	ORDR	TX_ImovelNoExterior	Imóvel no Exterior	Y	
+374	ORDR	TX_ImpDmed	Importar Dmed	Y	
+375	ORDR	TX_IndExiNfe	Exigibilidade do ISS (NF-e)	Y	
+376	ORDR	TX_IndIncentivo	Indicador de incentivo Fiscal (NF-e)	Y	
+377	ORDR	TX_IndInter	Indicador de Intermediador	Y	
+378	ORDR	TX_IndIssTrib	Indicador de incidência do ISS	Y	
+379	ORDR	TX_IndNatFrete	Indicador da Natureza do Frete	Y	
+380	ORDR	TX_IndPres	Tipo de Presença de Usuário	Y	
+381	ORDR	TX_InfAliqIssDoc	Informar Alíquota ISS Nacional	Y	
+382	ORDR	TX_InstPgtoNfse	Instruções de Pagamento NFS-e	Y	
+383	ORDR	TX_IsDeCon	Desconto Condicionado	Y	
+384	ORDR	TX_Just	Justificativa NF-e/NFC-e	Y	
+385	ORDR	TX_ModoPrest	Modo de Prestação	Y	
+386	ORDR	TX_MotivNRet	Motivo de não retenção	Y	
+387	ORDR	TX_MunIncidNfse	Município Incidência NFSe	Y	
+388	ORDR	TX_NDfe	Número Fiscal Eletrônico	Y	
+389	ORDR	TX_NatOp	Natureza Operação NFe	Y	
+390	ORDR	TX_NoSU	Nº dos volumes transportados	Y	
+391	ORDR	TX_NrEncapsNfse	Número Encapsulamento NFS-e	Y	
+392	ORDR	TX_NumDocArrecadacao	Documento de Arrecadação	Y	
+393	ORDR	TX_NumProc	Número do Processo	Y	
+394	ORDR	TX_ObraNoExterior	Obra no Exterior	Y	
+395	ORDR	TX_Ordem	Ordem de Produção	Y	
+396	ORDR	TX_Origem	Origem do Apontamento	Y	
+397	ORDR	TX_OrigemIbge	OrigemIbge	Y	
+398	ORDR	TX_PDV_NF_21_22_Gerado	PDF Nota Modelo 21-22 Gerado	Y	
+399	ORDR	TX_Participacao	Índice de Participação	Y	
+400	ORDR	TX_ProdGnre	Produto da GNRE	Y	
+401	ORDR	TX_QueryPrint	Query NFSe	Y	
+402	ORDR	TX_RF_IAquis	Ind.Aquis-REINF	Y	
+403	ORDR	TX_RF_ICom	Ind.Com-REINF	Y	
+404	ORDR	TX_RF_Insc_Rural	Nro Inscrição Rural - REINF	Y	
+405	ORDR	TX_RF_Serv	Tipo Serv-REINF	Y	
+406	ORDR	TX_RF_TObr	Tipo Obra-REINF	Y	
+407	ORDR	TX_RF_TRep	Tipo Repasse-REINF	Y	
+408	ORDR	TX_RegEspTrib	Regime especial de tributação	Y	
+409	ORDR	TX_RegEspecialTributacao	Código de identificação do Regime Especial de Tributação	Y	
+410	ORDR	TX_RespRetNfse	Responsável pela Retenção NFSe	Y	
+411	ORDR	TX_RetOrgaoPublico	Retenção Órgão Público	Y	
+412	ORDR	TX_ServicoPrestadoViasPublicas	Serviço Prestado em Vias Públicas	Y	
+413	ORDR	TX_SetEndNfce	Inf. End. Destinatário NFC-e	Y	
+414	ORDR	TX_SetIdFisNfce	Inf. Ident. Destinatário NFC-e	Y	
+415	ORDR	TX_SigiloRef	Sigilo da NF-e Referência?	Y	
+416	ORDR	TX_Situacao_DES_Vitoria	Sit. Fiscal DES-Vitória	Y	
+417	ORDR	TX_TagCTe	CT-e	Y	
+418	ORDR	TX_TipoCliente	Tipo de Cliente	Y	
+419	ORDR	TX_TipoNeg	Tipo de Negócio	Y	
+420	ORDR	TX_TipoUtilizacao	Tipo de Utilização	Y	
+421	ORDR	TX_ToReplace	Nota Fiscal de Substituição	Y	
+422	ORDR	TX_TpDocArrecada	Tipo de Documento de Arrecadação	Y	
+423	ORDR	TX_TpPrazoExp	Prazo para Exportação Indireta	Y	
+424	ORDR	TX_Ttrib	Natureza da Operação NFSe	Y	
+425	ORDR	TX_UFSaidaPais	UF Exportação	Y	
+426	ORDR	TX_VlrIssNtCtrl	Informar Valor ISS Municipios NotaControl	Y	
+427	ORDR	TX_cCIBImovel	Cadastro Imobiliário Brasileiro do Imóvel	Y	
+428	ORDR	TX_cCIBObra	Cadastro Imobiliário Brasileiro da Obra	Y	
+429	ORDR	TX_cEndPostEvento	CEP endereço do Evento no exterior	Y	
+430	ORDR	TX_cEndPostImovel	CEP endereço no exterior do Imóvel	Y	
+431	ORDR	TX_cEndPostObra	CEP endereço no exterior da Obra	Y	
+432	ORDR	TX_cIndOp	Ind. Operação NFSe	Y	
+433	ORDR	TX_cMunFG	Código do município de ocorrência (retTransp)	Y	
+434	ORDR	TX_cObra	Número de identificação da Obra	Y	
+435	ORDR	TX_cTribMun	Código de Tributação Municipal	Y	
+436	ORDR	TX_dPreEntrega	Data da previsão de entraga	Y	
+437	ORDR	TX_dtFim	Data de Término do Evento	Y	
+438	ORDR	TX_dtIni	Data de Início do Evento	Y	
+439	ORDR	TX_finNFCom	Finalidade NFCom	Y	
+440	ORDR	TX_finNFe	Finalidade de Emissão da NF-e	Y	
+441	ORDR	TX_idAtvEvt	Identificação da Atividade de Evento	Y	
+442	ORDR	TX_idLocalIncidencia	ID do Local da Incidência IBS/CBS	Y	
+443	ORDR	TX_indPag	Ind. Forma de Pagamento	Y	
+444	ORDR	TX_indProc	Ind. Origem do Processo	Y	
+445	ORDR	TX_inscImobFiscImovel	Inscrição imobiliária fiscal do Imóvel	Y	
+446	ORDR	TX_inscImobFiscObra	Inscrição imobiliária fiscal da Obra	Y	
+447	ORDR	TX_mdPrestacao	Modo de Prestação	Y	
+448	ORDR	TX_mdic	Indicador se a NFS-e deverá ser disponibilizada ao MDIC	Y	
+449	ORDR	TX_mecAFComexP	Mecanismo de apoio/fomento ao Comex do prestador	Y	
+450	ORDR	TX_mecAFComexT	Mecanismo de apoio / fomento ao Comex do tomador	Y	
+451	ORDR	TX_movTempBens	Vínculo da Operação à Movimentação Temporária de Bens	Y	
+452	ORDR	TX_nDI	Número da Declaração de Importação (DI/DSI/DA/DRI-E) averbado	Y	
+453	ORDR	TX_nProc	Ind. Processo ou Ato Concessório	Y	
+454	ORDR	TX_nRE	Número do Registro de Exportação (RE) averbado	Y	
+455	ORDR	TX_nroEvento	Número no logradouro do endereço da atividade de evento	Y	
+456	ORDR	TX_nroImovel	Número no logradouro do endereço do Imóvel	Y	
+457	ORDR	TX_nroObra	Número no logradouro do endereço da Obra	Y	
+458	ORDR	TX_pICMSRet	Alíquota da Retenção (retTransp)	Y	
+459	ORDR	TX_refDFeAnt	Chave de acesso do DFe anterior (compra governamental)	Y	
+460	ORDR	TX_tpAto	Tipo do Ato Concessório	Y	
+461	ORDR	TX_tpFat	Tipo de Faturamento	Y	
+462	ORDR	TX_tpImunidade	Tipo de Imunidade ISSQN	Y	
+463	ORDR	TX_tpMoeda	Identificação da moeda da transação comercial	Y	
+464	ORDR	TX_tpMovProd	Tipo de Movimento do Produto	Y	
+465	ORDR	TX_tpNFCredito	Tipo de Nota de Crédito (5)	Y	
+466	ORDR	TX_tpNFDebito	Tipo de Nota de Débito (6)	Y	
+467	ORDR	TX_tpOper	Tipo Op. Gov. e Bens Imóveis	Y	
+468	ORDR	TX_tpOperGov	Tipo de operação com o ente governamental	Y	
+469	ORDR	TX_tpSusp	Opção para Exigibilidade Suspensa	Y	
+470	ORDR	TX_vBCRet	BC da Retenção do ICMS (retTransp)	Y	
+471	ORDR	TX_vServ	Valor do Serviço (retTransp)	Y	
+472	ORDR	TX_vServMoeda	Valor do serviço estrangeiro	Y	
+473	ORDR	TX_vincPrest	Vínculo entre as partes no negócio	Y	
+474	ORDR	TX_xBairroEvento	Bairro do endereço da atividade de evento	Y	
+475	ORDR	TX_xBairroImovel	Bairro do endereço do Imóvel	Y	
+476	ORDR	TX_xBairroObra	Bairro do endereço da Obra	Y	
+477	ORDR	TX_xCidadeEvento	Nome da cidade no exterior, local da atividade de evento	Y	
+478	ORDR	TX_xCidadeImovel	Nome da cidade no exterior do Imóvel	Y	
+479	ORDR	TX_xCidadeObra	Nome da cidade no exterior da Obra	Y	
+480	ORDR	TX_xCplEvento	Complemento do endereço da atividade de evento	Y	
+481	ORDR	TX_xCplImovel	Complemento do endereço do Imóvel	Y	
+482	ORDR	TX_xCplObra	Complemento do endereço da Obra	Y	
+483	ORDR	TX_xEstProvRegEvento	Estado, província ou região da cidade do Evento no exterior	Y	
+484	ORDR	TX_xEstProvRegImovel	Estado, província ou região da cidade no exterior do Imóvel	Y	
+485	ORDR	TX_xEstProvRegObra	Estado, província ou região da cidade no exterior da Obra	Y	
+486	ORDR	TX_xLgrEvento	Tipo e nome do logradouro do endereço da atividade de evento	Y	
+487	ORDR	TX_xLgrImovel	Tipo e nome do logradouro do endereço do Imóvel	Y	
+488	ORDR	TX_xLgrObra	Tipo e nome do logradouro do endereço da Obra	Y	
+489	ORDR	TX_xLocDespacho	Local Despacho	Y	
+490	ORDR	TX_xLocExporta	Local Exportação	Y	
+491	ORDR	TX_xNomeEvento	Nome do Evento	Y	
+492	ORDR	WB_RouteNumber	Número da Rota	Y	
+493	ORDR	XmlServiceStatus	Situação do Xml	Y	
+494	ORDR	sistel_formalizacao_interna	Formalização interna?	Y	
+495	ORDR	sistel_imposto	Imposto	Y	
+496	ORDR	sistel_statusdopedido	Status do pedido	Y	
+497	OWTQ	AGL_CHV_CTE	Chave de acesso do CT-e	Y	
+498	OWTQ	B1SYS_BPRecCPF	CPF Code of BP Receiving Company	Y	
+499	OWTQ	B1SYS_BPRecIBGE	IBGE Code of BP Receiving Company	Y	
+500	OWTQ	B1SYS_BPRecIE	IE Number of BP Receiving Company	Y	
+501	OWTQ	B1SYS_BPSenCPF	CPF of BP Sending Company	Y	
+502	OWTQ	B1SYS_BPSenIBGE	IBGE Code of BP Sending Company	Y	
+503	OWTQ	B1SYS_BPSenIE	IE Number BP Sending Company	Y	
+504	OWTQ	B1SYS_BpRecCNPJ	CNJP of BP Receiving Company	Y	
+505	OWTQ	B1SYS_BpSenCNPJ	CNJP of BP Sending Company	Y	
+506	OWTQ	B1SYS_CNPJFromC	CNPJ From Contract	Y	
+507	OWTQ	B1SYS_CargoTranTyp	Cargo Transport Type	Y	
+508	OWTQ	B1SYS_ConnTypeCode	Type of Connection Code	Y	
+509	OWTQ	B1SYS_EnergConsCls	Energy Class Consumption Code	Y	
+510	OWTQ	B1SYS_FisDocStatus	Fiscal Document Status Code	Y	
+511	OWTQ	B1SYS_ImportProc	Type of Import process	Y	
+512	OWTQ	B1SYS_MeterCode	Meter Code	Y	
+513	OWTQ	B1SYS_ParticipantC	Participant / Third Party Code	Y	
+514	OWTQ	B1SYS_RevIndC510	Type of Revenue Indicator C510	Y	
+515	OWTQ	B1SYS_RevIndD510	Type of Revenue Indicator D510	Y	
+516	OWTQ	B1SYS_RevIndD600	Type of Revenue Indicator D600	Y	
+517	OWTQ	B1SYS_StateOfTP	StateOf Third Party	Y	
+518	OWTQ	B1SYS_SubscrCode	Type of Subscriber Code	Y	
+519	OWTQ	B1SYS_TaxID12	BP Code For SPED	Y	
+520	OWTQ	B1SYS_TensGrpCode	Tension Group Code	Y	
+521	OWTQ	BoeSavedByService	Boleto salvo em disco	Y	
+522	OWTQ	BoeServiceStatus	Situação do Boleto	Y	
+523	OWTQ	BoeStatus	Situação do Boe	Y	
+524	OWTQ	BoletoGeradoServ	Boleto Gerado pelo Serviço	Y	
+525	OWTQ	ChaveAcesso	Chave de acesso	Y	
+526	OWTQ	ChaveAutenticacao	Chave de Autenticacao	Y	
+527	OWTQ	DanfePrintedByServ	Danfe Impresso	Y	
+528	OWTQ	DanfeServiceStatus	Situação do Danfe	Y	
+529	OWTQ	FinCfop	Finalidade NF-e (1949 e 2949)	Y	
+530	OWTQ	GenerateBoeByServ	Geração Automatica de Boleto	Y	
+531	OWTQ	IB_NumeroFaturaDDA	Nº da Fatura	Y	
+532	OWTQ	ICL_Status	iClass - Status	Y	
+533	OWTQ	IV_IB_CentroDeCusto1	Centro de Custo 1	Y	
+534	OWTQ	IV_IB_CentroDeCusto2	Centro de Custo 2	Y	
+535	OWTQ	IV_IB_CentroDeCusto3	Centro de Custo 3	Y	
+536	OWTQ	IV_IB_CentroDeCusto4	Centro de Custo 4	Y	
+537	OWTQ	IV_IB_CentroDeCusto5	Centro de Custo 5	Y	
+538	OWTQ	IdentificadorFgts	Identificador do FGTS	Y	
+539	OWTQ	LOC1_CallID	Chamado LOC1	Y	
+540	OWTQ	LOC1_InnerText	Texto Interno LOC1	Y	
+541	OWTQ	LOC1_Origin	Origem LOC1	Y	
+542	OWTQ	MM_AjustePV	AjustePV	Y	
+543	OWTQ	MM_Alimentacao	Alimentação	Y	
+544	OWTQ	MM_Comissao	Comissões sobre vendas	Y	
+545	OWTQ	MM_Comprador	Comprador	Y	
+546	OWTQ	MM_Deslocamento	Deslocamento	Y	
+547	OWTQ	MM_Despesa_Fixa	Despesa Fixa	Y	
+548	OWTQ	MM_EMPRESA	Empresa	Y	
+549	OWTQ	MM_Equipamento	Equipamento (Locação)	Y	
+550	OWTQ	MM_FORMALIZACAO	Formalização?	Y	
+551	OWTQ	MM_Faturamento	Liberar Faturamento?	Y	
+552	OWTQ	MM_Frete	Frete	Y	
+553	OWTQ	MM_Hospedagem	Hospedagem	Y	
+554	OWTQ	MM_ITEMALTERNATIVO	Itens alternativos?	Y	
+555	OWTQ	MM_MO_DIRETA	MO Direta	Y	
+556	OWTQ	MM_MO_INDIRETA	MO Indireta	Y	
+557	OWTQ	MM_Margem	Margem	Y	
+558	OWTQ	MM_Material	Material	Y	
+559	OWTQ	MM_NumDoc	Nº Solicitação de Compras	Y	
+560	OWTQ	MM_NumNFSe	Nº NFSe	Y	
+561	OWTQ	MM_NumeroNF	Nº NF	Y	
+562	OWTQ	MM_OBS_INTERNO	Observações Interna	Y	
+563	OWTQ	MM_OS	Ordem de Serviço	Y	
+564	OWTQ	MM_PDB	Passagem de Bastão?	Y	
+565	OWTQ	MM_Passagem_Bastao	Passagem de Bastão	Y	
+566	OWTQ	MM_Pedagio	Pedágios	Y	
+567	OWTQ	MM_REQ	Tipo de Requisição	Y	
+568	OWTQ	MM_Separar	Realizar Expedição?	Y	
+569	OWTQ	MM_Servicos	Serviços	Y	
+570	OWTQ	MM_StatusSolic	Etapa do Processo	Y	
+571	OWTQ	MM_TemSolCompra	Tem Solicitação de Compras?	Y	
+572	OWTQ	MM_Tipo	Tipo do Pedido de Venda	Y	
+573	OWTQ	MM_TipoProjeto	Tipo de Projeto	Y	
+574	OWTQ	MM_URGENCIA	Nível de Urgência	Y	
+575	OWTQ	MM_Venda	Venda?	Y	
+576	OWTQ	NossoNumero	Nosso Número de Origem	Y	
+577	OWTQ	NrImpressaoNfe	Nº Impressão NFE/NFSe	Y	
+578	OWTQ	NrTentaGerarBoleto	Nr.Tent.Geração do Boleto	Y	
+579	OWTQ	NumSeqRepas	Sequencial do Repasse	Y	
+580	OWTQ	NumSeqRepasse	Sequencial do Repasse	Y	
+581	OWTQ	ProblemType	iClassOne - Tipo de OS	Y	
+582	OWTQ	SituacaoDocumento	Situação Documento	Y	
+583	OWTQ	TX_AliqIssNtCtrl	Informar Alíquota ISS Municipios NotaControl	Y	
+584	OWTQ	TX_BensIntermediario	Bens Intermediários	Y	
+585	OWTQ	TX_CEPEvento	CEP numérico do endereço nacional do Evento	Y	
+586	OWTQ	TX_CEPImovel	CEP numérico do endereço nacional do Imóvel	Y	
+587	OWTQ	TX_CEPObra	CEP da Obra	Y	
+588	OWTQ	TX_CFOP	Código Fiscal de Operações e Prestações (retTransp) - CFOP	Y	
+589	OWTQ	TX_CancelId	Motivo do Cancelamento	Y	
+590	OWTQ	TX_ChaveCTeSubstituido	Chave de Acesso CTe Substituído	Y	
+591	OWTQ	TX_ClCons	Classe de Consumo	Y	
+592	OWTQ	TX_CodArt	Código ART	Y	
+593	OWTQ	TX_CodCei	Código CEI	Y	
+594	OWTQ	TX_CodNatRend	Código Da Natureza Do Rendimento	Y	
+595	OWTQ	TX_CodObra	Código da Obra	Y	
+596	OWTQ	TX_CodRespICMSST	Cód. Resp. ICMS ST	Y	
+597	OWTQ	TX_CodSeNfts	Código Serviço NFTS	Y	
+598	OWTQ	TX_CondPagamento	Condição de Pagamento	Y	
+599	OWTQ	TX_DataMIT	Data MIT	Y	
+600	OWTQ	TX_DctfCardCode	Parceiro de Origem	Y	
+601	OWTQ	TX_DctfNDcomp	Número Dcomp	Y	
+602	OWTQ	TX_DctfReceita	Código da Receita	Y	
+603	OWTQ	TX_DctffPed	Forma Pedido Dctf	Y	
+604	OWTQ	TX_DebitoSCPINC	Débito de SCP/INC	Y	
+605	OWTQ	TX_DescEmail	Descrição E-mail Customizado	Y	
+606	OWTQ	TX_DescLinhaDeveDeduzirBc	Descontar base de cálculo se tem desconto na linha	Y	
+607	OWTQ	TX_DesctNfFut	Destacar IPI na NF Futura?	Y	
+608	OWTQ	TX_DestOp	Destino da Operação	Y	
+609	OWTQ	TX_DiscSeNfts	Discriminação dos Serviços NFTS	Y	
+610	OWTQ	TX_DocEntryRef	Doc Ref	Y	
+611	OWTQ	TX_DocTypeRef	Tipo.Doc Ref	Y	
+612	OWTQ	TX_DtComp	Data de Competência	Y	
+613	OWTQ	TX_DtSaid	Data de Saída	Y	
+614	OWTQ	TX_EndPres	End. de Prestação	Y	
+615	OWTQ	TX_EnvAuto	Não enviar automáticamente	Y	
+616	OWTQ	TX_EventoNoExterior	Evento no Exterior	Y	
+617	OWTQ	TX_ExigibIss	Exigibilidade do ISSQN	Y	
+618	OWTQ	TX_HoraSaid	Horário de Saída	Y	
+619	OWTQ	TX_IEEntrega	I.E End. Entrega (SAP)	Y	
+620	OWTQ	TX_INTR_SIS_OR	Sistema de Origem	Y	
+621	OWTQ	TX_ImovelNoExterior	Imóvel no Exterior	Y	
+622	OWTQ	TX_ImpDmed	Importar Dmed	Y	
+623	OWTQ	TX_IndExiNfe	Exigibilidade do ISS (NF-e)	Y	
+624	OWTQ	TX_IndIncentivo	Indicador de incentivo Fiscal (NF-e)	Y	
+625	OWTQ	TX_IndInter	Indicador de Intermediador	Y	
+626	OWTQ	TX_IndIssTrib	Indicador de incidência do ISS	Y	
+627	OWTQ	TX_IndNatFrete	Indicador da Natureza do Frete	Y	
+628	OWTQ	TX_IndPres	Tipo de Presença de Usuário	Y	
+629	OWTQ	TX_InfAliqIssDoc	Informar Alíquota ISS Nacional	Y	
+630	OWTQ	TX_InstPgtoNfse	Instruções de Pagamento NFS-e	Y	
+631	OWTQ	TX_IsDeCon	Desconto Condicionado	Y	
+632	OWTQ	TX_Just	Justificativa NF-e/NFC-e	Y	
+633	OWTQ	TX_ModoPrest	Modo de Prestação	Y	
+634	OWTQ	TX_MotivNRet	Motivo de não retenção	Y	
+635	OWTQ	TX_MunIncidNfse	Município Incidência NFSe	Y	
+636	OWTQ	TX_NDfe	Número Fiscal Eletrônico	Y	
+637	OWTQ	TX_NatOp	Natureza Operação NFe	Y	
+638	OWTQ	TX_NoSU	Nº dos volumes transportados	Y	
+639	OWTQ	TX_NrEncapsNfse	Número Encapsulamento NFS-e	Y	
+640	OWTQ	TX_NumDocArrecadacao	Documento de Arrecadação	Y	
+641	OWTQ	TX_NumProc	Número do Processo	Y	
+642	OWTQ	TX_ObraNoExterior	Obra no Exterior	Y	
+643	OWTQ	TX_Ordem	Ordem de Produção	Y	
+644	OWTQ	TX_Origem	Origem do Apontamento	Y	
+645	OWTQ	TX_OrigemIbge	OrigemIbge	Y	
+646	OWTQ	TX_PDV_NF_21_22_Gerado	PDF Nota Modelo 21-22 Gerado	Y	
+647	OWTQ	TX_Participacao	Índice de Participação	Y	
+648	OWTQ	TX_ProdGnre	Produto da GNRE	Y	
+649	OWTQ	TX_QueryPrint	Query NFSe	Y	
+650	OWTQ	TX_RF_IAquis	Ind.Aquis-REINF	Y	
+651	OWTQ	TX_RF_ICom	Ind.Com-REINF	Y	
+652	OWTQ	TX_RF_Insc_Rural	Nro Inscrição Rural - REINF	Y	
+653	OWTQ	TX_RF_Serv	Tipo Serv-REINF	Y	
+654	OWTQ	TX_RF_TObr	Tipo Obra-REINF	Y	
+655	OWTQ	TX_RF_TRep	Tipo Repasse-REINF	Y	
+656	OWTQ	TX_RegEspTrib	Regime especial de tributação	Y	
+657	OWTQ	TX_RegEspecialTributacao	Código de identificação do Regime Especial de Tributação	Y	
+658	OWTQ	TX_RespRetNfse	Responsável pela Retenção NFSe	Y	
+659	OWTQ	TX_RetOrgaoPublico	Retenção Órgão Público	Y	
+660	OWTQ	TX_ServicoPrestadoViasPublicas	Serviço Prestado em Vias Públicas	Y	
+661	OWTQ	TX_SetEndNfce	Inf. End. Destinatário NFC-e	Y	
+662	OWTQ	TX_SetIdFisNfce	Inf. Ident. Destinatário NFC-e	Y	
+663	OWTQ	TX_SigiloRef	Sigilo da NF-e Referência?	Y	
+664	OWTQ	TX_Situacao_DES_Vitoria	Sit. Fiscal DES-Vitória	Y	
+665	OWTQ	TX_TagCTe	CT-e	Y	
+666	OWTQ	TX_TipoCliente	Tipo de Cliente	Y	
+667	OWTQ	TX_TipoNeg	Tipo de Negócio	Y	
+668	OWTQ	TX_TipoUtilizacao	Tipo de Utilização	Y	
+669	OWTQ	TX_ToReplace	Nota Fiscal de Substituição	Y	
+670	OWTQ	TX_TpDocArrecada	Tipo de Documento de Arrecadação	Y	
+671	OWTQ	TX_TpPrazoExp	Prazo para Exportação Indireta	Y	
+672	OWTQ	TX_Ttrib	Natureza da Operação NFSe	Y	
+673	OWTQ	TX_UFSaidaPais	UF Exportação	Y	
+674	OWTQ	TX_VlrIssNtCtrl	Informar Valor ISS Municipios NotaControl	Y	
+675	OWTQ	TX_cCIBImovel	Cadastro Imobiliário Brasileiro do Imóvel	Y	
+676	OWTQ	TX_cCIBObra	Cadastro Imobiliário Brasileiro da Obra	Y	
+677	OWTQ	TX_cEndPostEvento	CEP endereço do Evento no exterior	Y	
+678	OWTQ	TX_cEndPostImovel	CEP endereço no exterior do Imóvel	Y	
+679	OWTQ	TX_cEndPostObra	CEP endereço no exterior da Obra	Y	
+680	OWTQ	TX_cIndOp	Ind. Operação NFSe	Y	
+681	OWTQ	TX_cMunFG	Código do município de ocorrência (retTransp)	Y	
+682	OWTQ	TX_cObra	Número de identificação da Obra	Y	
+683	OWTQ	TX_cTribMun	Código de Tributação Municipal	Y	
+684	OWTQ	TX_dPreEntrega	Data da previsão de entraga	Y	
+685	OWTQ	TX_dtFim	Data de Término do Evento	Y	
+686	OWTQ	TX_dtIni	Data de Início do Evento	Y	
+687	OWTQ	TX_finNFCom	Finalidade NFCom	Y	
+688	OWTQ	TX_finNFe	Finalidade de Emissão da NF-e	Y	
+689	OWTQ	TX_idAtvEvt	Identificação da Atividade de Evento	Y	
+690	OWTQ	TX_idLocalIncidencia	ID do Local da Incidência IBS/CBS	Y	
+691	OWTQ	TX_indPag	Ind. Forma de Pagamento	Y	
+692	OWTQ	TX_indProc	Ind. Origem do Processo	Y	
+693	OWTQ	TX_inscImobFiscImovel	Inscrição imobiliária fiscal do Imóvel	Y	
+694	OWTQ	TX_inscImobFiscObra	Inscrição imobiliária fiscal da Obra	Y	
+695	OWTQ	TX_mdPrestacao	Modo de Prestação	Y	
+696	OWTQ	TX_mdic	Indicador se a NFS-e deverá ser disponibilizada ao MDIC	Y	
+697	OWTQ	TX_mecAFComexP	Mecanismo de apoio/fomento ao Comex do prestador	Y	
+698	OWTQ	TX_mecAFComexT	Mecanismo de apoio / fomento ao Comex do tomador	Y	
+699	OWTQ	TX_movTempBens	Vínculo da Operação à Movimentação Temporária de Bens	Y	
+700	OWTQ	TX_nDI	Número da Declaração de Importação (DI/DSI/DA/DRI-E) averbado	Y	
+701	OWTQ	TX_nProc	Ind. Processo ou Ato Concessório	Y	
+702	OWTQ	TX_nRE	Número do Registro de Exportação (RE) averbado	Y	
+703	OWTQ	TX_nroEvento	Número no logradouro do endereço da atividade de evento	Y	
+704	OWTQ	TX_nroImovel	Número no logradouro do endereço do Imóvel	Y	
+705	OWTQ	TX_nroObra	Número no logradouro do endereço da Obra	Y	
+706	OWTQ	TX_pICMSRet	Alíquota da Retenção (retTransp)	Y	
+707	OWTQ	TX_refDFeAnt	Chave de acesso do DFe anterior (compra governamental)	Y	
+708	OWTQ	TX_tpAto	Tipo do Ato Concessório	Y	
+709	OWTQ	TX_tpFat	Tipo de Faturamento	Y	
+710	OWTQ	TX_tpImunidade	Tipo de Imunidade ISSQN	Y	
+711	OWTQ	TX_tpMoeda	Identificação da moeda da transação comercial	Y	
+712	OWTQ	TX_tpMovProd	Tipo de Movimento do Produto	Y	
+713	OWTQ	TX_tpNFCredito	Tipo de Nota de Crédito (5)	Y	
+714	OWTQ	TX_tpNFDebito	Tipo de Nota de Débito (6)	Y	
+715	OWTQ	TX_tpOper	Tipo Op. Gov. e Bens Imóveis	Y	
+716	OWTQ	TX_tpOperGov	Tipo de operação com o ente governamental	Y	
+717	OWTQ	TX_tpSusp	Opção para Exigibilidade Suspensa	Y	
+718	OWTQ	TX_vBCRet	BC da Retenção do ICMS (retTransp)	Y	
+719	OWTQ	TX_vServ	Valor do Serviço (retTransp)	Y	
+720	OWTQ	TX_vServMoeda	Valor do serviço estrangeiro	Y	
+721	OWTQ	TX_vincPrest	Vínculo entre as partes no negócio	Y	
+722	OWTQ	TX_xBairroEvento	Bairro do endereço da atividade de evento	Y	
+723	OWTQ	TX_xBairroImovel	Bairro do endereço do Imóvel	Y	
+724	OWTQ	TX_xBairroObra	Bairro do endereço da Obra	Y	
+725	OWTQ	TX_xCidadeEvento	Nome da cidade no exterior, local da atividade de evento	Y	
+726	OWTQ	TX_xCidadeImovel	Nome da cidade no exterior do Imóvel	Y	
+727	OWTQ	TX_xCidadeObra	Nome da cidade no exterior da Obra	Y	
+728	OWTQ	TX_xCplEvento	Complemento do endereço da atividade de evento	Y	
+729	OWTQ	TX_xCplImovel	Complemento do endereço do Imóvel	Y	
+730	OWTQ	TX_xCplObra	Complemento do endereço da Obra	Y	
+731	OWTQ	TX_xEstProvRegEvento	Estado, província ou região da cidade do Evento no exterior	Y	
+732	OWTQ	TX_xEstProvRegImovel	Estado, província ou região da cidade no exterior do Imóvel	Y	
+733	OWTQ	TX_xEstProvRegObra	Estado, província ou região da cidade no exterior da Obra	Y	
+734	OWTQ	TX_xLgrEvento	Tipo e nome do logradouro do endereço da atividade de evento	Y	
+735	OWTQ	TX_xLgrImovel	Tipo e nome do logradouro do endereço do Imóvel	Y	
+736	OWTQ	TX_xLgrObra	Tipo e nome do logradouro do endereço da Obra	Y	
+737	OWTQ	TX_xLocDespacho	Local Despacho	Y	
+738	OWTQ	TX_xLocExporta	Local Exportação	Y	
+739	OWTQ	TX_xNomeEvento	Nome do Evento	Y	
+740	OWTQ	WB_RouteNumber	Número da Rota	Y	
+741	OWTQ	XmlServiceStatus	Situação do Xml	Y	
+742	OWTQ	sistel_formalizacao_interna	Formalização interna?	Y	
+743	OWTQ	sistel_imposto	Imposto	Y	
+744	OWTQ	sistel_statusdopedido	Status do pedido	Y	
+745	OWTR	AGL_CHV_CTE	Chave de acesso do CT-e	Y	
+746	OWTR	B1SYS_BPRecCPF	CPF Code of BP Receiving Company	Y	
+747	OWTR	B1SYS_BPRecIBGE	IBGE Code of BP Receiving Company	Y	
+748	OWTR	B1SYS_BPRecIE	IE Number of BP Receiving Company	Y	
+749	OWTR	B1SYS_BPSenCPF	CPF of BP Sending Company	Y	
+750	OWTR	B1SYS_BPSenIBGE	IBGE Code of BP Sending Company	Y	
+751	OWTR	B1SYS_BPSenIE	IE Number BP Sending Company	Y	
+752	OWTR	B1SYS_BpRecCNPJ	CNJP of BP Receiving Company	Y	
+753	OWTR	B1SYS_BpSenCNPJ	CNJP of BP Sending Company	Y	
+754	OWTR	B1SYS_CNPJFromC	CNPJ From Contract	Y	
+755	OWTR	B1SYS_CargoTranTyp	Cargo Transport Type	Y	
+756	OWTR	B1SYS_ConnTypeCode	Type of Connection Code	Y	
+757	OWTR	B1SYS_EnergConsCls	Energy Class Consumption Code	Y	
+758	OWTR	B1SYS_FisDocStatus	Fiscal Document Status Code	Y	
+759	OWTR	B1SYS_ImportProc	Type of Import process	Y	
+760	OWTR	B1SYS_MeterCode	Meter Code	Y	
+761	OWTR	B1SYS_ParticipantC	Participant / Third Party Code	Y	
+762	OWTR	B1SYS_RevIndC510	Type of Revenue Indicator C510	Y	
+763	OWTR	B1SYS_RevIndD510	Type of Revenue Indicator D510	Y	
+764	OWTR	B1SYS_RevIndD600	Type of Revenue Indicator D600	Y	
+765	OWTR	B1SYS_StateOfTP	StateOf Third Party	Y	
+766	OWTR	B1SYS_SubscrCode	Type of Subscriber Code	Y	
+767	OWTR	B1SYS_TaxID12	BP Code For SPED	Y	
+768	OWTR	B1SYS_TensGrpCode	Tension Group Code	Y	
+769	OWTR	BoeSavedByService	Boleto salvo em disco	Y	
+770	OWTR	BoeServiceStatus	Situação do Boleto	Y	
+771	OWTR	BoeStatus	Situação do Boe	Y	
+772	OWTR	BoletoGeradoServ	Boleto Gerado pelo Serviço	Y	
+773	OWTR	ChaveAcesso	Chave de acesso	Y	
+774	OWTR	ChaveAutenticacao	Chave de Autenticacao	Y	
+775	OWTR	DanfePrintedByServ	Danfe Impresso	Y	
+776	OWTR	DanfeServiceStatus	Situação do Danfe	Y	
+777	OWTR	FinCfop	Finalidade NF-e (1949 e 2949)	Y	
+778	OWTR	GenerateBoeByServ	Geração Automatica de Boleto	Y	
+779	OWTR	IB_NumeroFaturaDDA	Nº da Fatura	Y	
+780	OWTR	ICL_Status	iClass - Status	Y	
+781	OWTR	IV_IB_CentroDeCusto1	Centro de Custo 1	Y	
+782	OWTR	IV_IB_CentroDeCusto2	Centro de Custo 2	Y	
+783	OWTR	IV_IB_CentroDeCusto3	Centro de Custo 3	Y	
+784	OWTR	IV_IB_CentroDeCusto4	Centro de Custo 4	Y	
+785	OWTR	IV_IB_CentroDeCusto5	Centro de Custo 5	Y	
+786	OWTR	IdentificadorFgts	Identificador do FGTS	Y	
+787	OWTR	LOC1_CallID	Chamado LOC1	Y	
+788	OWTR	LOC1_InnerText	Texto Interno LOC1	Y	
+789	OWTR	LOC1_Origin	Origem LOC1	Y	
+790	OWTR	MM_AjustePV	AjustePV	Y	
+791	OWTR	MM_Alimentacao	Alimentação	Y	
+792	OWTR	MM_Comissao	Comissões sobre vendas	Y	
+793	OWTR	MM_Comprador	Comprador	Y	
+794	OWTR	MM_Deslocamento	Deslocamento	Y	
+795	OWTR	MM_Despesa_Fixa	Despesa Fixa	Y	
+796	OWTR	MM_EMPRESA	Empresa	Y	
+797	OWTR	MM_Equipamento	Equipamento (Locação)	Y	
+798	OWTR	MM_FORMALIZACAO	Formalização?	Y	
+799	OWTR	MM_Faturamento	Liberar Faturamento?	Y	
+800	OWTR	MM_Frete	Frete	Y	
+801	OWTR	MM_Hospedagem	Hospedagem	Y	
+802	OWTR	MM_ITEMALTERNATIVO	Itens alternativos?	Y	
+803	OWTR	MM_MO_DIRETA	MO Direta	Y	
+804	OWTR	MM_MO_INDIRETA	MO Indireta	Y	
+805	OWTR	MM_Margem	Margem	Y	
+806	OWTR	MM_Material	Material	Y	
+807	OWTR	MM_NumDoc	Nº Solicitação de Compras	Y	
+808	OWTR	MM_NumNFSe	Nº NFSe	Y	
+809	OWTR	MM_NumeroNF	Nº NF	Y	
+810	OWTR	MM_OBS_INTERNO	Observações Interna	Y	
+811	OWTR	MM_OS	Ordem de Serviço	Y	
+812	OWTR	MM_PDB	Passagem de Bastão?	Y	
+813	OWTR	MM_Passagem_Bastao	Passagem de Bastão	Y	
+814	OWTR	MM_Pedagio	Pedágios	Y	
+815	OWTR	MM_REQ	Tipo de Requisição	Y	
+816	OWTR	MM_Separar	Realizar Expedição?	Y	
+817	OWTR	MM_Servicos	Serviços	Y	
+818	OWTR	MM_StatusSolic	Etapa do Processo	Y	
+819	OWTR	MM_TemSolCompra	Tem Solicitação de Compras?	Y	
+820	OWTR	MM_Tipo	Tipo do Pedido de Venda	Y	
+821	OWTR	MM_TipoProjeto	Tipo de Projeto	Y	
+822	OWTR	MM_URGENCIA	Nível de Urgência	Y	
+823	OWTR	MM_Venda	Venda?	Y	
+824	OWTR	NossoNumero	Nosso Número de Origem	Y	
+825	OWTR	NrImpressaoNfe	Nº Impressão NFE/NFSe	Y	
+826	OWTR	NrTentaGerarBoleto	Nr.Tent.Geração do Boleto	Y	
+827	OWTR	NumSeqRepas	Sequencial do Repasse	Y	
+828	OWTR	NumSeqRepasse	Sequencial do Repasse	Y	
+829	OWTR	ProblemType	iClassOne - Tipo de OS	Y	
+830	OWTR	SituacaoDocumento	Situação Documento	Y	
+831	OWTR	TX_AliqIssNtCtrl	Informar Alíquota ISS Municipios NotaControl	Y	
+832	OWTR	TX_BensIntermediario	Bens Intermediários	Y	
+833	OWTR	TX_CEPEvento	CEP numérico do endereço nacional do Evento	Y	
+834	OWTR	TX_CEPImovel	CEP numérico do endereço nacional do Imóvel	Y	
+835	OWTR	TX_CEPObra	CEP da Obra	Y	
+836	OWTR	TX_CFOP	Código Fiscal de Operações e Prestações (retTransp) - CFOP	Y	
+837	OWTR	TX_CancelId	Motivo do Cancelamento	Y	
+838	OWTR	TX_ChaveCTeSubstituido	Chave de Acesso CTe Substituído	Y	
+839	OWTR	TX_ClCons	Classe de Consumo	Y	
+840	OWTR	TX_CodArt	Código ART	Y	
+841	OWTR	TX_CodCei	Código CEI	Y	
+842	OWTR	TX_CodNatRend	Código Da Natureza Do Rendimento	Y	
+843	OWTR	TX_CodObra	Código da Obra	Y	
+844	OWTR	TX_CodRespICMSST	Cód. Resp. ICMS ST	Y	
+845	OWTR	TX_CodSeNfts	Código Serviço NFTS	Y	
+846	OWTR	TX_CondPagamento	Condição de Pagamento	Y	
+847	OWTR	TX_DataMIT	Data MIT	Y	
+848	OWTR	TX_DctfCardCode	Parceiro de Origem	Y	
+849	OWTR	TX_DctfNDcomp	Número Dcomp	Y	
+850	OWTR	TX_DctfReceita	Código da Receita	Y	
+851	OWTR	TX_DctffPed	Forma Pedido Dctf	Y	
+852	OWTR	TX_DebitoSCPINC	Débito de SCP/INC	Y	
+853	OWTR	TX_DescEmail	Descrição E-mail Customizado	Y	
+854	OWTR	TX_DescLinhaDeveDeduzirBc	Descontar base de cálculo se tem desconto na linha	Y	
+855	OWTR	TX_DesctNfFut	Destacar IPI na NF Futura?	Y	
+856	OWTR	TX_DestOp	Destino da Operação	Y	
+857	OWTR	TX_DiscSeNfts	Discriminação dos Serviços NFTS	Y	
+858	OWTR	TX_DocEntryRef	Doc Ref	Y	
+859	OWTR	TX_DocTypeRef	Tipo.Doc Ref	Y	
+860	OWTR	TX_DtComp	Data de Competência	Y	
+861	OWTR	TX_DtSaid	Data de Saída	Y	
+862	OWTR	TX_EndPres	End. de Prestação	Y	
+863	OWTR	TX_EnvAuto	Não enviar automáticamente	Y	
+864	OWTR	TX_EventoNoExterior	Evento no Exterior	Y	
+865	OWTR	TX_ExigibIss	Exigibilidade do ISSQN	Y	
+866	OWTR	TX_HoraSaid	Horário de Saída	Y	
+867	OWTR	TX_IEEntrega	I.E End. Entrega (SAP)	Y	
+868	OWTR	TX_INTR_SIS_OR	Sistema de Origem	Y	
+869	OWTR	TX_ImovelNoExterior	Imóvel no Exterior	Y	
+870	OWTR	TX_ImpDmed	Importar Dmed	Y	
+871	OWTR	TX_IndExiNfe	Exigibilidade do ISS (NF-e)	Y	
+872	OWTR	TX_IndIncentivo	Indicador de incentivo Fiscal (NF-e)	Y	
+873	OWTR	TX_IndInter	Indicador de Intermediador	Y	
+874	OWTR	TX_IndIssTrib	Indicador de incidência do ISS	Y	
+875	OWTR	TX_IndNatFrete	Indicador da Natureza do Frete	Y	
+876	OWTR	TX_IndPres	Tipo de Presença de Usuário	Y	
+877	OWTR	TX_InfAliqIssDoc	Informar Alíquota ISS Nacional	Y	
+878	OWTR	TX_InstPgtoNfse	Instruções de Pagamento NFS-e	Y	
+879	OWTR	TX_IsDeCon	Desconto Condicionado	Y	
+880	OWTR	TX_Just	Justificativa NF-e/NFC-e	Y	
+881	OWTR	TX_ModoPrest	Modo de Prestação	Y	
+882	OWTR	TX_MotivNRet	Motivo de não retenção	Y	
+883	OWTR	TX_MunIncidNfse	Município Incidência NFSe	Y	
+884	OWTR	TX_NDfe	Número Fiscal Eletrônico	Y	
+885	OWTR	TX_NatOp	Natureza Operação NFe	Y	
+886	OWTR	TX_NoSU	Nº dos volumes transportados	Y	
+887	OWTR	TX_NrEncapsNfse	Número Encapsulamento NFS-e	Y	
+888	OWTR	TX_NumDocArrecadacao	Documento de Arrecadação	Y	
+889	OWTR	TX_NumProc	Número do Processo	Y	
+890	OWTR	TX_ObraNoExterior	Obra no Exterior	Y	
+891	OWTR	TX_Ordem	Ordem de Produção	Y	
+892	OWTR	TX_Origem	Origem do Apontamento	Y	
+893	OWTR	TX_OrigemIbge	OrigemIbge	Y	
+894	OWTR	TX_PDV_NF_21_22_Gerado	PDF Nota Modelo 21-22 Gerado	Y	
+895	OWTR	TX_Participacao	Índice de Participação	Y	
+896	OWTR	TX_ProdGnre	Produto da GNRE	Y	
+897	OWTR	TX_QueryPrint	Query NFSe	Y	
+898	OWTR	TX_RF_IAquis	Ind.Aquis-REINF	Y	
+899	OWTR	TX_RF_ICom	Ind.Com-REINF	Y	
+900	OWTR	TX_RF_Insc_Rural	Nro Inscrição Rural - REINF	Y	
+901	OWTR	TX_RF_Serv	Tipo Serv-REINF	Y	
+902	OWTR	TX_RF_TObr	Tipo Obra-REINF	Y	
+903	OWTR	TX_RF_TRep	Tipo Repasse-REINF	Y	
+904	OWTR	TX_RegEspTrib	Regime especial de tributação	Y	
+905	OWTR	TX_RegEspecialTributacao	Código de identificação do Regime Especial de Tributação	Y	
+906	OWTR	TX_RespRetNfse	Responsável pela Retenção NFSe	Y	
+907	OWTR	TX_RetOrgaoPublico	Retenção Órgão Público	Y	
+908	OWTR	TX_ServicoPrestadoViasPublicas	Serviço Prestado em Vias Públicas	Y	
+909	OWTR	TX_SetEndNfce	Inf. End. Destinatário NFC-e	Y	
+910	OWTR	TX_SetIdFisNfce	Inf. Ident. Destinatário NFC-e	Y	
+911	OWTR	TX_SigiloRef	Sigilo da NF-e Referência?	Y	
+912	OWTR	TX_Situacao_DES_Vitoria	Sit. Fiscal DES-Vitória	Y	
+913	OWTR	TX_TagCTe	CT-e	Y	
+914	OWTR	TX_TipoCliente	Tipo de Cliente	Y	
+915	OWTR	TX_TipoNeg	Tipo de Negócio	Y	
+916	OWTR	TX_TipoUtilizacao	Tipo de Utilização	Y	
+917	OWTR	TX_ToReplace	Nota Fiscal de Substituição	Y	
+918	OWTR	TX_TpDocArrecada	Tipo de Documento de Arrecadação	Y	
+919	OWTR	TX_TpPrazoExp	Prazo para Exportação Indireta	Y	
+920	OWTR	TX_Ttrib	Natureza da Operação NFSe	Y	
+921	OWTR	TX_UFSaidaPais	UF Exportação	Y	
+922	OWTR	TX_VlrIssNtCtrl	Informar Valor ISS Municipios NotaControl	Y	
+923	OWTR	TX_cCIBImovel	Cadastro Imobiliário Brasileiro do Imóvel	Y	
+924	OWTR	TX_cCIBObra	Cadastro Imobiliário Brasileiro da Obra	Y	
+925	OWTR	TX_cEndPostEvento	CEP endereço do Evento no exterior	Y	
+926	OWTR	TX_cEndPostImovel	CEP endereço no exterior do Imóvel	Y	
+927	OWTR	TX_cEndPostObra	CEP endereço no exterior da Obra	Y	
+928	OWTR	TX_cIndOp	Ind. Operação NFSe	Y	
+929	OWTR	TX_cMunFG	Código do município de ocorrência (retTransp)	Y	
+930	OWTR	TX_cObra	Número de identificação da Obra	Y	
+931	OWTR	TX_cTribMun	Código de Tributação Municipal	Y	
+932	OWTR	TX_dPreEntrega	Data da previsão de entraga	Y	
+933	OWTR	TX_dtFim	Data de Término do Evento	Y	
+934	OWTR	TX_dtIni	Data de Início do Evento	Y	
+935	OWTR	TX_finNFCom	Finalidade NFCom	Y	
+936	OWTR	TX_finNFe	Finalidade de Emissão da NF-e	Y	
+937	OWTR	TX_idAtvEvt	Identificação da Atividade de Evento	Y	
+938	OWTR	TX_idLocalIncidencia	ID do Local da Incidência IBS/CBS	Y	
+939	OWTR	TX_indPag	Ind. Forma de Pagamento	Y	
+940	OWTR	TX_indProc	Ind. Origem do Processo	Y	
+941	OWTR	TX_inscImobFiscImovel	Inscrição imobiliária fiscal do Imóvel	Y	
+942	OWTR	TX_inscImobFiscObra	Inscrição imobiliária fiscal da Obra	Y	
+943	OWTR	TX_mdPrestacao	Modo de Prestação	Y	
+944	OWTR	TX_mdic	Indicador se a NFS-e deverá ser disponibilizada ao MDIC	Y	
+945	OWTR	TX_mecAFComexP	Mecanismo de apoio/fomento ao Comex do prestador	Y	
+946	OWTR	TX_mecAFComexT	Mecanismo de apoio / fomento ao Comex do tomador	Y	
+947	OWTR	TX_movTempBens	Vínculo da Operação à Movimentação Temporária de Bens	Y	
+948	OWTR	TX_nDI	Número da Declaração de Importação (DI/DSI/DA/DRI-E) averbado	Y	
+949	OWTR	TX_nProc	Ind. Processo ou Ato Concessório	Y	
+950	OWTR	TX_nRE	Número do Registro de Exportação (RE) averbado	Y	
+951	OWTR	TX_nroEvento	Número no logradouro do endereço da atividade de evento	Y	
+952	OWTR	TX_nroImovel	Número no logradouro do endereço do Imóvel	Y	
+953	OWTR	TX_nroObra	Número no logradouro do endereço da Obra	Y	
+954	OWTR	TX_pICMSRet	Alíquota da Retenção (retTransp)	Y	
+955	OWTR	TX_refDFeAnt	Chave de acesso do DFe anterior (compra governamental)	Y	
+956	OWTR	TX_tpAto	Tipo do Ato Concessório	Y	
+957	OWTR	TX_tpFat	Tipo de Faturamento	Y	
+958	OWTR	TX_tpImunidade	Tipo de Imunidade ISSQN	Y	
+959	OWTR	TX_tpMoeda	Identificação da moeda da transação comercial	Y	
+960	OWTR	TX_tpMovProd	Tipo de Movimento do Produto	Y	
+961	OWTR	TX_tpNFCredito	Tipo de Nota de Crédito (5)	Y	
+962	OWTR	TX_tpNFDebito	Tipo de Nota de Débito (6)	Y	
+963	OWTR	TX_tpOper	Tipo Op. Gov. e Bens Imóveis	Y	
+964	OWTR	TX_tpOperGov	Tipo de operação com o ente governamental	Y	
+965	OWTR	TX_tpSusp	Opção para Exigibilidade Suspensa	Y	
+966	OWTR	TX_vBCRet	BC da Retenção do ICMS (retTransp)	Y	
+967	OWTR	TX_vServ	Valor do Serviço (retTransp)	Y	
+968	OWTR	TX_vServMoeda	Valor do serviço estrangeiro	Y	
+969	OWTR	TX_vincPrest	Vínculo entre as partes no negócio	Y	
+970	OWTR	TX_xBairroEvento	Bairro do endereço da atividade de evento	Y	
+971	OWTR	TX_xBairroImovel	Bairro do endereço do Imóvel	Y	
+972	OWTR	TX_xBairroObra	Bairro do endereço da Obra	Y	
+973	OWTR	TX_xCidadeEvento	Nome da cidade no exterior, local da atividade de evento	Y	
+974	OWTR	TX_xCidadeImovel	Nome da cidade no exterior do Imóvel	Y	
+975	OWTR	TX_xCidadeObra	Nome da cidade no exterior da Obra	Y	
+976	OWTR	TX_xCplEvento	Complemento do endereço da atividade de evento	Y	
+977	OWTR	TX_xCplImovel	Complemento do endereço do Imóvel	Y	
+978	OWTR	TX_xCplObra	Complemento do endereço da Obra	Y	
+979	OWTR	TX_xEstProvRegEvento	Estado, província ou região da cidade do Evento no exterior	Y	
+980	OWTR	TX_xEstProvRegImovel	Estado, província ou região da cidade no exterior do Imóvel	Y	
+981	OWTR	TX_xEstProvRegObra	Estado, província ou região da cidade no exterior da Obra	Y	
+982	OWTR	TX_xLgrEvento	Tipo e nome do logradouro do endereço da atividade de evento	Y	
+983	OWTR	TX_xLgrImovel	Tipo e nome do logradouro do endereço do Imóvel	Y	
+984	OWTR	TX_xLgrObra	Tipo e nome do logradouro do endereço da Obra	Y	
+985	OWTR	TX_xLocDespacho	Local Despacho	Y	
+986	OWTR	TX_xLocExporta	Local Exportação	Y	
+987	OWTR	TX_xNomeEvento	Nome do Evento	Y	
+988	OWTR	WB_RouteNumber	Número da Rota	Y	
+989	OWTR	XmlServiceStatus	Situação do Xml	Y	
+990	OWTR	sistel_formalizacao_interna	Formalização interna?	Y	
+991	OWTR	sistel_imposto	Imposto	Y	
+992	OWTR	sistel_statusdopedido	Status do pedido	Y	

@@ -1,0 +1,242 @@
+SELECT
+
+    /* =========================================================
+       IDENTIFICACAO
+    ========================================================= */
+
+    T0."ContractID"                         AS "Numero Contrato",
+    T0."CstmrCode"                          AS "Codigo PN",
+    T0."CstmrName"                          AS "Nome Parceiro",
+
+    /* =========================================================
+       VIGENCIA
+    ========================================================= */
+
+    T0."StartDate"                          AS "Data Inicio",
+    T0."EndDate"                            AS "Data Termino",
+
+    DAYS_BETWEEN(
+        CURRENT_DATE,
+        T0."EndDate"
+    )                                       AS "Dias Restantes",
+
+    CASE
+        WHEN DAYS_BETWEEN(CURRENT_DATE, T0."EndDate") <= 0
+        THEN 'Vencido'
+        WHEN DAYS_BETWEEN(CURRENT_DATE, T0."EndDate") <= 30
+        THEN 'Vence em 30 dias'
+        WHEN DAYS_BETWEEN(CURRENT_DATE, T0."EndDate") <= 60
+        THEN 'Vence em 60 dias'
+        ELSE 'Ativo'
+    END                                     AS "Situacao",
+
+    /* =========================================================
+       FINANCEIRO
+    ========================================================= */
+
+    ROUND(
+        (T2."LineTotal" / NULLIF(T2."Quantity", 0)),
+        2
+    )                                       AS "Valor Mensal Contrato",
+
+    T2."Quantity"                           AS "Quantidade Parcelas",
+
+    ROUND(T2."LineTotal", 2)                AS "Valor Total Contrato",
+
+    /* =========================================================
+       PREVISAO ATE FINAL DO ANO
+    ========================================================= */
+
+    ROUND(
+        CASE
+            WHEN T0."EndDate" < CURRENT_DATE
+                THEN 0
+            WHEN T2."Quantity" = 1
+                THEN T2."LineTotal"
+            ELSE
+                (T2."LineTotal" / NULLIF(T2."Quantity", 0))
+                *
+                CASE
+                    WHEN YEAR(T0."EndDate") = YEAR(CURRENT_DATE)
+                    THEN
+                        CASE
+                            WHEN (MONTH(T0."EndDate") - MONTH(CURRENT_DATE)) <= 0
+                            THEN 1
+                            ELSE (MONTH(T0."EndDate") - MONTH(CURRENT_DATE))
+                        END
+                    ELSE (12 - MONTH(CURRENT_DATE))
+                END
+        END
+    , 2)                                    AS "Previsto Ate Final Ano",
+
+    /* =========================================================
+       COMERCIAL
+    ========================================================= */
+
+    T1."DocNum"                             AS "Pedido Venda",
+    T1."Project"                            AS "Numero Projeto",
+    T5."PrjName"                            AS "Tipo Projeto",
+    T3."SlpName"                            AS "Vendedor",
+    T4."BPLName"                            AS "Filial",
+    T2."OcrCode"                            AS "Departamento",
+
+    /* =========================================================
+       ITEM / OPERACIONAL
+    ========================================================= */
+
+    T2."Dscription"                         AS "Descricao Item",
+
+    CASE
+        WHEN T0."U_MM_Tipo_Contrato" = 0 THEN 'Ampliado'
+        WHEN T0."U_MM_Tipo_Contrato" = 1 THEN 'Essencial'
+        WHEN T0."U_MM_Tipo_Contrato" = 2 THEN 'Service'
+        ELSE 'Nao Definido'
+    END                                     AS "Tipo Contrato",
+
+    CASE
+        WHEN T0."U_MM_Tipo_Contratacao" = 0 THEN 'Manutencao'
+        WHEN T0."U_MM_Tipo_Contratacao" = 1 THEN 'Locacao'
+        WHEN T0."U_MM_Tipo_Contratacao" = 2 THEN 'Abastecimento'
+        ELSE 'Nao Definido'
+    END                                     AS "Tipo Contratacao",
+
+    CASE
+        WHEN T0."U_MM_Tipo_Ativo" = 0 THEN 'Ativo Proprio'
+        WHEN T0."U_MM_Tipo_Ativo" = 1 THEN 'Ativo Terceiro'
+        ELSE 'Nao Definido'
+    END                                     AS "Tipo Ativo",
+
+    CASE
+        WHEN T0."U_MM_Modelo_Contrato" = 0 THEN 'Publico'
+        WHEN T0."U_MM_Modelo_Contrato" = 1 THEN 'Privado'
+        ELSE 'Nao Definido'
+    END                                     AS "Publico Privado",
+
+    CASE
+        WHEN T0."U_MM_Preve_Material" = 0 THEN 'Previsto'
+        WHEN T0."U_MM_Preve_Material" = 1 THEN 'Nao Previsto'
+        ELSE 'Nao Definido'
+    END                                     AS "Fornecimento Material",
+
+    CASE
+        WHEN T0."U_MM_Periodicidade" = 0 THEN 'Mensal'
+        WHEN T0."U_MM_Periodicidade" = 1 THEN 'Bimestral'
+        WHEN T0."U_MM_Periodicidade" = 2 THEN 'Trimestral'
+        WHEN T0."U_MM_Periodicidade" = 3 THEN 'Semestral'
+        WHEN T0."U_MM_Periodicidade" = 4 THEN 'Anual'
+        ELSE 'Nao Definido'
+    END                                     AS "Periodicidade Preventiva",
+
+    CASE
+        WHEN T0."U_MM_Checklist" = 0 THEN 'Semanal'
+        WHEN T0."U_MM_Checklist" = 1 THEN 'Quinzenal'
+        WHEN T0."U_MM_Checklist" = 2 THEN 'Mensal'
+        WHEN T0."U_MM_Checklist" = 3 THEN 'Bimestral'
+        WHEN T0."U_MM_Checklist" = 4 THEN 'Trimestral'
+        WHEN T0."U_MM_Checklist" = 5 THEN 'Semestral'
+        WHEN T0."U_MM_Checklist" = 6 THEN 'Anual'
+        WHEN T0."U_MM_Checklist" = 7 THEN 'Sem Checklist'
+        ELSE 'Nao Definido'
+    END                                     AS "Checklist Visitas",
+
+    T0."U_MM_Area_Rota"                     AS "Area Rota",
+    T0."U_MM_Macro_Regiao"                  AS "Macro Regiao",
+
+    CASE
+        WHEN T0."U_MM_Logsis" = 0 THEN 'Nao'
+        WHEN T0."U_MM_Logsis" = 1 THEN 'Sim'
+        ELSE 'Nao Definido'
+    END                                     AS "Monitoramento LOGSIS",
+
+    CASE
+        WHEN T0."U_MM_Integracao" = 0 THEN 'Nao Definido'
+        WHEN T0."U_MM_Integracao" = 1 THEN 'Sim'
+        WHEN T0."U_MM_Integracao" = 2 THEN 'Nao'
+        ELSE 'Nao Definido'
+    END                                     AS "Integracao Tecnico",
+
+    /* =========================================================
+       PASSAGEM DE BASTAO
+    ========================================================= */
+
+    CASE
+        WHEN T1."U_MM_PDB" = '0' THEN 'Nao'
+        WHEN T1."U_MM_PDB" = '1' THEN 'Sim'
+        ELSE 'Nao Definido'
+    END                                     AS "Passagem Bastao",
+
+    CASE
+        WHEN T1."U_MM_Passagem_Bastao" = '0' THEN 'PCP'
+        WHEN T1."U_MM_Passagem_Bastao" = '1' THEN 'PCM'
+        WHEN T1."U_MM_Passagem_Bastao" = '2' THEN 'Locacao'
+        WHEN T1."U_MM_Passagem_Bastao" = '3' THEN 'Engenharia'
+        ELSE 'Nao Definido'
+    END                                     AS "Passagem Bastao 2"
+
+FROM OCTR T0
+
+/* =========================================================
+   ULTIMO PEDIDO DE VENDA VINCULADO AO CONTRATO
+========================================================= */
+
+LEFT JOIN "@LOC1_DOC" TL
+    ON TL."U_ContractID" = T0."ContractID"
+    AND TL."U_DocTypeNum" = 17
+    AND TO_INTEGER(TL."U_DocEntry") = (
+        SELECT MAX(TO_INTEGER(X."U_DocEntry"))
+        FROM "@LOC1_DOC" X
+        WHERE X."U_ContractID" = T0."ContractID"
+          AND X."U_DocTypeNum" = 17
+    )
+
+/* =========================================================
+   PEDIDO DE VENDA
+========================================================= */
+
+LEFT JOIN ORDR T1
+    ON T1."DocEntry" = TO_INTEGER(TL."U_DocEntry")
+
+/* =========================================================
+   LINHA PEDIDO
+========================================================= */
+
+LEFT JOIN RDR1 T2
+    ON T1."DocEntry" = T2."DocEntry"
+    AND T2."LineNum" = 0
+
+/* =========================================================
+   VENDEDOR
+========================================================= */
+
+LEFT JOIN OSLP T3
+    ON T1."SlpCode" = T3."SlpCode"
+
+/* =========================================================
+   FILIAL
+========================================================= */
+
+LEFT JOIN OBPL T4
+    ON T1."BPLId" = T4."BPLId"
+
+/* =========================================================
+   PROJETO
+========================================================= */
+
+LEFT JOIN OPRJ T5
+    ON T1."Project" = T5."PrjCode"
+
+/* =========================================================
+   FILTRO DINAMICO
+========================================================= */
+
+WHERE
+    T0."Status" = 'A'
+    AND T2."OcrCode" = '[%0]'
+
+/* =========================================================
+   ORDENACAO
+========================================================= */
+
+ORDER BY
+    T0."EndDate" ASC,
+    T0."ContractID" ASC

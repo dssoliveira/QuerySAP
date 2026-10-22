@@ -1,0 +1,2 @@
+SUM(CASE WHEN MONTH(NF."DocDate") = 1 THEN NF."NfeValue" ELSE 0 END)
++ IFNULL(ENT."Jan", 0) AS "Jan"

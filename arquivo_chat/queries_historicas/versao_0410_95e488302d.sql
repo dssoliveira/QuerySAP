@@ -1,0 +1,1 @@
+UNION ALL SELECT 'Scania DC13 072A', 'Placa limpeza', 1, '2153365' FROM DUMMY

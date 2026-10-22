@@ -1,0 +1,199 @@
+WITH FATU AS (
+    SELECT
+        T1."BaseEntry",
+        T1."OcrCode",
+        T1."LineTotal"      AS "Total Faturado",
+        T0."Serial"         AS "Numero NF",
+        T0."DocDate"        AS "Data Lancamento",
+        T0."DocTotal"       AS "Valor Total NF",
+        T0."VatSum"         AS "Imposto",
+        T0."WTSum"          AS "Imposto Retido",
+        T1."Commission"     AS "Comissao NF"
+    FROM OINV T0
+    INNER JOIN INV1 T1
+        ON T0."DocEntry" = T1."DocEntry"
+    WHERE
+        COALESCE(T1."OcrCode", '') <> ''
+         AND T0."CANCELED" = 'N'
+),
+FATU_AGG AS (
+    SELECT
+        "BaseEntry",
+        "OcrCode",
+        STRING_AGG("Numero NF", ', ' ORDER BY "Numero NF") AS "Numero NFs",
+        SUM("Total Faturado") AS "Total Faturado",
+        SUM("Imposto") AS "Imposto",
+        SUM("Imposto Retido") AS "Imposto Retido",
+        SUM("Comissao NF") AS "Comissao NF"
+    FROM FATU
+    GROUP BY
+        "BaseEntry",
+        "OcrCode"
+),
+PED AS (
+    SELECT
+        T0."DocEntry",
+        T0."DocNum",
+        T0."DocDate",
+        T0."CardCode",
+        T0."CardName",
+        T0."SlpCode",
+        T0."DocTotal",
+        T0."U_MM_Tipo", 
+        T0."U_MM_Comissao",
+        T0."U_MM_Margem",
+        T0."U_MM_Material",
+        T0."U_MM_MO_DIRETA",
+        T0."U_MM_MO_INDIRETA",
+        T0."U_MM_Alimentacao",
+        T0."U_MM_Hospedagem",
+        T0."U_MM_Equipamento",
+        T0."U_MM_Deslocamento",
+        T0."U_MM_Frete",
+        T0."U_MM_Servicos",
+        T0."U_MM_Pedagio",
+        T0."U_MM_Despesa_Fixa",
+        T0."BPLId",
+        T1."OcrCode",
+        MAX(CAST(T1."U_LOC1_Details" AS NVARCHAR(4000))) AS "Detalhes do LOC1",
+        MAX(T1."ItemCode") AS "Codigo Item",
+        MAX(T1."Dscription") AS "Descricao Item",
+        SUM(T1."Quantity") AS "Qtd Pedido",
+        AVG(T1."Price") AS "Preco"
+    FROM ORDR T0
+    INNER JOIN RDR1 T1
+        ON T0."DocEntry" = T1."DocEntry"
+    WHERE T0."CANCELED" = 'N'
+    AND T1."ItemCode" <> 'SV000045'
+    GROUP BY
+        T0."DocEntry",
+        T0."DocNum",
+        T0."DocDate",
+        T0."CardCode",
+        T0."CardName",
+        T0."SlpCode",
+        T0."DocTotal",
+        T0."U_MM_Tipo",  
+        T0."U_MM_Comissao",
+        T0."U_MM_Margem",
+        T0."U_MM_Material",
+        T0."U_MM_MO_DIRETA",
+        T0."U_MM_MO_INDIRETA",
+        T0."U_MM_Alimentacao",
+        T0."U_MM_Hospedagem",
+        T0."U_MM_Equipamento",
+        T0."U_MM_Deslocamento",
+        T0."U_MM_Frete",
+        T0."U_MM_Servicos",
+        T0."U_MM_Pedagio",
+        T0."U_MM_Despesa_Fixa",
+        T0."BPLId",
+        T1."OcrCode"
+)
+SELECT
+    CASE
+        WHEN T4."BPLName" = 'SISTEL COMERCIO E SERVIÇOS ELETRO-ELETRONICOS LTDA'
+            THEN 'SISTEL COMERCIO'
+        WHEN T4."BPLName" = 'SISTEL ENGENHARIA LTDA'
+            THEN 'SISTEL ENGENHARIA'
+        ELSE T4."BPLName"
+    END AS "Empresa",
+
+    T0."DocNum" AS "Pedido",
+    T0."DocDate" AS "Data Pedido",
+    CASE
+        WHEN T0."U_MM_Tipo" = '0' THEN 'Nao Definido'
+        WHEN T0."U_MM_Tipo" = '2' THEN 'Aditivo'
+        WHEN T0."U_MM_Tipo" = '3' THEN 'Pre-Contrato'
+        WHEN T0."U_MM_Tipo" = '4' THEN 'Gerado por OS (Pre-Consumo)'
+        WHEN T0."U_MM_Tipo" = '5' THEN 'Venda (Avulsa)'
+        WHEN T0."U_MM_Tipo" = '6' THEN 'Faturamento LOC1'
+        WHEN T0."U_MM_Tipo" = '7' THEN 'Ajuste Interno'
+        WHEN T0."U_MM_Tipo" = '8' THEN 'Duplicado'
+
+    ELSE 'Nao Definido'
+    END AS "Tipo Pedido",
+    T6."ContractID" AS "Numero Contrato",
+    T0."CardCode" AS "Cod PN",
+    T0."CardName" AS "Nome PN",
+    T0."OcrCode" AS "Centro Custo",
+    T0."Codigo Item",
+    T0."Detalhes do LOC1",
+    T0."Descricao Item",
+    T0."Qtd Pedido",
+    T2."SlpName" AS "Vendedor",
+    T0."DocTotal" AS "Valor total do pedido",
+    T0."U_MM_Comissao" AS "Comissao Pedido (UDF)",
+    T3."Numero NFs" AS "Numero NF",
+    T3."Total Faturado",
+    (T0."DocTotal" - COALESCE(T3."Total Faturado", 0)) AS "Total a Faturar",
+    T3."Imposto",
+    T3."Imposto Retido",
+    T3."Comissao NF",
+
+    (
+        COALESCE(T0."U_MM_Material", 0) +
+        COALESCE(T0."U_MM_MO_DIRETA", 0) +
+        COALESCE(T0."U_MM_MO_INDIRETA", 0) +
+        COALESCE(T0."U_MM_Alimentacao", 0) +
+        COALESCE(T0."U_MM_Hospedagem", 0) +
+        COALESCE(T0."U_MM_Equipamento", 0) +
+        COALESCE(T0."U_MM_Deslocamento", 0) +
+        COALESCE(T0."U_MM_Frete", 0) +
+        COALESCE(T0."U_MM_Servicos", 0) +
+        COALESCE(T0."U_MM_Pedagio", 0) +
+        COALESCE(T0."U_MM_Comissao", 0) +
+        COALESCE(T0."U_MM_Despesa_Fixa", 0)
+    ) AS "Custo Total",
+
+    T0."U_MM_Material" AS "Material",
+    T0."U_MM_MO_DIRETA" AS "MO Direta",
+    T0."U_MM_MO_INDIRETA" AS "MO Indireta",
+    T0."U_MM_Alimentacao" AS "Alimentacao",
+    T0."U_MM_Hospedagem" AS "Hospedagem",
+    T0."U_MM_Equipamento" AS "Equipamento",
+    T0."U_MM_Deslocamento" AS "Deslocamento",
+    T0."U_MM_Frete" AS "Frete",
+    T0."U_MM_Servicos" AS "Servicos",
+    T0."U_MM_Pedagio" AS "Pedagio",
+    T0."U_MM_Comissao" AS "Comissao Vendedor",
+    T0."U_MM_Despesa_Fixa" AS "Despesa Fixa",
+    T0."U_MM_Margem" AS "Margem Pedido",
+    (
+        T3."Total Faturado" -
+        T3."Imposto" -
+        T3."Imposto Retido" -
+        T0."U_MM_Despesa_Fixa"
+    ) AS "Lucro Liquido",
+    NDIV0(
+        (
+            T3."Total Faturado" -
+            T3."Imposto" -
+            T3."Imposto Retido" -
+            T0."U_MM_Despesa_Fixa"
+        ) * 100,
+        T3."Total Faturado"
+    ) AS "Margem % Faturado",
+    CASE
+        WHEN T3."Numero NFs" IS NULL THEN 'NAO FATURADO'
+        ELSE 'FATURADO'
+    END AS "Status Faturamento"
+
+FROM PED T0
+INNER JOIN OSLP T2
+    ON T0."SlpCode" = T2."SlpCode"
+INNER JOIN OBPL T4
+    ON T0."BPLId" = T4."BPLId"
+LEFT JOIN "@LOC1_DOC" TL
+    ON TL."U_DocEntry" = CAST(T0."DocEntry" AS NVARCHAR)
+   AND TL."U_DocTypeNum" = 17
+LEFT JOIN OCTR T6
+    ON T6."ContractID" = TL."U_ContractID"
+LEFT JOIN FATU_AGG T3
+    ON T0."DocEntry" = T3."BaseEntry"
+   AND T0."OcrCode" = T3."OcrCode"
+   WHERE IFNULL(T0."U_MM_Tipo", '') not in ('2','3','4')
+ORDER BY
+    T0."DocDate",
+    T0."DocNum",
+    T0."OcrCode"

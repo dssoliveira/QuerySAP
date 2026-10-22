@@ -1,0 +1,10 @@
+FROM OPOR T0
+
+INNER JOIN POR1 T1
+    ON T1."DocEntry" = T0."DocEntry"
+
+LEFT JOIN OBPL BPL
+    ON BPL."BPLId" = T0."BPLId"
+
+LEFT JOIN OPRJ PJ_LIN
+    ON PJ_LIN."PrjCode" = T1."Project"

@@ -1,0 +1,413 @@
+#	Num_Interno_NF	Num_Documento_SAP	Numero_Nota_Fiscal	Data_Emissao	Cod_Cliente	Nome_Cliente	Pedido_Venda	Tipo_Pedido	Departamento	Utilizacao	Valor_NFe_ML	Status_Vinculo_Pedido		
+8	4614	2768	14611	29/07/2026	C0001174	UNIMED DE BAURU COOPERATIVA DE TRABALHO MEDICO	6654	Venda (Avulsa)	EXE_ELET	S Venda Entr. Futura	497.667,65	OK: NF vinculada ao Pedido de Venda	Y	
+9	4615	2769	14612	29/07/2026	C0001174	UNIMED DE BAURU COOPERATIVA DE TRABALHO MEDICO	6654	Venda (Avulsa)	EXE_ELET	S Venda Entr. Futura	497.667,65	OK: NF vinculada ao Pedido de Venda	Y	
+10	4616	2770	14613	29/07/2026	C0001174	UNIMED DE BAURU COOPERATIVA DE TRABALHO MEDICO	6654	Venda (Avulsa)	EXE_ELET	S Venda Entr. Futura	497.667,65	OK: NF vinculada ao Pedido de Venda	Y	
+11	4617	2771	18843	29/07/2026	C0000292	PRODUTOS ALIMENTICIOS CEFER LTDA	4077	Venda (Avulsa)	EXE_ELET	S P.S. Manut.Corret.	15.783,54	OK: NF vinculada ao Pedido de Venda	Y	
+26	4557	2739	18831	28/07/2026	C0003718	POLIFRIGOR INDUSTRIA E COMERCIO DE ALIMENTOS LTDA -	3741	Venda (Avulsa)	EXE_ELET	S P.S. Manut.Corret.	15.525,69	OK: NF vinculada ao Pedido de Venda	Y	
+36	4582	2753	14608	28/07/2026	C0005487	IVAN FRANCISCO RUIZ TORRES	4795	Venda (Avulsa)	EXE_ELET	S Venda Entr. Futura	8.811,66	OK: NF vinculada ao Pedido de Venda	Y	
+38	4499	2704	18820	27/07/2026	C0001547	SAO PAULO TRIBUNAL DE JUSTICA	636	Venda (Avulsa)	EXE_ELET	S P.S. Manut.PrevISO	23.218,53	OK: NF vinculada ao Pedido de Venda	Y	
+39	4501	2705	18821	27/07/2026	C0002854	ASSOCIACAO LAR SAO FRANCISCO DE ASSIS NA PROVIDENCIA DE DEUS	4929	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	18.000,00	OK: NF vinculada ao Pedido de Venda	Y	
+67	4479	2694	18812	24/07/2026	C0000711	EBARA BOMBAS AMERICA DO SUL LTDA	7225	Venda (Avulsa)	EXE_ELET	S P.S. Manut.Corret.	5.024,90	OK: NF vinculada ao Pedido de Venda	Y	
+69	4481	2696	18814	24/07/2026	C0000292	PRODUTOS ALIMENTICIOS CEFER LTDA	4894	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	3.458,20	OK: NF vinculada ao Pedido de Venda	Y	
+73	4489	2700	18816	24/07/2026	C0001039	UNIMED DE ARACATUBA - COOPERATIVA DE TRABALHO MEDICO	6398	Venda (Avulsa)	EXE_ELET	S P.S. Manut.Corret.	4.085,22	OK: NF vinculada ao Pedido de Venda	Y	
+74	4492	2701	18817	24/07/2026	C0000693	BATERIAS CRAL LTDA	6592	Venda (Avulsa)	EXE_ELET	S P.S. Assist.Tecnic	3.043,55	OK: NF vinculada ao Pedido de Venda	Y	
+78	4430	2664	18798	23/07/2026	C0001006	UNIMED DE BOTUCATU COOPERATIVA DE TRABALHO MEDICO	7240	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	1.320,03	OK: NF vinculada ao Pedido de Venda	Y	
+80	4434	2667	18800	23/07/2026	C0001739	UNIMED DE BOTUCATU COOPERATIVA DE TRABALHO MEDICO	7241	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	2.300,68	OK: NF vinculada ao Pedido de Venda	Y	
+82	4437	2669	18802	23/07/2026	C0005642	ENGEPER ENGENHARIA E PERFURACOES LTDA	3889	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	784,00	OK: NF vinculada ao Pedido de Venda	Y	
+89	4447	2676	18803	23/07/2026	C0000612	DORI ALIMENTOS S.A.	6350	Venda (Avulsa)	EXE_ELET	S P.S. Laudo	6.453,31	OK: NF vinculada ao Pedido de Venda	Y	
+104	4411	2654	14559	22/07/2026	C0005487	IVAN FRANCISCO RUIZ TORRES	4880	Venda (Avulsa)	EXE_ELET	S Venda Entr. Futura	2.291,00	OK: NF vinculada ao Pedido de Venda	Y	
+106	4420	2659	18795	22/07/2026	C0000292	PRODUTOS ALIMENTICIOS CEFER LTDA	6596	Venda (Avulsa)	EXE_ELET	S P.S. Laudo	200,00	OK: NF vinculada ao Pedido de Venda	Y	
+107	4424	2661	14571	22/07/2026	C0002069	RIO PARANA ENERGIA S A		Sem Pedido de Venda	EXE_ELET	S Venda Produção	12.377,50	Validar: NF sem vinculo com Pedido de Venda	Y	
+111	4357	2618	7235	21/07/2026	C0000608	UNIVERSIDADE DE SAO PAULO	3246	Venda (Avulsa)	EXE_ELET	S P.S. Manut.PrevCon	10.247,92	OK: NF vinculada ao Pedido de Venda	Y	
+112	4364	2620	18785	21/07/2026	C0002069	RIO PARANA ENERGIA S.A.	1214	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	44.519,28	OK: NF vinculada ao Pedido de Venda	Y	
+117	4373	2628	18789	21/07/2026	C0005073	CONDOMINIO EDIFICIO RESIDENCIAL CARIBE	865	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	8.536,28	OK: NF vinculada ao Pedido de Venda	Y	
+127	4391	2642	18792	21/07/2026	C0000047	CENTRO EMPRESARIAL GETULIO VARGAS	5515	Venda (Avulsa)	EXE_ELET	S P.S. Manut.PrevISO	5.541,01	OK: NF vinculada ao Pedido de Venda	Y	
+131	4293	2582	7230	20/07/2026	C0002716	MUNICIPIO DE MIRASSOL	808	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	18.439,36	OK: NF vinculada ao Pedido de Venda	Y	
+140	4317	2596	7232	20/07/2026	C0000608	UNIVERSIDADE DE SAO PAULO	941	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	13.200,00	OK: NF vinculada ao Pedido de Venda	Y	
+141	4324	2600	14536	20/07/2026	C0005487	IVAN FRANCISCO RUIZ TORRES	2990	Venda (Avulsa)	EXE_ELET	S Venda Entr. Futura	184.500,00	OK: NF vinculada ao Pedido de Venda	Y	
+145	4334	2607	7233	20/07/2026	C0001789	MUNICIPIO DE JAHU	988	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	32.000,00	OK: NF vinculada ao Pedido de Venda	Y	
+146	4335	2608	18782	20/07/2026	C0005856	RAIZEN ENERGIA S.A	7207	Duplicado	EXE_ELET	S P.S. Laudo	23.895,86	OK: NF vinculada ao Pedido de Venda	Y	
+147	4338	2609	18783	20/07/2026	C0001143	PASCHOALOTTO SERVICOS FINANCEIROS S/A	4921	Venda (Avulsa)	EXE_ELET	S P.S. Assist.Tecnic	2.217,42	OK: NF vinculada ao Pedido de Venda	Y	
+148	4340	2611	14539	20/07/2026	C0002069	RIO PARANA ENERGIA S.A.	1214	Venda (Avulsa)	EXE_ELET	S Venda Produção	12.377,50	OK: NF vinculada ao Pedido de Venda	Y	
+149	4342	2613	14540	20/07/2026	C0002069	RIO PARANA ENERGIA S.A.		Sem Pedido de Venda	EXE_ELET	S Venda Produção	12.377,50	Validar: NF sem vinculo com Pedido de Venda	Y	
+152	4267	2569	18773	17/07/2026	C0002071	JBS S/A	6477	Venda (Avulsa)	EXE_ELET	S P.S. Laudo	27.635,14	OK: NF vinculada ao Pedido de Venda	Y	
+154	4270	2571	18774	17/07/2026	C0000612	DORI ALIMENTOS S.A.	6494	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	89.692,50	OK: NF vinculada ao Pedido de Venda	Y	
+155	4271	2572	18775	17/07/2026	C0000573	INSTITUTO DAS APOSTOLAS DO SAGRADO CORACAO DE JESUS	5873	Venda (Avulsa)	EXE_ELET	S P.S. Manut.Corret.	11.319,20	OK: NF vinculada ao Pedido de Venda	Y	
+163	4261	2566	18772	16/07/2026	C0001380	EMPRESA DE TRANSPORTES RODOJACTO LTDA	4496	Venda (Avulsa)	EXE_ELET	S P.S. Laudo	24.908,48	OK: NF vinculada ao Pedido de Venda	Y	
+170	4183	2518	18739	15/07/2026	C0000469	ACCO BRANDS BRASIL LTDA.	6886	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	839,59	OK: NF vinculada ao Pedido de Venda	Y	
+201	4225	2551	18769	15/07/2026	C0004852	HENDRIX GENETICS LTDA	1815	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	7.950,32	OK: NF vinculada ao Pedido de Venda	Y	
+206	4134	2487	18732	14/07/2026	C0000910	PLASUTIL-INDUSTRIA E COMERCIO DE PLASTICOS LTDA	1036	Venda (Avulsa)	EXE_ELET	S P.S. Manut.Corret.	35.123,92	OK: NF vinculada ao Pedido de Venda	Y	
+207	4136	2488	18733	14/07/2026	C0001143	PASCHOALOTTO SERVICOS FINANCEIROS S/A	6977	Venda (Avulsa)	EXE_ELET	S P.S. Pojeto Eletr.	6.361,01	OK: NF vinculada ao Pedido de Venda	Y	
+212	4143	2494	18734	14/07/2026	C0005646	JOAO CARLOS CASTELLO	3954	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	587,71	OK: NF vinculada ao Pedido de Venda	Y	
+221	4118	2478	18728	13/07/2026	C0002523	POLIFRIGOR INDUSTRIA E COMERCIO DE ALIMENTOS LTDA -	1106	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	8.483,39	OK: NF vinculada ao Pedido de Venda	Y	
+222	4120	2479	14499	13/07/2026	C0002523	POLIFRIGOR INDUSTRIA E COMERCIO DE ALIMENTOS LTDA -	1106	Venda (Avulsa)	EXE_ELET	S Revenda	42.651,70	OK: NF vinculada ao Pedido de Venda	Y	
+227	4128	2486	7226	13/07/2026	C0000473	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	6904	Faturamento LOC1	EXE_ELET	S P.S. Manut.Corret.	3.123,75	OK: NF vinculada ao Pedido de Venda	Y	
+229	4074	2441	18706	10/07/2026	C0000007	SISTEL ENGENHARIA LTDA	6797	Faturamento LOC1	EXE_ELET	S P.S. Assist.Tecnic	1.061,37	OK: NF vinculada ao Pedido de Venda	Y	
+230	4075	2442	18707	10/07/2026	C0000007	SISTEL ENGENHARIA LTDA	6798	Faturamento LOC1	EXE_ELET	S P.S. Assist.Tecnic	1.061,37	OK: NF vinculada ao Pedido de Venda	Y	
+231	4076	2443	18708	10/07/2026	C0000007	SISTEL ENGENHARIA LTDA	6799	Faturamento LOC1	EXE_ELET	S P.S. Assist.Tecnic	1.061,37	OK: NF vinculada ao Pedido de Venda	Y	
+232	4077	2444	7220	10/07/2026	C0000473	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	6802	Faturamento LOC1	EXE_ELET	S P.S. Manut.Corret.	3.123,75	OK: NF vinculada ao Pedido de Venda	Y	
+233	4078	2445	7221	10/07/2026	C0000473	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	6803	Faturamento LOC1	EXE_ELET	S P.S. Manut.Corret.	3.123,75	OK: NF vinculada ao Pedido de Venda	Y	
+234	4079	2446	7222	10/07/2026	C0000473	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	6804	Faturamento LOC1	EXE_ELET	S P.S. Manut.Corret.	3.123,75	OK: NF vinculada ao Pedido de Venda	Y	
+251	4098	2463	18721	10/07/2026	C0000098	HOTEL BAURU	6823	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	393,23	OK: NF vinculada ao Pedido de Venda	Y	
+252	4099	2464	18722	10/07/2026	C0000098	HOTEL BAURU	6824	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	393,23	OK: NF vinculada ao Pedido de Venda	Y	
+253	4101	2466	18724	10/07/2026	C0000098	HOTEL BAURU	6116	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	393,23	OK: NF vinculada ao Pedido de Venda	Y	
+262	4052	2429	18701	08/07/2026	C0000022	VERTICO BAURU EMPREENDIMENTOS IMOBILIARIOS LTDA.	5895	Venda (Avulsa)	EXE_ELET	S P.S. Laudo	7.185,91	OK: NF vinculada ao Pedido de Venda	Y	
+264	4058	2431	18703	08/07/2026	C0000116	CONDOMINIO RESIDENCIAL NOVA NACAO AMERICA	4495	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	8.532,58	OK: NF vinculada ao Pedido de Venda	Y	
+270	4069	2439	18705	08/07/2026	C0000022	VERTICO BAURU EMPREENDIMENTOS IMOBILIARIOS LTDA.	5540	Venda (Avulsa)	EXE_ELET	S P.S. Laudo	3.738,25	OK: NF vinculada ao Pedido de Venda	Y	
+271	3957	2366	18654	07/07/2026	C0005687	OUTBACK STEAKHOUSE RESTAURANTES BRASIL S.A.	6589	Venda (Avulsa)	EXE_ELET	S P.S. Assist.Tecnic	6.542,57	OK: NF vinculada ao Pedido de Venda	Y	
+279	3968	2375	18659	07/07/2026	C0000022	VERTICO BAURU EMPREENDIMENTOS IMOBILIARIOS LTDA.	6456	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	1.637,50	OK: NF vinculada ao Pedido de Venda	Y	
+321	3895	2329	7206	06/07/2026	C0001547	SAO PAULO TRIBUNAL DE JUSTICA	6538	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	993,49	OK: NF vinculada ao Pedido de Venda	Y	
+322	3896	2330	7207	06/07/2026	C0001547	SAO PAULO TRIBUNAL DE JUSTICA	6539	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	993,49	OK: NF vinculada ao Pedido de Venda	Y	
+323	3897	2331	7208	06/07/2026	C0001547	SAO PAULO TRIBUNAL DE JUSTICA	6540	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	563,91	OK: NF vinculada ao Pedido de Venda	Y	
+324	3898	2332	7209	06/07/2026	C0001547	SAO PAULO TRIBUNAL DE JUSTICA	6541	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	993,49	OK: NF vinculada ao Pedido de Venda	Y	
+325	3899	2333	7210	06/07/2026	C0001547	SAO PAULO TRIBUNAL DE JUSTICA	6542	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	993,49	OK: NF vinculada ao Pedido de Venda	Y	
+326	3900	2334	7211	06/07/2026	C0001547	SAO PAULO TRIBUNAL DE JUSTICA	6545	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	993,49	OK: NF vinculada ao Pedido de Venda	Y	
+327	3905	2337	7212	06/07/2026	C0001547	SAO PAULO TRIBUNAL DE JUSTICA	6537	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	993,49	OK: NF vinculada ao Pedido de Venda	Y	
+328	3906	2338	7213	06/07/2026	C0001547	SAO PAULO TRIBUNAL DE JUSTICA	6543	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	993,49	OK: NF vinculada ao Pedido de Venda	Y	
+329	3907	2339	7214	06/07/2026	C0001547	SAO PAULO TRIBUNAL DE JUSTICA	6544	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	993,49	OK: NF vinculada ao Pedido de Venda	Y	
+354	3949	2364	18653	06/07/2026	C0005476	CONCILIG TELEMARKETING E COBRANCA LTDA.	6304	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	2.323,77	OK: NF vinculada ao Pedido de Venda	Y	
+355	3952	2365	7216	06/07/2026	C0000500	FUNDACAO PARA O DESENVOLVIMENTO MEDICO E HOSPITALAR	5783	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	1.896,30	OK: NF vinculada ao Pedido de Venda	Y	
+369	3872	2323	18645	03/07/2026	C0001620	RIO PARANAPANEMA ENERGIA S.A.	6627	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	52.352,03	OK: NF vinculada ao Pedido de Venda	Y	
+372	3888	2328	18647	03/07/2026	C0002989	PRAIA NORTE EMPREENDIMENTOS E PARTICIPACOES G. LTDA	1039	Venda (Avulsa)	EXE_ELET	S P.S. Assist.Tecnic	4.890,00	OK: NF vinculada ao Pedido de Venda	Y	
+374	3798	2281	18630	02/07/2026	C0000292	PRODUTOS ALIMENTICIOS CEFER LTDA	4924	Venda (Avulsa)	EXE_ELET	S P.S. Inst.Eletrica	25.379,86	OK: NF vinculada ao Pedido de Venda	Y	
+391	3828	2298	18638	02/07/2026	C0000200	FRIJOB INDUSTRIA DE ALIMENTOS LTDA	6441	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	6.666,66	OK: NF vinculada ao Pedido de Venda	Y	
+398	3750	2253	2339	01/07/2026	C0000608	UNIVERSIDADE DE SAO PAULO	4830	Venda (Avulsa)	EXE_ELET	S Revenda - ST	831,52	OK: NF vinculada ao Pedido de Venda	Y	
+404	3766	2266	2343	01/07/2026	C0001507	EMPRESA BRASILEIRA DE CORREIOS E TELEGRAFOS	2659	Venda (Avulsa)	EXE_ELET	S Revenda	17.890,00	OK: NF vinculada ao Pedido de Venda	Y	
+405	3777	2272	7197	01/07/2026	C0001717	FUNDACAO PARA O DESENVOLVIMENTO MEDICO E HOSPITALAR	4127	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	677,62	OK: NF vinculada ao Pedido de Venda	Y	
+406	3778	2273	7198	01/07/2026	C0001717	FUNDACAO PARA O DESENVOLVIMENTO MEDICO E HOSPITALAR	5784	Faturamento LOC1	EXE_ELET	S P.S. Manut.PrevCon	677,62	OK: NF vinculada ao Pedido de Venda	Y	
+407	3779	2274	18627	01/07/2026	C0002849	RAIZEN S.A.	4078	Venda (Avulsa)	EXE_ELET	S P.S. Laudo	8.825,64	OK: NF vinculada ao Pedido de Venda	Y	
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			
+											0,00			

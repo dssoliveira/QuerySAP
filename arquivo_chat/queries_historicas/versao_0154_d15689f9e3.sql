@@ -1,0 +1,15 @@
+CASE
+        WHEN PV."U_MM_Tipo" = '0' THEN 'Nao Definido'
+        WHEN PV."U_MM_Tipo" = '2' THEN 'Aditivo'
+        WHEN PV."U_MM_Tipo" = '3' THEN 'Pre-Contrato'
+        WHEN PV."U_MM_Tipo" = '4' THEN 'Gerado por OS (Pre-Consumo)'
+        WHEN PV."U_MM_Tipo" = '5' THEN 'Venda (Avulsa)'
+        WHEN PV."U_MM_Tipo" = '6' THEN 'Faturamento LOC1'
+        WHEN PV."U_MM_Tipo" = '9' THEN 'Precor'
+        WHEN PV."U_MM_Tipo" = '10' THEN 'Integrado por Iclass'
+        WHEN PV."U_MM_Tipo" = '7' THEN 'Ajuste interno'
+        WHEN PV."U_MM_Tipo" = '8' THEN 'Duplicado'
+        WHEN PV."U_MM_Tipo" = '11' THEN 'Cancelado'
+        WHEN PV."U_MM_Tipo" IS NULL THEN 'Sem Pedido de Venda'
+        ELSE 'Nao Definido'
+    END AS "Tipo_Pedido",

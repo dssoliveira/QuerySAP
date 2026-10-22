@@ -1,0 +1,195 @@
+SELECT
+    EQ."NumeroCartaoEquipamento",
+    EQ."CodigoEquipamento",
+    EQ."DescricaoEquipamento",
+    EQ."SerieFabricante",
+    EQ."SerieInterna",
+
+    EQ."CodigoCliente",
+    EQ."NomeCliente",
+
+    EQ."StatusCartao",
+    EQ."LocalizacaoInstalacao",
+    EQ."HorimetroCartao",
+
+    OS0."callID" AS "NumeroOS",
+    OS0."DocNum" AS "DocumentoOS",
+    OS0."createDate" AS "DataCriacaoOS",
+    OS0."closeDate" AS "DataFechamentoOS",
+    OS0."subject" AS "AssuntoOS",
+
+    CASE
+        WHEN OS0."status" = -3 THEN 'Aberto'
+        WHEN OS0."status" = -2 THEN 'Pendente'
+        WHEN OS0."status" = -1 THEN 'Fechado'
+        WHEN OS0."status" = 1 THEN 'Aguardando Pecas'
+        WHEN OS0."status" = 2 THEN 'Encerrado IClass'
+        WHEN OS0."status" = 3 THEN 'Enviar IClass'
+        WHEN OS0."status" = 4 THEN 'Enviado IClass'
+        WHEN OS0."status" = 5 THEN 'Equipamento Parado'
+        ELSE 'Nao Definido'
+    END AS "StatusOS",
+
+    PV_AGR."PedidosVenda" AS "PedidosVendaRelacionados",
+    PV_AGR."ValorTotalPedidosVenda" AS "ValorTotalPedidosVenda",
+
+    PV_AGR."Material",
+    PV_AGR."MO Direta",
+    PV_AGR."MO Indireta",
+    PV_AGR."Alimentacao",
+    PV_AGR."Hospedagem",
+    PV_AGR."Equipamento",
+    PV_AGR."Deslocamento",
+    PV_AGR."Frete",
+    PV_AGR."Servicos",
+    PV_AGR."Pedagio",
+    PV_AGR."Comissao",
+    PV_AGR."Despesa Fixa",
+    PV_AGR."CustoTotalPedidoVenda",
+
+    PC_AGR."PedidosCompraRelacionados",
+    PC_AGR."ValorTotalPedidosCompra",
+
+    ROUND(
+        IFNULL(PV_AGR."CustoTotalPedidoVenda", 0)
+        + IFNULL(PC_AGR."ValorTotalPedidosCompra", 0),
+        2
+    ) AS "CustoTotalOS"
+
+FROM (
+    SELECT
+        T0."insID" AS "NumeroCartaoEquipamento",
+        T0."itemCode" AS "CodigoEquipamento",
+        T0."itemName" AS "DescricaoEquipamento",
+        T0."manufSN" AS "SerieFabricante",
+        T0."internalSN" AS "SerieInterna",
+        T0."customer" AS "CodigoCliente",
+        T0."custmrName" AS "NomeCliente",
+
+        T0."status" AS "StatusCartaoCodigo",
+
+        CASE
+            WHEN T0."status" = 'A' THEN 'Ativo'
+            WHEN T0."status" = 'T' THEN 'Terminado'
+            WHEN T0."status" = 'R' THEN 'Renovado'
+            WHEN T0."status" = 'L' THEN 'Emprestado'
+            ELSE 'Nao Definido'
+        END AS "StatusCartao",
+
+        T0."instLction" AS "LocalizacaoInstalacao",
+        T0."U_ICL_Horimeter" AS "HorimetroCartao"
+
+    FROM OINS T0
+) EQ
+
+INNER JOIN OSCL OS0
+    ON OS0."insID" = EQ."NumeroCartaoEquipamento"
+
+LEFT JOIN (
+    SELECT
+        X."NumeroOS",
+
+        STRING_AGG(TO_VARCHAR(X."PedidoVenda"), ', ') AS "PedidosVenda",
+
+        SUM(X."ValorTotalPedidoVenda") AS "ValorTotalPedidosVenda",
+
+        SUM(X."Material") AS "Material",
+        SUM(X."MO Direta") AS "MO Direta",
+        SUM(X."MO Indireta") AS "MO Indireta",
+        SUM(X."Alimentacao") AS "Alimentacao",
+        SUM(X."Hospedagem") AS "Hospedagem",
+        SUM(X."Equipamento") AS "Equipamento",
+        SUM(X."Deslocamento") AS "Deslocamento",
+        SUM(X."Frete") AS "Frete",
+        SUM(X."Servicos") AS "Servicos",
+        SUM(X."Pedagio") AS "Pedagio",
+        SUM(X."Comissao") AS "Comissao",
+        SUM(X."Despesa Fixa") AS "Despesa Fixa",
+        SUM(X."CustoTotalPedidoVenda") AS "CustoTotalPedidoVenda"
+
+    FROM (
+        SELECT DISTINCT
+            S4."SrcvCallID" AS "NumeroOS",
+            PV."DocEntry" AS "DocEntryPedidoVenda",
+            PV."DocNum" AS "PedidoVenda",
+            PV."DocTotal" AS "ValorTotalPedidoVenda",
+
+            IFNULL(PV."U_MM_Material", 0) AS "Material",
+            IFNULL(PV."U_MM_MO_DIRETA", 0) AS "MO Direta",
+            IFNULL(PV."U_MM_MO_INDIRETA", 0) AS "MO Indireta",
+            IFNULL(PV."U_MM_Alimentacao", 0) AS "Alimentacao",
+            IFNULL(PV."U_MM_Hospedagem", 0) AS "Hospedagem",
+            IFNULL(PV."U_MM_Equipamento", 0) AS "Equipamento",
+            IFNULL(PV."U_MM_Deslocamento", 0) AS "Deslocamento",
+            IFNULL(PV."U_MM_Frete", 0) AS "Frete",
+            IFNULL(PV."U_MM_Servicos", 0) AS "Servicos",
+            IFNULL(PV."U_MM_Pedagio", 0) AS "Pedagio",
+            IFNULL(PV."U_MM_Comissao", 0) AS "Comissao",
+            IFNULL(PV."U_MM_Despesa_Fixa", 0) AS "Despesa Fixa",
+
+            ROUND(
+                IFNULL(PV."U_MM_Material", 0)
+                + IFNULL(PV."U_MM_MO_DIRETA", 0)
+                + IFNULL(PV."U_MM_MO_INDIRETA", 0)
+                + IFNULL(PV."U_MM_Alimentacao", 0)
+                + IFNULL(PV."U_MM_Hospedagem", 0)
+                + IFNULL(PV."U_MM_Equipamento", 0)
+                + IFNULL(PV."U_MM_Deslocamento", 0)
+                + IFNULL(PV."U_MM_Frete", 0)
+                + IFNULL(PV."U_MM_Servicos", 0)
+                + IFNULL(PV."U_MM_Pedagio", 0)
+                + IFNULL(PV."U_MM_Comissao", 0)
+                + IFNULL(PV."U_MM_Despesa_Fixa", 0),
+                2
+            ) AS "CustoTotalPedidoVenda"
+
+        FROM SCL4 S4
+
+        INNER JOIN ORDR PV
+            ON PV."DocEntry" = S4."DocAbs"
+            AND PV."CANCELED" = 'N'
+
+        WHERE
+            S4."Object" = '17'
+    ) X
+
+    GROUP BY
+        X."NumeroOS"
+) PV_AGR
+    ON PV_AGR."NumeroOS" = OS0."callID"
+
+LEFT JOIN (
+    SELECT
+        X."NumeroOS",
+
+        STRING_AGG(TO_VARCHAR(X."PedidoCompra"), ', ') AS "PedidosCompraRelacionados",
+
+        SUM(X."ValorTotalPedidoCompra") AS "ValorTotalPedidosCompra"
+
+    FROM (
+        SELECT DISTINCT
+            S4."SrcvCallID" AS "NumeroOS",
+            PC."DocEntry" AS "DocEntryPedidoCompra",
+            PC."DocNum" AS "PedidoCompra",
+            PC."DocTotal" AS "ValorTotalPedidoCompra"
+
+        FROM SCL4 S4
+
+        INNER JOIN OPOR PC
+            ON PC."DocEntry" = S4."DocAbs"
+            AND PC."CANCELED" = 'N'
+
+        WHERE
+            S4."Object" = '22'
+    ) X
+
+    GROUP BY
+        X."NumeroOS"
+) PC_AGR
+    ON PC_AGR."NumeroOS" = OS0."callID"
+
+ORDER BY
+    EQ."NomeCliente",
+    EQ."CodigoEquipamento",
+    OS0."createDate",
+    OS0."callID";

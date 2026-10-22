@@ -1,0 +1,6 @@
+WHEN T0."U_MM_Tipo" = '6' THEN 'Faturamento LOC1'
+WHEN T0."U_MM_Tipo" = '7' THEN 'Ajuste interno'
+WHEN T0."U_MM_Tipo" = '8' THEN 'Duplicado'
+WHEN T0."U_MM_Tipo" = '9' THEN 'Precor'
+WHEN T0."U_MM_Tipo" = '10' THEN 'Integrado por Iclass'
+WHEN T0."U_MM_Tipo" = '11' THEN 'Cancelado'

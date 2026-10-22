@@ -1,0 +1,2 @@
+FROM NF_BASE NF
+GROUP BY NF."OcrCode"

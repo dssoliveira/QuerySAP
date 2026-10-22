@@ -31,3 +31,9 @@ work/
 ~$*
 Thumbs.db
 .DS_Store
+
+# Autenticacao de aplicativos nunca faz parte do backup de conhecimento
+auth.json
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

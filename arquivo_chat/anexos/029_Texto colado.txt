@@ -1,0 +1,107 @@
+#	Pedido Transferencia	Chave Pedido Transferencia	Parceiro Transferencia	Tipo Documento Relacionado	Chave Documento Relacionado	Numero Documento Relacionado	Data Documento Relacionado	Fornecedor	Codigo Aprovacao	Status Aprovacao	Observacao Referencia		
+1	120	320	EIXO SP CONCESSIONARIA DE RODOVIAS S.A.	Solicitacao de compra	797	238	02/04/2026			Consultar pedido de compra posterior		Y	
+2	488	1360		Solicitacao de compra	4476	1400	03/08/2026			Consultar pedido de compra posterior		Y	
+3	511	1436	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	4369	1371	29/07/2026			Consultar pedido de compra posterior		Y	
+4	520	1473	WGL SOLUCOES EM TECNOLOGIAS E SERVICOS LTDA	Solicitacao de compra	4371	1373	29/07/2026			Consultar pedido de compra posterior		Y	
+5	547	1552	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	4474	1399	03/08/2026			Consultar pedido de compra posterior		Y	
+6	550	1558	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	4472	1398	03/08/2026			Consultar pedido de compra posterior		Y	
+7	569	1615	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	4603	1436	05/08/2026			Consultar pedido de compra posterior		Y	
+8	575	1631	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	4489	1403	04/08/2026			Consultar pedido de compra posterior		Y	
+9	577	1634	CENTRO EMPRESARIAL DAS AMERICAS	Solicitacao de compra	4631	1443	06/08/2026			Consultar pedido de compra posterior		Y	
+10	584	1656		Solicitacao de compra	4669	1455	07/08/2026			Consultar pedido de compra posterior		Y	
+11	596	1680	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	4686	1459	07/08/2026			Consultar pedido de compra posterior		Y	
+12	612	1727	MUNICIPIO DE LENCOIS PAULISTA	Solicitacao de compra	4935	1524	14/08/2026			Consultar pedido de compra posterior		Y	
+13	650	1833	REDE MUNICIPAL DR. MARIO GATTI DE URGENCIA, EMERGENCIA E HOSPITALAR	Solicitacao de compra	5465	1682	28/08/2026			Consultar pedido de compra posterior		Y	
+14	651	1835	REDE MUNICIPAL DR. MARIO GATTI DE URGENCIA, EMERGENCIA E HOSPITALAR	Solicitacao de compra	5693	1744	02/09/2026			Consultar pedido de compra posterior		Y	
+15	654	1855	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	5184	1598	20/08/2026			Consultar pedido de compra posterior		Y	
+16	664	1879	MUNICIPIO DE BAURU	Solicitacao de compra	5757	1761	04/09/2026			Consultar pedido de compra posterior		Y	
+17	670	1890	MUNICIPIO DE CARAPICUIBA	Solicitacao de compra	5689	1742	02/09/2026			Consultar pedido de compra posterior		Y	
+18	685	1926	FRIGORIFICO SANTA ROSA DE LEME LTDA	Solicitacao de compra	5707	1750	03/09/2026			Consultar pedido de compra posterior		Y	
+19	701	1946	MANFRIM INDUSTRIAL E COMERCIAL LTDA	Solicitacao de compra	5725	1756	03/09/2026			Consultar pedido de compra posterior		Y	
+20	712	1962	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	4876	1515	12/08/2026			Consultar pedido de compra posterior		Y	
+21	773	2124		Solicitacao de compra	5097	1576	19/08/2026			Consultar pedido de compra posterior		Y	
+22	796	2186	SUPER MERCADO SAO ROQUE LTDA.	Solicitacao de compra	5668	1735	02/09/2026			Consultar pedido de compra posterior		Y	
+23	809	2215	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	5503	1689	31/08/2026			Consultar pedido de compra posterior		Y	
+24	809	2215	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	5784	1772	04/09/2026			Consultar pedido de compra posterior		Y	
+25	814	2230	PERSONAL ELIAS IMOVEIS LTDA	Solicitacao de compra	5605	1717	01/09/2026			Consultar pedido de compra posterior		Y	
+26	820	2244		Solicitacao de compra	5975	1821	11/09/2026			Consultar pedido de compra posterior		Y	
+27	821	2245		Solicitacao de compra	5971	1819	11/09/2026			Consultar pedido de compra posterior		Y	
+28	822	2246		Solicitacao de compra	5976	1822	11/09/2026			Consultar pedido de compra posterior		Y	
+29	824	2251	AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO DE ALIMENTOS LTDA.	Solicitacao de compra	6042	1840	11/09/2026			Consultar pedido de compra posterior		Y	
+30	850	2304	SUPER MERCADO SAO ROQUE LTDA.	Solicitacao de compra	5940	1808	10/09/2026			Consultar pedido de compra posterior		Y	
+31	851	2305	SUPER MERCADO SAO ROQUE LTDA.	Solicitacao de compra	5940	1808	10/09/2026			Consultar pedido de compra posterior		Y	
+32	860	2318	SUPER MERCADO SAO ROQUE LTDA.	Solicitacao de compra	5940	1808	10/09/2026			Consultar pedido de compra posterior		Y	
+33	870	2348	BRASILIA ALIMENTOS LTDA.	Solicitacao de compra	5604	1716	01/09/2026			Consultar pedido de compra posterior		Y	
+34	878	2365	SUPER MERCADO SAO ROQUE LTDA.	Solicitacao de compra	5668	1735	02/09/2026			Consultar pedido de compra posterior		Y	
+35	884	2380	SUPER MERCADO SAO ROQUE LTDA.	Solicitacao de compra	5668	1735	02/09/2026			Consultar pedido de compra posterior		Y	
+36	897	2416	UNIVERSIDADE ESTADUAL DE CAMPINAS	Solicitacao de compra	5949	1812	10/09/2026			Consultar pedido de compra posterior		Y	
+37	902	2421	UNIVERSIDADE ESTADUAL DE CAMPINAS	Solicitacao de compra	5949	1812	10/09/2026			Consultar pedido de compra posterior		Y	
+38	903	2422	UNIVERSIDADE ESTADUAL DE CAMPINAS	Solicitacao de compra	5949	1812	10/09/2026			Consultar pedido de compra posterior		Y	
+39	914	2462	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	5514	1693	31/08/2026			Consultar pedido de compra posterior		Y	
+40	918	2471	UNIVERSIDADE ESTADUAL DE CAMPINAS	Solicitacao de compra	5528	1696	31/08/2026			Consultar pedido de compra posterior		Y	
+41	921	2477	UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO	Solicitacao de compra	6883	2051	01/10/2026			Consultar pedido de compra posterior		Y	
+42	926	2495	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	5784	1772	04/09/2026			Consultar pedido de compra posterior		Y	
+43	930	2505	IOCHPE-MAXION S.A.	Solicitacao de compra	6883	2051	01/10/2026			Consultar pedido de compra posterior		Y	
+44	932	2509	HARIBO BRASIL INDUSTRIA E COMERCIO DE PRODUTOS ALIMENTICIOS LTDA	Solicitacao de compra	6883	2051	01/10/2026			Consultar pedido de compra posterior		Y	
+45	943	2531	SOCIEDADE DE ABASTECIMENTO DE AGUA E SANEAMENTO SA	Solicitacao de compra	6964	2075	01/10/2026			Consultar pedido de compra posterior		Y	
+46	951	2551	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	5670	1736	02/09/2026			Consultar pedido de compra posterior		Y	
+47	978	2636	REDE MUNICIPAL DR. MARIO GATTI DE URGENCIA, EMERGENCIA E HOSPITALAR	Solicitacao de compra	6998	2088	02/10/2026			Consultar pedido de compra posterior		Y	
+48	979	2637	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	5795	1774	08/09/2026			Consultar pedido de compra posterior		Y	
+49	982	2647	UNIVERSIDADE DE SAO PAULO	Solicitacao de compra	6886	2052	01/10/2026			Consultar pedido de compra posterior		Y	
+50	984	2650	UNIVERSIDADE DE SAO PAULO	Solicitacao de compra	6056	1842	14/09/2026			Consultar pedido de compra posterior		Y	
+51	990	2664	UNIVERSIDADE DE SAO PAULO	Solicitacao de compra	6058	1843	14/09/2026			Consultar pedido de compra posterior		Y	
+52	1002	2685	MUNICIPIO DE CARAPICUIBA	Solicitacao de compra	5850	1787	09/09/2026			Consultar pedido de compra posterior		Y	
+53	1009	2712	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	5951	1813	10/09/2026			Consultar pedido de compra posterior		Y	
+54	1011	2717	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	5910	1800	09/09/2026			Consultar pedido de compra posterior		Y	
+55	1018	2747	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6512	1948	22/09/2026			Consultar pedido de compra posterior		Y	
+56	1019	2752		Solicitacao de compra	6294	1890	18/09/2026			Consultar pedido de compra posterior		Y	
+57	1027	2773	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6690	1996	25/09/2026			Consultar pedido de compra posterior		Y	
+58	1052	2835	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6182	1867	16/09/2026			Consultar pedido de compra posterior		Y	
+59	1059	2854	ULTRAGAZ ENERGIA E CORRETAGEM DE SEGUROS LTDA	Solicitacao de compra	6798	2029	29/09/2026			Consultar pedido de compra posterior		Y	
+60	1060	2855	ULTRAGAZ ENERGIA E CORRETAGEM DE SEGUROS LTDA	Solicitacao de compra	6799	2030	29/09/2026			Consultar pedido de compra posterior		Y	
+61	1067	2874	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+62	1070	2879	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+63	1074	2897	UNIMED DE BAURU COOPERATIVA DE TRABALHO MEDICO	Solicitacao de compra	6588	1965	23/09/2026			Consultar pedido de compra posterior		Y	
+64	1081	2909	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+65	1082	2911	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+66	1084	2914	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+67	1091	2940	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+68	1092	2942		Solicitacao de compra	6585	1963	23/09/2026			Consultar pedido de compra posterior		Y	
+69	1093	2944	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+70	1094	2952		Solicitacao de compra	6293	1889	18/09/2026			Consultar pedido de compra posterior		Y	
+71	1095	2955	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+72	1096	2957	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+73	1103	2983	REDE MUNICIPAL DR. MARIO GATTI DE URGENCIA, EMERGENCIA E HOSPITALAR	Solicitacao de compra	6604	1970	24/09/2026			Consultar pedido de compra posterior		Y	
+74	1103	2983	REDE MUNICIPAL DR. MARIO GATTI DE URGENCIA, EMERGENCIA E HOSPITALAR	Solicitacao de compra	6645	1985	24/09/2026			Consultar pedido de compra posterior		Y	
+75	1106	2989	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+76	1107	2990	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+77	1108	2992	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+78	1109	2994	BRACELL SP CELULOSE LTDA	Solicitacao de compra	6693	1997	25/09/2026			Consultar pedido de compra posterior		Y	
+79	1115	3016	IOCHPE-MAXION S.A.	Solicitacao de compra	6508	1946	22/09/2026			Consultar pedido de compra posterior		Y	
+80	1117	3026	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6520	1950	22/09/2026			Consultar pedido de compra posterior		Y	
+81	1123	3040	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6582	1961	23/09/2026			Consultar pedido de compra posterior		Y	
+82	1128	3054		Solicitacao de compra	6486	1939	22/09/2026			Consultar pedido de compra posterior		Y	
+83	1130	3064	CONCILIG TELEMARKETING E COBRANCA LTDA.	Solicitacao de compra	6481	1937	22/09/2026			Consultar pedido de compra posterior		Y	
+84	1139	3085	AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO DE ALIMENTOS LTDA.	Solicitacao de compra	6936	2067	01/10/2026			Consultar pedido de compra posterior		Y	
+85	1150	3122	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6591	1967	23/09/2026			Consultar pedido de compra posterior		Y	
+86	1155	3138		Solicitacao de compra	6602	1969	24/09/2026			Consultar pedido de compra posterior		Y	
+87	1156	3140		Solicitacao de compra	6641	1982	24/09/2026			Consultar pedido de compra posterior		Y	
+88	1157	3141		Solicitacao de compra	6642	1983	24/09/2026			Consultar pedido de compra posterior		Y	
+89	1164	3166	RIO PARANAPANEMA ENERGIA S.A.	Solicitacao de compra	7060	2104	05/10/2026			Consultar pedido de compra posterior		Y	
+90	1165	3167	AUTOPORT TRANSPORTES E LOGISTICA LTDA	Solicitacao de compra	6734	2011	28/09/2026			Consultar pedido de compra posterior		Y	
+91	1167	3179	BRACELL SP FLORESTAL LTDA	Solicitacao de compra	6750	2013	28/09/2026			Consultar pedido de compra posterior		Y	
+92	1175	3199	IVO DOS SANTOS	Solicitacao de compra	6703	2002	25/09/2026			Consultar pedido de compra posterior		Y	
+93	1177	3205	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6697	1998	25/09/2026			Consultar pedido de compra posterior		Y	
+94	1208	3283	RIO PARANAPANEMA ENERGIA S.A.	Solicitacao de compra	6772	2019	28/09/2026			Consultar pedido de compra posterior		Y	
+95	1221	3311	PAULO HENRIQUE DE SOUZA SANTOS UNIFORMES	Solicitacao de compra	6840	2041	30/09/2026			Consultar pedido de compra posterior		Y	
+96	1224	3317	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6797	2028	29/09/2026			Consultar pedido de compra posterior		Y	
+97	1230	3330		Solicitacao de compra	6841	2042	30/09/2026			Consultar pedido de compra posterior		Y	
+98	1231	3331		Solicitacao de compra	6842	2043	30/09/2026			Consultar pedido de compra posterior		Y	
+99	1237	3354	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6836	2039	30/09/2026			Consultar pedido de compra posterior		Y	
+100	1238	3357	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6839	2040	30/09/2026			Consultar pedido de compra posterior		Y	
+101	1239	3360	RODOPOSTO TAQUARI LTDA	Solicitacao de compra	6919	2061	01/10/2026			Consultar pedido de compra posterior		Y	
+102	1239	3360	RODOPOSTO TAQUARI LTDA	Solicitacao de compra	6980	2083	02/10/2026			Consultar pedido de compra posterior		Y	
+103	1243	3369	RODOPOSTO TAQUARI LTDA	Solicitacao de compra	6870	2049	30/09/2026			Consultar pedido de compra posterior		Y	
+104	1253	3394	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	Solicitacao de compra	6906	2057	01/10/2026			Consultar pedido de compra posterior		Y	
+105	1279	3472	ASSOCIACAO LAR SAO FRANCISCO DE ASSIS NA PROVIDENCIA DE DEUS	Solicitacao de compra	7024	2094	05/10/2026			Consultar pedido de compra posterior		Y	
+106	1284	3490		Solicitacao de compra	7035	2097	05/10/2026			Consultar pedido de compra posterior		Y	

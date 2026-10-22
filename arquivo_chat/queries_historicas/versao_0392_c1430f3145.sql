@@ -1,0 +1,199 @@
+WITH VALOR_SAIDA AS
+(
+    SELECT
+        M."CreatedBy" AS "DocEntry_Saida",
+        M."DocLineNum" AS "Linha_Saida",
+        SUM(M."OutQty") AS "Quantidade_Baixada",
+        SUM(ABS(M."TransValue")) AS "Custo_Total_Saida"
+    FROM OINM M
+    WHERE M."TransType" = 60
+    GROUP BY
+        M."CreatedBy",
+        M."DocLineNum"
+),
+
+PEDIDOS_TRANSFERENCIA_OS AS
+(
+    SELECT
+        COALESCE(
+            NULLIF(TRIM(TO_NVARCHAR(T."U_LOC1_CallID")), ''),
+            NULLIF(TRIM(TO_NVARCHAR(T."U_MM_OS")), '')
+        ) AS "Chave_OS",
+
+        STRING_AGG(TO_NVARCHAR(T."DocNum"), ', ') AS "Pedidos_Transferencia",
+        COUNT(*) AS "Quantidade_Pedidos_Transferencia"
+    FROM OWTQ T
+    WHERE COALESCE(
+        NULLIF(TRIM(TO_NVARCHAR(T."U_LOC1_CallID")), ''),
+        NULLIF(TRIM(TO_NVARCHAR(T."U_MM_OS")), '')
+    ) IS NOT NULL
+    GROUP BY
+        COALESCE(
+            NULLIF(TRIM(TO_NVARCHAR(T."U_LOC1_CallID")), ''),
+            NULLIF(TRIM(TO_NVARCHAR(T."U_MM_OS")), '')
+        )
+),
+
+PEDIDOS_VENDA_OS AS
+(
+    SELECT
+        COALESCE(
+            NULLIF(TRIM(TO_NVARCHAR(PV."U_LOC1_CallID")), ''),
+            NULLIF(TRIM(TO_NVARCHAR(PV."U_MM_OS")), '')
+        ) AS "Chave_OS",
+
+        STRING_AGG(TO_NVARCHAR(PV."DocNum"), ', ') AS "Pedidos_Venda_OS",
+        STRING_AGG(IFNULL(TO_NVARCHAR(PV."U_MM_Tipo"), ''), ', ') AS "Tipo_Pedido_Venda",
+        STRING_AGG(PV."CardCode", ', ') AS "Codigos_Cliente",
+        STRING_AGG(PV."CardName", ', ') AS "Clientes",
+        COUNT(*) AS "Quantidade_Pedidos_Venda"
+    FROM ORDR PV
+    WHERE COALESCE(
+        NULLIF(TRIM(TO_NVARCHAR(PV."U_LOC1_CallID")), ''),
+        NULLIF(TRIM(TO_NVARCHAR(PV."U_MM_OS")), '')
+    ) IS NOT NULL
+    GROUP BY
+        COALESCE(
+            NULLIF(TRIM(TO_NVARCHAR(PV."U_LOC1_CallID")), ''),
+            NULLIF(TRIM(TO_NVARCHAR(PV."U_MM_OS")), '')
+        )
+)
+
+SELECT
+    H."DocDate" AS "Data_Saida",
+    H."DocNum" AS "Numero_Saida_Mercadorias",
+    L."LineNum" + 1 AS "Linha_Saida",
+
+    L."ItemCode" AS "Codigo_Item",
+    I."ItemName" AS "Descricao_Item",
+
+    L."WhsCode" AS "Deposito_Saida",
+    W."WhsName" AS "Nome_Deposito_Saida",
+
+    V."Quantidade_Baixada" AS "Quantidade_Saida",
+
+    CASE
+        WHEN IFNULL(V."Quantidade_Baixada", 0) = 0 THEN 0
+        ELSE V."Custo_Total_Saida" / V."Quantidade_Baixada"
+    END AS "Custo_Unitario_Real",
+
+    V."Custo_Total_Saida" AS "Custo_Total_Saida",
+
+    /* Vínculos gravados na própria Saída de Mercadorias */
+    H."U_LOC1_CallID" AS "Chamado_LOC1",
+    H."U_MM_OS" AS "Numero_OS",
+    H."U_MM_Tipo" AS "Tipo_Saida",
+
+    /* Pedido de venda localizado pelo chamado/OS */
+    COALESCE(
+        PV_DIRETO."DocNum",
+        PV_VIA_ENTREGA."DocNum",
+        PV_OS."Pedidos_Venda_OS"
+    ) AS "Pedido_Venda",
+
+    COALESCE(
+        PV_DIRETO."CardCode",
+        PV_VIA_ENTREGA."CardCode",
+        PV_OS."Codigos_Cliente"
+    ) AS "Codigo_Cliente",
+
+    COALESCE(
+        PV_DIRETO."CardName",
+        PV_VIA_ENTREGA."CardName",
+        PV_OS."Clientes"
+    ) AS "Nome_Cliente",
+
+    PV_OS."Tipo_Pedido_Venda" AS "Tipo_Pedido_Venda",
+    PV_OS."Quantidade_Pedidos_Venda" AS "Qtd_Pedidos_Venda_Mesma_OS",
+
+    CASE
+        WHEN PV_OS."Pedidos_Venda_OS" IS NOT NULL
+             AND PV_OS."Tipo_Pedido_Venda" LIKE '%4%'
+        THEN 'PV gerado por OS identificado'
+
+        WHEN PV_OS."Pedidos_Venda_OS" IS NOT NULL
+        THEN 'PV vinculado a OS - validar tipo do pedido'
+
+        WHEN PV_DIRETO."DocNum" IS NOT NULL
+             OR PV_VIA_ENTREGA."DocNum" IS NOT NULL
+        THEN 'PV identificado pela cadeia do documento'
+
+        WHEN H."U_LOC1_CallID" IS NOT NULL
+             OR H."U_MM_OS" IS NOT NULL
+        THEN 'OS identificada, sem PV vinculado'
+
+        ELSE 'Saida sem vinculo de OS ou PV'
+    END AS "Status_Vinculo_PV_OS",
+
+    /* Consolidado: não duplica a saída quando há várias transferências */
+    PTR."Pedidos_Transferencia" AS "Pedidos_Transferencia",
+    PTR."Quantidade_Pedidos_Transferencia" AS "Qtd_Pedidos_Transferencia",
+
+    CASE
+        WHEN PTR."Pedidos_Transferencia" IS NOT NULL
+        THEN 'Possui pedido(s) de transferencia vinculado(s) a OS'
+        ELSE 'Sem pedido de transferencia identificado'
+    END AS "Status_Pedido_Transferencia",
+
+    H."Comments" AS "Observacoes_Saida",
+    U."U_NAME" AS "Criado_Por"
+
+FROM OIGE H
+INNER JOIN IGE1 L
+    ON L."DocEntry" = H."DocEntry"
+
+INNER JOIN OITM I
+    ON I."ItemCode" = L."ItemCode"
+
+LEFT JOIN OWHS W
+    ON W."WhsCode" = L."WhsCode"
+
+LEFT JOIN OUSR U
+    ON U."USERID" = H."UserSign"
+
+LEFT JOIN VALOR_SAIDA V
+    ON V."DocEntry_Saida" = H."DocEntry"
+   AND V."Linha_Saida" = L."LineNum"
+
+/* PV diretamente baseado na saída */
+LEFT JOIN ORDR PV_DIRETO
+    ON L."BaseType" = 17
+   AND L."BaseEntry" = PV_DIRETO."DocEntry"
+
+/* PV via Entrega */
+LEFT JOIN ODLN ENTREGA
+    ON L."BaseType" = 15
+   AND L."BaseEntry" = ENTREGA."DocEntry"
+
+LEFT JOIN DLN1 ENTREGA_LINHA
+    ON ENTREGA_LINHA."DocEntry" = ENTREGA."DocEntry"
+   AND ENTREGA_LINHA."LineNum" = L."BaseLine"
+
+LEFT JOIN ORDR PV_VIA_ENTREGA
+    ON ENTREGA_LINHA."BaseType" = 17
+   AND ENTREGA_LINHA."BaseEntry" = PV_VIA_ENTREGA."DocEntry"
+
+/* Relações consolidadas pela OS/Chamado LOC1 */
+LEFT JOIN PEDIDOS_TRANSFERENCIA_OS PTR
+    ON PTR."Chave_OS" = COALESCE(
+        NULLIF(TRIM(TO_NVARCHAR(H."U_LOC1_CallID")), ''),
+        NULLIF(TRIM(TO_NVARCHAR(H."U_MM_OS")), '')
+    )
+
+LEFT JOIN PEDIDOS_VENDA_OS PV_OS
+    ON PV_OS."Chave_OS" = COALESCE(
+        NULLIF(TRIM(TO_NVARCHAR(H."U_LOC1_CallID")), ''),
+        NULLIF(TRIM(TO_NVARCHAR(H."U_MM_OS")), '')
+    )
+
+WHERE L."ItemCode" IN (
+    'MA003838',
+    'MA004404',
+    'MA003628'
+)
+AND H."DocDate" BETWEEN '[%0]' AND '[%1]'
+
+ORDER BY
+    H."DocDate",
+    H."DocNum",
+    L."LineNum";

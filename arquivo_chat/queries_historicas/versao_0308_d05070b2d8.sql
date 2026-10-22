@@ -1,0 +1,2 @@
+LEFT JOIN OPMG PRJ
+    ON PRJ."FIPROJECT" = T0."Project"

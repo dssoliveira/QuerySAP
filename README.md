@@ -3,6 +3,11 @@
 Consultas SQL e memoria tecnica do projeto Sistel para SAP Business One HANA,
 LOC1 e Power BI.
 
+Para retomar o trabalho em outra estacao, comece por [CONTINUIDADE.md](CONTINUIDADE.md)
+e [AGENTS.md](AGENTS.md). A memoria complementar de outubro registra decisoes e
+pendencias posteriores as memorias originais. O diretorio `arquivo_chat` guarda
+transcricao, queries historicas e evidencias recuperadas, com inventario.
+
 ## Arquivos do projeto
 
 - `FATURAMENTO_DREX_METAS_ATUALIZADA.sql`: consulta de faturamento e metas.

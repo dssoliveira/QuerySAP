@@ -1,0 +1,231 @@
+#	Num_Interno_NF	Num_Documento_SAP	Numero_Nota_Fiscal	Data_Emissao	Data_Referencia_Faturamento	Cod_Cliente	Nome_Cliente	Filial	Tipo_Nota_Fiscal	Pedido_Venda	Tipo_Pedido	Departamento	Utilizacao	Valor_NFe_ML	Num_Interno_Entrega	Num_Documento_Entrega	Data_Entrega	Status_Vinculo_Pedido		
+1	5077	3071	5193	12/08/2026	12/08/2026	C0000690	ATHOS BRASIL SOLUCOES EM UNIDADES MOVEIS LTDA.	Sistel Comercio	Nota Fiscal de Saida	8220	Faturamento LOC1	LOCACAO	S Locação	9.500,00				OK: NF vinculada ao Pedido de Venda	Y	
+5	5093	3080	5194	12/08/2026	12/08/2026	C0005788	REVATI S.A. ACUCAR E ALCOOL EM RECUPERACAO JUDICIAL EM RECUPERACAO JUDICIAL	Sistel Comercio	Nota Fiscal de Saida	8245	Faturamento LOC1	LOCACAO	S Locação - SCP	38.000,00				OK: NF vinculada ao Pedido de Venda	Y	
+16	5030	3035	5185	11/08/2026	11/08/2026	C0004280	LATICINIOS BELA VISTA S.A.	Sistel Comercio	Nota Fiscal de Saida	8096	Faturamento LOC1	LOCACAO	S Locação	9.158,94				OK: NF vinculada ao Pedido de Venda	Y	
+34	5054	3055	5186	11/08/2026	11/08/2026	C0005936	NAV BRASIL SERVICOS DE NAVEGACAO AEREA S.A. - NAV BRASIL	Sistel Comercio	Nota Fiscal de Saida	8069	Faturamento LOC1	LOCACAO	S Locação - SCP	8.735,00				OK: NF vinculada ao Pedido de Venda	Y	
+35	5055	3056	5187	11/08/2026	11/08/2026	C0000136	ENTREVIAS CONCESSIONARIA DE RODOVIAS S.A.	Sistel Comercio	Nota Fiscal de Saida	8092	Faturamento LOC1	LOCACAO	S Locação - SCP	7.626,68				OK: NF vinculada ao Pedido de Venda	Y	
+36	5056	3057	5188	11/08/2026	11/08/2026	C0000262	CALI CLUB EVENTOS LTDA	Sistel Comercio	Nota Fiscal de Saida	8079	Faturamento LOC1	LOCACAO	S Locação - SCP	7.340,00				OK: NF vinculada ao Pedido de Venda	Y	
+38	5061	3059	5189	11/08/2026	11/08/2026	C0000292	PRODUTOS ALIMENTICIOS CEFER LTDA	Sistel Comercio	Nota Fiscal de Saida	8189	Faturamento LOC1	LOCACAO	S Locação	5.669,96				OK: NF vinculada ao Pedido de Venda	Y	
+39	5062	3060	5190	11/08/2026	11/08/2026	C0004564	HOSPITAL E MATERNIDADE SAO SEBASTIAO - SANTA CASA DE MISERICORDIA DE SALTO GRANDE	Sistel Comercio	Nota Fiscal de Saida	8188	Faturamento LOC1	LOCACAO	S Locação - SCP	4.800,00				OK: NF vinculada ao Pedido de Venda	Y	
+41	5066	3064	5191	11/08/2026	11/08/2026	C0005727	NOVA DIMENSAO ENGENHARIA LTDA	Sistel Comercio	Nota Fiscal de Saida	8194	Faturamento LOC1	LOCACAO	S Locação	4.275,70				OK: NF vinculada ao Pedido de Venda	Y	
+43	5068	3066	5192	11/08/2026	11/08/2026	C0000050	LIFE TECNOLOGIA LTDA EM RECUPERACAO JUDICIAL	Sistel Comercio	Nota Fiscal de Saida	8191	Faturamento LOC1	LOCACAO	S Locação - SCP	1.900,00				OK: NF vinculada ao Pedido de Venda	Y	
+50	4955	2972	5179	10/08/2026	10/08/2026	C0000440	MRN GERADORES SOLUCOES EM ENERGIA LTDA	Sistel Comercio	Nota Fiscal de Saida	8097	Faturamento LOC1	LOCACAO	S Locação - SCP	4.666,66				OK: NF vinculada ao Pedido de Venda	Y	
+51	4958	2975	5180	10/08/2026	10/08/2026	C0002292	PASCHOALOTTO SERVICOS FINANCEIROS S/A	Sistel Comercio	Nota Fiscal de Saida	8101	Faturamento LOC1	LOCACAO	S Locação - SCP	4.077,50				OK: NF vinculada ao Pedido de Venda	Y	
+53	4960	2977	5181	10/08/2026	10/08/2026	C0000050	LIFE TECNOLOGIA LTDA EM RECUPERACAO JUDICIAL	Sistel Comercio	Nota Fiscal de Saida	7973	Faturamento LOC1	LOCACAO	S Locação	2.665,59				OK: NF vinculada ao Pedido de Venda	Y	
+85	4995	3009	5182	10/08/2026	10/08/2026	C0005911	WERTHER ANNICCHINO	Sistel Comercio	Nota Fiscal de Saida	8139	Faturamento LOC1	LOCACAO	S Locação - SCP	6.554,90				OK: NF vinculada ao Pedido de Venda	Y	
+86	4996	3010	5183	10/08/2026	10/08/2026	C0000093	AGUAS DE MINEIROS DO TIETE CONCESSAO DE SERVICO DE SANEAMENTO LTDA	Sistel Comercio	Nota Fiscal de Saida	8141	Faturamento LOC1	LOCACAO	S Locação - SCP	4.603,68				OK: NF vinculada ao Pedido de Venda	Y	
+87	4997	3011	5184	10/08/2026	10/08/2026	C0000170	IKATEC ENGENHARIA DE SOFTWARE LTDA	Sistel Comercio	Nota Fiscal de Saida	8137	Faturamento LOC1	LOCACAO	S Locação	638,72				OK: NF vinculada ao Pedido de Venda	Y	
+106	4912	2939	5162	07/08/2026	07/08/2026	C0005603	ASSOCIACAO LAR SAO FRANCISCO DE ASSIS NA PROVIDENCIA DE DEUS	Sistel Comercio	Nota Fiscal de Saida	7656	Faturamento LOC1	LOCACAO	S Locação	22.300,14				OK: NF vinculada ao Pedido de Venda	Y	
+107	4913	2940	5163	07/08/2026	07/08/2026	C0003416	ANTILHAS LOGISTICA E DEPOSITO DE MERCADORIAS PARA TERCEIROS LTDA	Sistel Comercio	Nota Fiscal de Saida	7959	Faturamento LOC1	LOCACAO	S Locação - SCP	17.004,50				OK: NF vinculada ao Pedido de Venda	Y	
+108	4914	2941	5164	07/08/2026	07/08/2026	C0000188	FRIGORIFICO SANTA ROSA DE LEME LTDA	Sistel Comercio	Nota Fiscal de Saida	7966	Faturamento LOC1	LOCACAO	S Locação - SCP	12.000,00				OK: NF vinculada ao Pedido de Venda	Y	
+109	4915	2942	5165	07/08/2026	07/08/2026	C0005534	CONSORCIO AVBN - PACOTES 22 E 23	Sistel Comercio	Nota Fiscal de Saida	7985	Faturamento LOC1	LOCACAO	S Locação - SCP	4.860,00				OK: NF vinculada ao Pedido de Venda	Y	
+110	4918	2945	5166	07/08/2026	07/08/2026	C0000405	NUTRIVALE REFEICOES EMPRESARIAIS LTDA	Sistel Comercio	Nota Fiscal de Saida	7953	Faturamento LOC1	LOCACAO	S Locação - SCP	11.250,00				OK: NF vinculada ao Pedido de Venda	Y	
+111	4919	2946	5167	07/08/2026	07/08/2026	C0000043	ADVOCACIA NEVES COSTA	Sistel Comercio	Nota Fiscal de Saida	7969	Faturamento LOC1	LOCACAO	S Locação - SCP	10.101,91				OK: NF vinculada ao Pedido de Venda	Y	
+113	4924	2950	7271	07/08/2026	07/08/2026	C0000013	MUNICIPIO DE BAURU	Sistel Engenharia	Nota Fiscal de Saida	8064	Ajuste interno	LOCACAO	S P.S. Manut.Corret.	3.896,55				OK: NF vinculada ao Pedido de Venda	Y	
+114	4925	2951	5168	07/08/2026	07/08/2026	C0000292	PRODUTOS ALIMENTICIOS CEFER LTDA	Sistel Comercio	Nota Fiscal de Saida	7967	Faturamento LOC1	LOCACAO	S Locação - SCP	5.993,09				OK: NF vinculada ao Pedido de Venda	Y	
+115	4926	2952	5169	07/08/2026	07/08/2026	C0004820	VS - VIDA SAUDAVEL SOLUCOES EM REFEICOES COLETIVAS LTDA	Sistel Comercio	Nota Fiscal de Saida	7938	Faturamento LOC1	LOCACAO	S Locação - SCP	5.550,00				OK: NF vinculada ao Pedido de Venda	Y	
+116	4927	2953	5170	07/08/2026	07/08/2026	C0003578	YUSEN LOGISTICS DO BRASIL LTDA.	Sistel Comercio	Nota Fiscal de Saida	7975	Faturamento LOC1	LOCACAO	S Locação - SCP	5.500,00				OK: NF vinculada ao Pedido de Venda	Y	
+118	4931	2955	5171	07/08/2026	07/08/2026	C0005557	MSFC FLORESTAL LTDA	Sistel Comercio	Nota Fiscal de Saida	8007	Faturamento LOC1	LOCACAO	S Locação - SCP	5.264,71				OK: NF vinculada ao Pedido de Venda	Y	
+119	4935	2958	5172	07/08/2026	07/08/2026	C0005256	CONCILIG TELEMARKETING E COBRANCA LTDA.	Sistel Comercio	Nota Fiscal de Saida	7978	Faturamento LOC1	LOCACAO	S Locação - SCP	5.000,00				OK: NF vinculada ao Pedido de Venda	Y	
+120	4936	2959	5173	07/08/2026	07/08/2026	C0005002	INCENDIARIOS BRASIL LTDA	Sistel Comercio	Nota Fiscal de Saida	7982	Faturamento LOC1	LOCACAO	S Locação - SCP	5.000,00				OK: NF vinculada ao Pedido de Venda	Y	
+123	4943	2964	5175	07/08/2026	07/08/2026	C0000043	ADVOCACIA NEVES COSTA	Sistel Comercio	Nota Fiscal de Saida	7981	Faturamento LOC1	LOCACAO	S Locação	4.600,00				OK: NF vinculada ao Pedido de Venda	Y	
+124	4944	2965	5176	07/08/2026	07/08/2026	C0000091	AGI BRASIL INDUSTRIA E COMERCIO S.A.	Sistel Comercio	Nota Fiscal de Saida	7979	Faturamento LOC1	LOCACAO	S Locação - SCP	4.540,04				OK: NF vinculada ao Pedido de Venda	Y	
+125	4945	2966	5177	07/08/2026	07/08/2026	C0000115	G4 INDUSTRIA E COMERCIO DE MAQUINAS E EQUIPAMENTOS LTDA	Sistel Comercio	Nota Fiscal de Saida	8078	Faturamento LOC1	LOCACAO	S Locação - SCP	4.311,50				OK: NF vinculada ao Pedido de Venda	Y	
+128	4948	2969	5178	07/08/2026	07/08/2026	C0000091	AGI BRASIL INDUSTRIA E COMERCIO S.A.	Sistel Comercio	Nota Fiscal de Saida	7980	Faturamento LOC1	LOCACAO	S Locação	3.374,64				OK: NF vinculada ao Pedido de Venda	Y	
+134	4900	2932	5161	06/08/2026	06/08/2026	C0005307	ANTILHAS EMBALAGENS INDUSTRIAIS LTDA	Sistel Comercio	Nota Fiscal de Saida	7983	Faturamento LOC1	LOCACAO	S Locação - SCP	29.000,00				OK: NF vinculada ao Pedido de Venda	Y	
+144	4790	2866	5153	05/08/2026	05/08/2026	C0005256	CONCILIG TELEMARKETING E COBRANCA LTDA.	Sistel Comercio	Nota Fiscal de Saida	7771	Faturamento LOC1	LOCACAO	S Locação	4.500,00				OK: NF vinculada ao Pedido de Venda	Y	
+145	4792	2867	5154	05/08/2026	05/08/2026	C0002214	CONCILIG TELEMARKETING E COBRANCA LTDA.	Sistel Comercio	Nota Fiscal de Saida	7792	Faturamento LOC1	LOCACAO	S Locação	3.000,00				OK: NF vinculada ao Pedido de Venda	Y	
+153	4800	2875	5155	05/08/2026	05/08/2026	C0005534	CONSORCIO AVBN - PACOTES 22 E 23	Sistel Comercio	Nota Fiscal de Saida	7508	Faturamento LOC1	LOCACAO	S Locação - SCP	20.000,00				OK: NF vinculada ao Pedido de Venda	Y	
+157	4805	2879	5156	05/08/2026	05/08/2026	C0004583	IDEAL INFRAESTRUTURA E MONTAGEM S/A	Sistel Comercio	Nota Fiscal de Saida	7868	Faturamento LOC1	LOCACAO	S Locação - SCP	3.450,00				OK: NF vinculada ao Pedido de Venda	Y	
+158	4806	2880	5157	05/08/2026	05/08/2026	C0004583	IDEAL INFRAESTRUTURA E MONTAGEM S/A	Sistel Comercio	Nota Fiscal de Saida	7869	Faturamento LOC1	LOCACAO	S Locação - SCP	3.450,00				OK: NF vinculada ao Pedido de Venda	Y	
+164	4815	2887	284	05/08/2026	05/08/2026	C0000013	MUNICIPIO DE BAURU	Sistel Engenharia	Nota Fiscal de Saida	7778	Faturamento LOC1	LOCACAO	S Locação	2.220,00				OK: NF vinculada ao Pedido de Venda	Y	
+165	4817	2888	5158	05/08/2026	05/08/2026	C0000115	G4 INDUSTRIA E COMERCIO DE MAQUINAS E EQUIPAMENTOS LTDA	Sistel Comercio	Nota Fiscal de Saida	7648	Faturamento LOC1	LOCACAO	S Locação - SCP	2.141,64				OK: NF vinculada ao Pedido de Venda	Y	
+172	4824	2895	5159	05/08/2026	05/08/2026	C0000091	AGI BRASIL INDUSTRIA E COMERCIO S.A.	Sistel Comercio	Nota Fiscal de Saida	7791	Faturamento LOC1	LOCACAO	S Locação	1.624,71				OK: NF vinculada ao Pedido de Venda	Y	
+184	4842	2908	5160	05/08/2026	05/08/2026	C0004583	IDEAL INFRAESTRUTURA E MONTAGEM S/A	Sistel Comercio	Nota Fiscal de Saida	7883	Faturamento LOC1	LOCACAO	S Locação - SCP	880,00				OK: NF vinculada ao Pedido de Venda	Y	
+199	4757	2845	5150	04/08/2026	04/08/2026	C0000022	VERTICO BAURU EMPREENDIMENTOS IMOBILIARIOS LTDA.	Sistel Comercio	Nota Fiscal de Saida	7121	Faturamento LOC1	LOCACAO	S Locação	1.576,38				OK: NF vinculada ao Pedido de Venda	Y	
+200	4758	2846	5151	04/08/2026	04/08/2026	C0000292	PRODUTOS ALIMENTICIOS CEFER LTDA	Sistel Comercio	Nota Fiscal de Saida	7780	Faturamento LOC1	LOCACAO	S Locação - SCP	3.885,48				OK: NF vinculada ao Pedido de Venda	Y	
+201	4760	2847	5152	04/08/2026	04/08/2026	C0000092	NEW WAY SOLUCOES DIGITAIS LTDA	Sistel Comercio	Nota Fiscal de Saida	7789	Faturamento LOC1	LOCACAO	S Locação - SCP	4.330,51				OK: NF vinculada ao Pedido de Venda	Y	
+212	4706	2816	5137	03/08/2026	03/08/2026	C0000677	DORI ALIMENTOS S.A.	Sistel Comercio	Nota Fiscal de Saida	7257	Nao Definido	LOCACAO	S Locação	540,50				OK: NF vinculada ao Pedido de Venda	Y	
+215	4711	2819	5138	03/08/2026	03/08/2026	C0005307	ANTILHAS EMBALAGENS INDUSTRIAIS LTDA	Sistel Comercio	Nota Fiscal de Saida	7812	Faturamento LOC1	LOCACAO	S Locação - SCP	28.500,00				OK: NF vinculada ao Pedido de Venda	Y	
+216	4712	2820	5139	03/08/2026	03/08/2026	C0005479	PASCHOALOTTO SERVICOS FINANCEIROS S/A	Sistel Comercio	Nota Fiscal de Saida	7782	Faturamento LOC1	LOCACAO	S Locação	19.103,87				OK: NF vinculada ao Pedido de Venda	Y	
+217	4713	2821	123	03/08/2026	03/08/2026	C0000473	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	LOPES & OLIVEIRA PARTICIPACOES LTDA	Nota Fiscal de Saida	7807	Nao Definido	LOCACAO	S Locação	13.000,00				OK: NF vinculada ao Pedido de Venda	Y	
+218	4714	2822	5140	03/08/2026	03/08/2026	C0000050	LIFE TECNOLOGIA LTDA EM RECUPERACAO JUDICIAL	Sistel Comercio	Nota Fiscal de Saida	7702	Faturamento LOC1	LOCACAO	S Locação - SCP	12.664,83				OK: NF vinculada ao Pedido de Venda	Y	
+219	4715	2823	5141	03/08/2026	03/08/2026	C0001006	UNIMED DE BOTUCATU COOPERATIVA DE TRABALHO MEDICO	Sistel Comercio	Nota Fiscal de Saida	7187	Faturamento LOC1	LOCACAO	S Locação - SCP	12.300,00				OK: NF vinculada ao Pedido de Venda	Y	
+220	4716	2824	124	03/08/2026	03/08/2026	C0000473	SISTEL COMERCIO E SERVICOS ELETRO-ELETRONICOS LTDA	LOPES & OLIVEIRA PARTICIPACOES LTDA	Nota Fiscal de Saida	7808	Faturamento LOC1	LOCACAO	S Locação	12.000,00				OK: NF vinculada ao Pedido de Venda	Y	
+221	4723	2827	5143	03/08/2026	03/08/2026	C0005484	PASCHOALOTTO SERVICOS FINANCEIROS S/A	Sistel Comercio	Nota Fiscal de Saida	7760	Faturamento LOC1	LOCACAO	S Locação - SCP	7.965,26				OK: NF vinculada ao Pedido de Venda	Y	
+222	4724	2828	5144	03/08/2026	03/08/2026	C0003936	MARILAN ALIMENTOS S/A	Sistel Comercio	Nota Fiscal de Saida	7836	Faturamento LOC1	LOCACAO	S Locação - SCP	7.696,75				OK: NF vinculada ao Pedido de Venda	Y	
+223	4725	2829	18857	03/08/2026	03/08/2026	C0000562	UNIVERSIDADE ESTADUAL PAULISTA JULIO DE MESQUITA FILHO	Sistel Comercio	Nota Fiscal de Saida	7785	Faturamento LOC1	LOCACAO	S Locação	6.658,77				OK: NF vinculada ao Pedido de Venda	Y	
+224	4726	2830	5145	03/08/2026	03/08/2026	C0000174	LB TECH PROJETOS E SOLUCOES LTDA	Sistel Comercio	Nota Fiscal de Saida	7776	Faturamento LOC1	LOCACAO	S Locação	6.472,81				OK: NF vinculada ao Pedido de Venda	Y	
+225	4729	2832	5146	03/08/2026	03/08/2026	C0002522	REDE MUNICIPAL DR. MARIO GATTI DE URGENCIA, EMERGENCIA E HOSPITALAR	Sistel Comercio	Nota Fiscal de Saida	7815	Faturamento LOC1	LOCACAO	S Locação - SCP	9.500,00				OK: NF vinculada ao Pedido de Venda	Y	
+226	4730	2833	5147	03/08/2026	03/08/2026	C0004410	CCSH ADMINISTRACAO DE BENS INTANGIVEIS LTDA	Sistel Comercio	Nota Fiscal de Saida	7724	Faturamento LOC1	LOCACAO	S Locação - SCP	6.000,00				OK: NF vinculada ao Pedido de Venda	Y	
+227	4731	2834	5148	03/08/2026	03/08/2026	C0003808	SANTA CASA DE MISERICORDIA DE CHAVANTES	Sistel Comercio	Nota Fiscal de Saida	7790	Faturamento LOC1	LOCACAO	S Locação - SCP	5.500,00				OK: NF vinculada ao Pedido de Venda	Y	
+228	4732	2835	5149	03/08/2026	03/08/2026	C0001532	PASCHOALOTTO SERVICOS FINANCEIROS S/A	Sistel Comercio	Nota Fiscal de Saida	7779	Faturamento LOC1	LOCACAO	S Locação	5.139,21				OK: NF vinculada ao Pedido de Venda	Y	
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						
+														0,00						

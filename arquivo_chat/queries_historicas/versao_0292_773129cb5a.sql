@@ -1,0 +1,1 @@
+PV."DocNum" = OSB."PedidoVendaInformadoOS"
